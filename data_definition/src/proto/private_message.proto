@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message PrivateMessage {
+    string id = 1;
+    string owner = 2;
+    string owner_name = 3;
+    string date = 4;
+    string text = 5;
+}

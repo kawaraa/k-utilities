@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "src/proto/meta.proto";
+import "src/proto/payload.proto";
+
+message Request {
+    string type = 1;
+    proto.Meta meta = 2;
+    proto.Payload payload = 3;
+}

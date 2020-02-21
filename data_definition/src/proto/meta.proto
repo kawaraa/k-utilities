@@ -1,0 +1,7 @@
+syntax = "proto3";
+ 
+message Meta {
+    string accessToken = 1;
+    string service = 2;
+    string correlationId = 3;
+}

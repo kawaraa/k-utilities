@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# npm install
+# find src -name '*.js' -type f -delete && npx tsc
+# DEBUG=src* npx nodemon
+
+npx pbjs -t static-module --no-delimited --no-create --no-convert --no-comments --no-beautify -o ./src/definitions.js ./src/proto/user.proto
