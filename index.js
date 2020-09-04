@@ -9,3 +9,4 @@ module.exports = {
   Request,
   Logger,
 };
+Initialization;
