@@ -1,8 +1,0 @@
-syntax = "proto3";
- 
-message CreateTodo {
-    string task = 1;
-    string priority = 2;
-    string message = 3;
-    string status = 4;
-}

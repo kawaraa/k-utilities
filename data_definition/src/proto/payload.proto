@@ -1,6 +1,0 @@
-syntax = "proto3";
-
-message Payload {
-}
-
-// User || PublicMessage || PrivateMessage
