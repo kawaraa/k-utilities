@@ -55,6 +55,10 @@ class Validator {
     if (string.slice(-1) === ",") string = string.slice(0, string.length - 1);
     return string ? string.split(",") : [];
   }
+  static isUrl(url) {
+    const urlValidator = /^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+(\.\w[a-zA-Z]{1,5})$/;
+    return urlValidator.test(url);
+  }
   static convertToURLEncoded(obj) {
     const query = [];
     for (let key in obj) {
@@ -71,6 +75,10 @@ class Validator {
       obj[pair[0]] = pair[1];
     }
     return obj;
+  }
+  static validateObjectKeys(object, keys = []) {
+    const inValidKeys = keys.filter((k) => !object[k]);
+    return inValidKeys;
   }
   static dateToString(date) {
     const d = new Date(date);
