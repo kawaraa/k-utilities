@@ -50,8 +50,13 @@ class Validator {
     return result;
   }
   static isUrl(url) {
-    const urlValidator = /^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+(\.\w[a-zA-Z]{1,5})$/;
-    return urlValidator.test(url);
+    try {
+      const origin = new URL(url).origin;
+      const urlValidator = /^(?:http(s)?:\/\/)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+(\.\w[a-zA-Z]{1,5})$/;
+      return urlValidator.test(new URL(url).origin);
+    } catch (error) {
+      return false;
+    }
   }
   static validateObjectKeys(object, keys = []) {
     const inValidKeys = keys.filter((k) => !object[k]);
