@@ -15,9 +15,11 @@ class Validator {
     return new Date(date).toString() !== "Invalid Date";
   }
   static parseLatitude(latitude) {
+    if (Number.isNaN(Number.parseFloat(latitude))) throw new Error("Invalid latitude(!)");
     return Number.parseFloat(Number.parseFloat(latitude).toPrecision(10));
   }
   static parseLongitude(longitude) {
+    if (Number.isNaN(Number.parseFloat(longitude))) throw new Error("Invalid latitude(!)");
     return Number.parseFloat(Number.parseFloat(longitude).toPrecision(11));
   }
   static areValidItems(availableItems, itemsToBeValidated) {

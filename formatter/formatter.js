@@ -14,7 +14,7 @@ class Formatter {
     for (let i = 0; i < length; i += 1) string += String.fromCharCode(Number.parseInt(binArray[i], 2));
     return string;
   }
-  static convertToURLEncoded(obj) {
+  static objectToURLEncoded(obj) {
     const query = [];
     for (let key in obj) {
       query.push(`${key}=${obj[key]}`);
