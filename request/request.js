@@ -1,3 +1,5 @@
+"use strict";
+
 class MultipartRequest extends XMLHttpRequest {
   constructor(responseType = "json") {
     super();

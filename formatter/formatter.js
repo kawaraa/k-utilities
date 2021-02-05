@@ -1,4 +1,33 @@
+"use strict";
+
 class Formatter {
+  static newId() {
+    return (Math.random() + Date.now() + Math.random() + "").replace(".", "");
+  }
+
+  static objectToURLEncoded(obj) {
+    const query = [];
+    for (let key in obj) query.push(`${key}=${obj[key]}`);
+    return `?${query.join("&")}`;
+  }
+
+  static parseUREncoded(url) {
+    let obj = {};
+    if (!url || url.length < 4) return obj;
+    let query = url.replace("?", "").split("&");
+    for (let i = 0; i < query.length; i++) {
+      let pair = query[i].split("=");
+      obj[pair[0]] = pair[1];
+    }
+    return obj;
+  }
+
+  static stringToArray(string) {
+    string = string.replace(/\s/g, "");
+    if (string.slice(-1) === ",") string = string.slice(0, string.length - 1);
+    return string ? string.split(",") : [];
+  }
+
   static stringToBinary(string) {
     let binary = "",
       length = string.length;
@@ -7,6 +36,7 @@ class Formatter {
     }
     return binary;
   }
+
   static binaryToString(binary) {
     const binArray = binary.split(" ");
     let string = "",
@@ -14,32 +44,18 @@ class Formatter {
     for (let i = 0; i < length; i += 1) string += String.fromCharCode(Number.parseInt(binArray[i], 2));
     return string;
   }
-  static objectToURLEncoded(obj) {
-    const query = [];
-    for (let key in obj) {
-      query.push(`${key}=${obj[key]}`);
-    }
-    return `?${query.join("&")}`;
+
+  static datFormToObject() {
+    const data = {};
+    Array.from(form.keys()).forEach((key) => (data[key] = form[key].value));
+    return data;
   }
-  static parseUREncoded(url) {
-    if (url.length < 3) return "";
-    let obj = {};
-    let query = url.replace("?", "").split("&");
-    for (let i = 0; i < query.length; i++) {
-      let pair = query[i].split("=");
-      obj[pair[0]] = pair[1];
-    }
-    return obj;
-  }
-  static stringToArray(string) {
-    string = string.replace(/\s/g, "");
-    if (string.slice(-1) === ",") string = string.slice(0, string.length - 1);
-    return string ? string.split(",") : [];
-  }
+
   static dateToString(date) {
     const d = new Date(date);
     return `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()} ${d.getHours()}:${d.getMinutes()}`;
   }
+
   static dateToText(date) {
     const dateFormat = { month: "long", day: "numeric", hour: "numeric", minute: "numeric" };
     const todayDate = new Date();

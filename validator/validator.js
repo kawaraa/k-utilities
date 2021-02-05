@@ -1,3 +1,10 @@
+// Address validation
+// country code ISO 3166-1 alpha-2: ( should be Two letter )
+// state, county, province, or region: ( should be max 85 length )
+// city, district, suburb, town, or village: ( should be max 85 length )
+// postalCode, ZIP code: ( should be between 4 and 10 numbers and letters )
+// line1, street + apartment, suite, unit, or building: ( should be max 150 length )
+
 class Validator {
   static isString(str, minLength, maxLength) {
     let valid = true;
@@ -11,6 +18,18 @@ class Validator {
     if (!Number.isNaN(N) && !max) return true;
     return !Number.isNaN(N) && N >= min && N <= max ? true : false;
   }
+  static isPhoneNumber(value) {
+    const isPhoneNumber = !Number.isNaN(Number.parseInt(value));
+    return value && value.length <= 15 && value.length > 10 && isPhoneNumber;
+  }
+  static isEmail(value) {
+    const isEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w[a-zA-Z]{1,5})+$/.test(value);
+    return value && isEmail;
+  }
+  static isStrongPsw(value) {
+    const pswValidator = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/;
+    return value && pswValidator.test(value);
+  }
   static isDate(date) {
     return new Date(date).toString() !== "Invalid Date";
   }
@@ -21,6 +40,15 @@ class Validator {
   static parseLongitude(longitude) {
     if (Number.isNaN(Number.parseFloat(longitude))) throw new Error("Invalid latitude(!)");
     return Number.parseFloat(Number.parseFloat(longitude).toPrecision(11));
+  }
+  static isUrl(url) {
+    try {
+      const origin = new URL(url).origin;
+      const urlValidator = /^(?:http(s)?:\/\/)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+(\.\w[a-zA-Z]{1,5})$/;
+      return urlValidator.test(origin);
+    } catch (error) {
+      return false;
+    }
   }
   static areValidItems(availableItems, itemsToBeValidated) {
     const result = { allValid: false, valid: [], invalid: [] };
@@ -50,15 +78,6 @@ class Validator {
     }
 
     return result;
-  }
-  static isUrl(url) {
-    try {
-      const origin = new URL(url).origin;
-      const urlValidator = /^(?:http(s)?:\/\/)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+(\.\w[a-zA-Z]{1,5})$/;
-      return urlValidator.test(new URL(url).origin);
-    } catch (error) {
-      return false;
-    }
   }
   static validateObjectKeys(object, keys = []) {
     const inValidKeys = keys.filter((k) => !object[k]);

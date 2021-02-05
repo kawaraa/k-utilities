@@ -4,10 +4,12 @@ const Hashing = require("./crypto/hashing");
 // const Socket = require("./web-socket/websocket");
 const Logger = require("./logger/logger");
 const Validator = require("./validator/validator");
+const { countries } = require("../config/config.json");
 
 module.exports = {
   Crypto,
   Hashing,
   Validator,
   Logger,
+  countries,
 };

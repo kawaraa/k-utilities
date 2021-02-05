@@ -5,7 +5,6 @@ class Crypto {
   // Note: the same key is used when password encrypted should be used to decrypt the password
   constructor(key) {
     this.crypto = require("crypto");
-    // this.logger = Logger;
     this._key = key;
     this._algorithm = "aes-256-cbc";
     this._size = 16;

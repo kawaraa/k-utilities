@@ -1,3 +1,5 @@
+"use strict";
+
 class Hashing {
   constructor() {
     this.crypto = require("crypto");
