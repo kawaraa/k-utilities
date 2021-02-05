@@ -5,7 +5,7 @@ const Hashing = require("./crypto/hashing");
 const CustomError = require("./custom-error/custom-error");
 const Validator = require("./validator/validator");
 const Logger = require("./logger/logger");
-const { countries } = require("../config/config.json");
+const { countries } = require("./config/config.json");
 
 module.exports = {
   Crypto,
