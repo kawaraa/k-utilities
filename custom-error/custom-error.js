@@ -2,8 +2,8 @@
 
 class CustomError extends Error {
   constructor(message, name = "General") {
-    Object.setPrototypeOf(this, Error.prototype); // fixes the bug in inheriting class from the WebSocket in safari
     super(message ? message + " (!)" : "Something went wrong, Please try again (!)");
+    Object.setPrototypeOf(this, Error.prototype); // fixes the bug in inheriting class from the WebSocket in safari
     this.name = name + "Error";
   }
 
