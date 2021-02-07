@@ -1,6 +1,6 @@
 {
   "name": "k-utilities",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "functions that do simple tasks",
   "main": "index.js",
   "scripts": {
