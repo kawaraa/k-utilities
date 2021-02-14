@@ -13,8 +13,12 @@ class Formatter {
 
   static parseUREncoded(url) {
     let obj = {};
-    if (!url || url.length < 4) return obj;
-    let query = url.replace("?", "").split("&");
+    try {
+      url = new URL(url);
+    } catch (error) {
+      return obj;
+    }
+    let query = url.search.replace("?", "").split("&");
     for (let i = 0; i < query.length; i++) {
       let pair = query[i].split("=");
       obj[pair[0]] = pair[1];

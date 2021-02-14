@@ -6,7 +6,7 @@ const CustomError = require("./custom-error/custom-error");
 const Validator = require("./validator/validator");
 const Formatter = require("./formatter/formatter");
 const Logger = require("./logger/logger");
-const { countries } = require("./config/config.json");
+const countries = require("./config/countries.json");
 
 module.exports = {
   Crypto,
