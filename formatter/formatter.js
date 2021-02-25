@@ -62,11 +62,10 @@ class Formatter {
 
   static dateToText(date) {
     const dateFormat = { month: "long", day: "numeric", hour: "numeric", minute: "numeric" };
-    const todayDate = new Date();
     const eventDate = new Date(date);
     const theTime = eventDate.toLocaleTimeString("default", { hour: "2-digit", minute: "2-digit" });
     let theDate = eventDate.toLocaleDateString("default", dateFormat);
-    let seconds = (Date.parse(eventDate) - Date.parse(todayDate)) / 1000;
+    let seconds = (Date.parse(eventDate) - Date.now()) / 1000;
 
     if (Number.isNaN(seconds)) throw Error("Invalid Date(!)");
     let mins = Math.ceil(seconds / 60);
