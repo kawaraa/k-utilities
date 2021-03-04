@@ -21,7 +21,9 @@
   ],
   "AS": [
     "American Samoa",
-    "OC"
+    "OC",
+    "USD",
+    "$"
   ],
   "AD": [
     "Andorra",
@@ -57,7 +59,9 @@
   ],
   "AU": [
     "Australia",
-    "OC"
+    "OC",
+    "AUD",
+    "A$"
   ],
   "AT": [
     "Austria",
@@ -129,11 +133,15 @@
   ],
   "BR": [
     "Brazil",
-    "SA"
+    "SA",
+    "BRL",
+    "R$"
   ],
   "IO": [
     "British Indian Ocean Territory",
-    "AS"
+    "AS",
+    "USD",
+    "$"
   ],
   "BN": [
     "Brunei",
@@ -161,7 +169,9 @@
   ],
   "CA": [
     "Canada",
-    "NA"
+    "NA",
+    "CAD",
+    "C$"
   ],
   "CV": [
     "Cape Verde",
@@ -189,15 +199,21 @@
   ],
   "CN": [
     "China",
-    "AS"
+    "AS",
+    "CNY",
+    "¥"
   ],
   "CX": [
     "Christmas Island",
-    "AS"
+    "AS",
+    "AUD",
+    "A$"
   ],
   "CC": [
     "Cocos (Keeling) Islands",
-    "AS"
+    "AS",
+    "AUD",
+    "A$"
   ],
   "CO": [
     "Colombia",
@@ -265,7 +281,9 @@
   ],
   "EC": [
     "Ecuador",
-    "SA"
+    "SA",
+    "USD",
+    "$"
   ],
   "EG": [
     "Egypt",
@@ -273,7 +291,9 @@
   ],
   "SV": [
     "El Salvador",
-    "NA"
+    "NA",
+    "USD",
+    "$"
   ],
   "GQ": [
     "Equatorial Guinea",
@@ -353,7 +373,9 @@
   ],
   "GL": [
     "Greenland",
-    "NA"
+    "NA",
+    "DKK",
+    "KR"
   ],
   "GD": [
     "Grenada",
@@ -365,7 +387,9 @@
   ],
   "GU": [
     "Guam",
-    "OC"
+    "OC",
+    "USD",
+    "$"
   ],
   "GT": [
     "Guatemala",
@@ -393,7 +417,9 @@
   ],
   "HM": [
     "Heard Island and McDonald Islands",
-    "OC"
+    "OC",
+    "AUD",
+    "A$"
   ],
   "VA": [
     "Vatican City",
@@ -405,7 +431,9 @@
   ],
   "HK": [
     "Hong Kong SAR China",
-    "AS"
+    "AS",
+    "HKD",
+    "HK$"
   ],
   "HU": [
     "Hungary",
@@ -417,14 +445,18 @@
   ],
   "IN": [
     "India",
-    "AS"
+    "AS",
+    "INR",
+    "₹"
   ],
   "ID": [
     "Indonesia",
-    "AS"
+    "AS",
+    "IDR",
+    "Rp"
   ],
   "IR": [
-    "Iran, Islamic Republic of",
+    "Islamic Republic of Iran",
     "AS"
   ],
   "IQ": [
@@ -441,7 +473,9 @@
   ],
   "IL": [
     "Israel",
-    "AS"
+    "AS",
+    "ILS",
+    "₪"
   ],
   "IT": [
     "Italy",
@@ -453,7 +487,9 @@
   ],
   "JP": [
     "Japan",
-    "AS"
+    "AS",
+    "JPY",
+    "¥"
   ],
   "JE": [
     "Jersey",
@@ -476,12 +512,14 @@
     "OC"
   ],
   "KP": [
-    "Korea, Democratic People's Republic of",
+    "Democratic People's Republic of Korea",
     "AS"
   ],
   "KR": [
     "South Korea",
-    "AS"
+    "AS",
+    "KRW",
+    "₩"
   ],
   "KW": [
     "Kuwait",
@@ -545,7 +583,9 @@
   ],
   "MY": [
     "Malaysia",
-    "AS"
+    "AS",
+    "MYR",
+    "RM"
   ],
   "MV": [
     "Maldives",
@@ -561,7 +601,9 @@
   ],
   "MH": [
     "Marshall Islands",
-    "OC"
+    "OC",
+    "USD",
+    "$"
   ],
   "MQ": [
     "Martinique",
@@ -581,11 +623,15 @@
   ],
   "MX": [
     "Mexico",
-    "NA"
+    "NA",
+    "MXN",
+    "MEX$"
   ],
   "FM": [
-    "Micronesia, Federated States of",
-    "OC"
+    "Federated States of Micronesia",
+    "OC",
+    "USD",
+    "$"
   ],
   "MD": [
     "Moldova",
@@ -625,7 +671,9 @@
   ],
   "NR": [
     "Nauru",
-    "OC"
+    "OC",
+    "AUD",
+    "A$"
   ],
   "NP": [
     "Nepal",
@@ -641,7 +689,9 @@
   ],
   "NZ": [
     "New Zealand",
-    "OC"
+    "OC",
+    "AUD",
+    "A$"
   ],
   "NI": [
     "Nicaragua",
@@ -661,11 +711,15 @@
   ],
   "NF": [
     "Norfolk Island",
-    "OC"
+    "OC",
+    "AUD",
+    "A$"
   ],
   "MP": [
     "Northern Mariana Islands",
-    "OC"
+    "OC",
+    "USD",
+    "$"
   ],
   "NO": [
     "Norway",
@@ -681,11 +735,15 @@
   ],
   "PW": [
     "Palau",
-    "OC"
+    "OC",
+    "USD",
+    "$"
   ],
   "PS": [
     "Palestinian Territories",
-    "AS"
+    "AS",
+    "ILS",
+    "₪"
   ],
   "PA": [
     "Panama",
@@ -705,7 +763,9 @@
   ],
   "PH": [
     "Philippines",
-    "AS"
+    "AS",
+    "PHP",
+    "₱"
   ],
   "PN": [
     "Pitcairn Islands",
@@ -721,7 +781,9 @@
   ],
   "PR": [
     "Puerto Rico",
-    "NA"
+    "NA",
+    "USD",
+    "$"
   ],
   "QA": [
     "Qatar",
@@ -737,7 +799,9 @@
   ],
   "RU": [
     "Russia",
-    "AS"
+    "AS",
+    "RUB",
+    "₽"
   ],
   "RW": [
     "Rwanda",
@@ -785,7 +849,9 @@
   ],
   "SA": [
     "Saudi Arabia",
-    "AS"
+    "AS",
+    "SR",
+    "SR"
   ],
   "SN": [
     "Senegal",
@@ -805,7 +871,9 @@
   ],
   "SG": [
     "Singapore",
-    "AS"
+    "AS",
+    "SGD",
+    "S$"
   ],
   "SX": [
     "Sint Maarten",
@@ -829,11 +897,15 @@
   ],
   "ZA": [
     "South Africa",
-    "AF"
+    "AF",
+    "ZAR",
+    "R"
   ],
   "GS": [
     "South Georgia & South Sandwich Islands",
-    "SA"
+    "SA",
+    "GBP",
+    "£"
   ],
   "SS": [
     "South Sudan",
@@ -889,11 +961,15 @@
   ],
   "TH": [
     "Thailand",
-    "AS"
+    "AS",
+    "THB",
+    "฿"
   ],
   "TL": [
     "Timor-Leste",
-    "AS"
+    "AS",
+    "USD",
+    "$"
   ],
   "TG": [
     "Togo",
@@ -917,7 +993,9 @@
   ],
   "TR": [
     "Turkey",
-    "AS"
+    "AS",
+    "TRY",
+    "₺"
   ],
   "TM": [
     "Turkmenistan",
@@ -925,7 +1003,9 @@
   ],
   "TC": [
     "Turks & Caicos Islands",
-    "NA"
+    "NA",
+    "USD",
+    "$"
   ],
   "TV": [
     "Tuvalu",
@@ -945,11 +1025,15 @@
   ],
   "GB": [
     "United Kingdom",
-    "EU"
+    "EU",
+    "GBP",
+    "£"
   ],
   "US": [
     "United States",
-    "NA"
+    "NA",
+    "USD",
+    "$"
   ],
   "UM": [
     "United States Minor Outlying Islands",
@@ -977,11 +1061,15 @@
   ],
   "VG": [
     "British Virgin Islands",
-    "NA"
+    "NA",
+    "USD",
+    "$"
   ],
   "VI": [
     "Virgin Islands, U.S.",
-    "NA"
+    "NA",
+    "USD",
+    "$"
   ],
   "WF": [
     "Wallis & Futuna",
