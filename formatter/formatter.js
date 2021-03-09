@@ -11,7 +11,7 @@ class Formatter {
     return `?${query.join("&")}`;
   }
 
-  static parseUREncoded(url) {
+  static parseURLEncoded(url) {
     let obj = {};
     try {
       url = new URL(url);
