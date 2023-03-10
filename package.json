@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/kawaraa/k-utilities.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@kawaraa"
-  },
   "keywords": [
     "crypto",
     "api",
@@ -24,7 +21,7 @@
     "logger"
   ],
   "author": "Kawara",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kawaraa/k-utilities/issues"
   },
