@@ -5,6 +5,7 @@ const Hashing = require("./crypto/hashing");
 const CustomError = require("./custom-error/custom-error");
 const Validator = require("./validator/validator");
 const Formatter = require("./formatter/formatter");
+const Distance = require("./distance/distance");
 const Logger = require("./logger/logger");
 const countries = require("./data/countries.json");
 
@@ -14,6 +15,7 @@ module.exports = {
   CustomError,
   Validator,
   Formatter,
+  Distance,
   Logger,
   countries,
 };
