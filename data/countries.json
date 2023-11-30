@@ -1,7 +1,7 @@
 {
-  "afghanistan": {
-    "code": "af",
-    "continent": "as",
+  "AF": {
+    "name": "afghanistan",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "nimruz": ["zaranj", "khash"],
@@ -31,17 +31,19 @@
       "bamian": ["bamyan"],
       "konar": ["asmar", "asadabad"],
       "panjshir": ["bazarak"]
-    }
+    },
+    "timezones": ["asia/kabul"]
   },
-  "aland islands": {
-    "code": "ax",
-    "continent": "eu",
+  "AX": {
+    "name": "aland islands",
+    "continent": "europe-eu",
     "currency": ["", ""],
-    "provinces": { "mariehamns stad": ["mariehamn"] }
+    "provinces": { "mariehamns stad": ["mariehamn"] },
+    "timezones": ["europe/helsinki", "europe/mariehamn"]
   },
-  "albania": {
-    "code": "al",
-    "continent": "eu",
+  "AL": {
+    "name": "albania",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "vlore": ["sarande", "vlore"],
@@ -56,11 +58,12 @@
       "lezhe": ["lezhe", "lac"],
       "berat": ["kucove", "berat"],
       "durres": ["kruje", "durres"]
-    }
+    },
+    "timezones": ["europe/tirane"]
   },
-  "algeria": {
-    "code": "dz",
-    "continent": "af",
+  "DZ": {
+    "name": "algeria",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "boumerdes": [
@@ -255,24 +258,27 @@
       "annaba": ["el hadjar", "drean", "berrahal", "annaba"],
       "el bayadh": ["el bayadh", "el abiodh sidi cheikh", "brezina"],
       "bechar": ["bechar"],
-      "naama النعامة": ["aïn sefra"]
-    }
+      "naama": ["aïn sefra"]
+    },
+    "timezones": ["africa/algiers"]
   },
-  "american samoa": {
-    "code": "as",
-    "continent": "oc",
+  "AS": {
+    "name": "american samoa",
+    "continent": "australia-au",
     "currency": ["usd", "$"],
-    "provinces": { "eastern district": ["pago pago"] }
+    "provinces": { "eastern district": ["pago pago"] },
+    "timezones": ["pacific/pago_pago midway"]
   },
-  "andorra": {
-    "code": "ad",
-    "continent": "eu",
+  "AD": {
+    "name": "andorra",
+    "continent": "europe-eu",
     "currency": ["", ""],
-    "provinces": { "escaldes-engordany": ["les escaldes"], "andorra la vella": ["andorra la vella"] }
+    "provinces": { "escaldes-engordany": ["les escaldes"], "andorra la vella": ["andorra la vella"] },
+    "timezones": ["europe/andorra"]
   },
-  "angola": {
-    "code": "ao",
-    "continent": "af",
+  "AO": {
+    "name": "angola",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "lunda sul": ["saurimo"],
@@ -292,23 +298,26 @@
       "huambo": ["longonjo", "huambo", "caala"],
       "benguela": ["lobito", "catumbela", "benguela"],
       "bie": ["cuito", "catabola", "camacupa"]
-    }
+    },
+    "timezones": ["africa/lagos west africa time", "africa/luanda"]
   },
-  "anguilla": {
-    "code": "ai",
-    "continent": "na",
+  "AI": {
+    "name": "anguilla",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "n/a": ["the valley"] }
+    "provinces": { "n/a": ["the valley"] },
+    "timezones": ["america/puerto_rico ast", "america/anguilla"]
   },
-  "antigua and barbuda": {
-    "code": "ag",
-    "continent": "na",
+  "AG": {
+    "name": "antigua and barbuda",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "saint john": ["saint john's"] }
+    "provinces": { "saint john": ["saint john's"] },
+    "timezones": ["america/puerto_rico ast", "america/antigua"]
   },
-  "argentina": {
-    "code": "ar",
-    "continent": "sa",
+  "AR": {
+    "name": "argentina",
+    "continent": "south america-sa",
     "currency": ["", ""],
     "provinces": {
       "buenos aires": [
@@ -511,11 +520,31 @@
       "catamarca": ["san fernando del valle de catamarca"],
       "santa cruz": ["rio gallegos", "caleta olivia"],
       "la rioja": ["la rioja", "chilecito"]
-    }
+    },
+    "timezones": [
+      "america/argentina/buenos_aires buenos aires (ba, cf)",
+      "america/argentina/cordoba most areas: cb, cc, cn, er, fm, mn, se, sf",
+      "america/rosario",
+      "america/argentina/salta salta (sa, lp, nq, rn)",
+      "america/argentina/jujuy jujuy (jy)",
+      "america/jujuy",
+      "america/argentina/tucuman tucumán (tm)",
+      "america/argentina/catamarca catamarca (ct); chubut (ch)",
+      "america/argentina/comodrivadavia",
+      "america/argentina/la_rioja la rioja (lr)",
+      "america/argentina/san_juan san juan (sj)",
+      "america/argentina/mendoza mendoza (mz)",
+      "america/mendoza",
+      "america/argentina/san_luis san luis (sl)",
+      "america/argentina/rio_gallegos santa cruz (sc)",
+      "america/argentina/ushuaia tierra del fuego (tf)",
+      "america/cordoba",
+      "america/buenos_aires"
+    ]
   },
-  "armenia": {
-    "code": "am",
-    "continent": "as",
+  "AM": {
+    "name": "armenia",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "syunik province": ["kapan", "goris", "hats'avan"],
@@ -527,17 +556,19 @@
       "kotayk province": ["hrazdan", "abovyan"],
       "shirak province": ["gyumri"],
       "aragatsotn province": ["ashtarak"]
-    }
+    },
+    "timezones": ["asia/yerevan"]
   },
-  "aruba": {
-    "code": "aw",
-    "continent": "na",
+  "AW": {
+    "name": "aruba",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "n/a": ["oranjestad", "babijn", "angochi"] }
+    "provinces": { "n/a": ["oranjestad", "babijn", "angochi"] },
+    "timezones": ["america/puerto_rico ast", "america/aruba"]
   },
-  "australia": {
-    "code": "au",
-    "continent": "oc",
+  "AU": {
+    "name": "australia",
+    "continent": "australia-au",
     "currency": ["aud", "a$"],
     "provinces": {
       "south australia": [
@@ -745,11 +776,26 @@
       ],
       "tasmania": ["launceston", "hobart", "devonport", "burnie"],
       "australian capital territory": ["canberra"]
-    }
+    },
+    "timezones": [
+      "australia/lord_howe lord howe island",
+      "antarctica/macquarie macquarie island",
+      "australia/hobart tasmania",
+      "australia/melbourne victoria",
+      "australia/sydney new south wales (most areas)",
+      "australia/broken_hill new south wales (yancowinna)",
+      "australia/brisbane queensland (most areas)",
+      "australia/lindeman queensland (whitsunday islands)",
+      "australia/adelaide south australia",
+      "australia/darwin northern territory",
+      "australia/perth western australia (most areas)",
+      "australia/eucla western australia (eucla)",
+      "australia/canberra"
+    ]
   },
-  "austria": {
-    "code": "at",
-    "continent": "eu",
+  "AT": {
+    "name": "austria",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "carinthia": ["wolfsberg", "villach", "spittal an der drau", "klagenfurt am wörthersee"],
@@ -772,11 +818,12 @@
       "vorarlberg": ["lustenau", "feldkirch", "dornbirn", "bregenz"],
       "styria": ["leoben", "kapfenberg", "graz"],
       "tyrol": ["kufstein", "innsbruck"]
-    }
+    },
+    "timezones": ["europe/vienna"]
   },
-  "azerbaijan": {
-    "code": "az",
-    "continent": "as",
+  "AZ": {
+    "name": "azerbaijan",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "xankǝndi": ["xankandi"],
@@ -835,28 +882,31 @@
       "ağsu": ["aghsu"],
       "ağdas": ["ağdas"],
       "ağcabǝdi": ["agdzhabedy"]
-    }
+    },
+    "timezones": ["asia/baku"]
   },
-  "bahamas": {
-    "code": "bs",
-    "continent": "na",
+  "BS": {
+    "name": "bahamas",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "new providence": ["nassau"], "freeport": ["lucaya", "freeport"] }
+    "provinces": { "new providence": ["nassau"], "freeport": ["lucaya", "freeport"] },
+    "timezones": ["america/toronto eastern - on, qc (most areas)", "america/nassau"]
   },
-  "bahrain": {
-    "code": "bh",
-    "continent": "as",
+  "BH": {
+    "name": "bahrain",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "manama": ["sitrah", "jidd hafs", "manama"],
       "southern governorate": ["madinat isa", "dar kulayb", "ar rifa'"],
       "central governorate": ["madinat hamad"],
       "muharraq": ["al muharraq"]
-    }
+    },
+    "timezones": ["asia/qatar", "asia/bahrain"]
   },
-  "bangladesh": {
-    "code": "bd",
-    "continent": "as",
+  "BD": {
+    "name": "bangladesh",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "rangpur division": [
@@ -965,17 +1015,19 @@
         "barisal",
         "bhandaria"
       ]
-    }
+    },
+    "timezones": ["asia/dhaka"]
   },
-  "barbados": {
-    "code": "bb",
-    "continent": "na",
+  "BB": {
+    "name": "barbados",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "saint michael": ["bridgetown"] }
+    "provinces": { "saint michael": ["bridgetown"] },
+    "timezones": ["america/barbados"]
   },
-  "belarus": {
-    "code": "by",
-    "continent": "eu",
+  "BY": {
+    "name": "belarus",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "minsk": [
@@ -1014,11 +1066,12 @@
       "brest": ["pruzhany", "pinsk", "luninyets", "kobryn", "ivatsevichy", "byaroza", "brest", "baranovichi"],
       "mogilev": ["asipovichy", "mahilyow", "krychaw", "horki", "bykhaw", "babruysk"],
       "minsk city": ["novoye medvezhino", "minsk", "malinovka"]
-    }
+    },
+    "timezones": ["europe/minsk"]
   },
-  "belgium": {
-    "code": "be",
-    "continent": "eu",
+  "BE": {
+    "name": "belgium",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "flanders": [
@@ -1209,21 +1262,23 @@
         "andenne"
       ],
       "brussels capital": ["brussels"]
-    }
+    },
+    "timezones": ["europe/brussels"]
   },
-  "belize": {
-    "code": "bz",
-    "continent": "na",
+  "BZ": {
+    "name": "belize",
+    "continent": "north america-na",
     "currency": ["", ""],
     "provinces": {
       "cayo": ["san ignacio", "belmopan"],
       "orange walk": ["orange walk"],
       "belize": ["belize city"]
-    }
+    },
+    "timezones": ["america/belize"]
   },
-  "benin": {
-    "code": "bj",
-    "continent": "af",
+  "BJ": {
+    "name": "benin",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "borgou": ["tchaourou", "parakou", "nikki", "bembèrèkè"],
@@ -1238,28 +1293,31 @@
       "donga": ["djougou", "bassila"],
       "zou": ["cove", "bohicon", "abomey"],
       "littoral": ["cotonou"]
-    }
+    },
+    "timezones": ["africa/lagos west africa time", "africa/porto-novo"]
   },
-  "bermuda": {
-    "code": "bm",
-    "continent": "na",
+  "BM": {
+    "name": "bermuda",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "hamilton city": ["hamilton"] }
+    "provinces": { "hamilton city": ["hamilton"] },
+    "timezones": ["atlantic/bermuda"]
   },
-  "bhutan": {
-    "code": "bt",
-    "continent": "as",
+  "BT": {
+    "name": "bhutan",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "thimphu": ["thimphu"],
       "punakha": ["punakha"],
       "chukha district": ["phuntsholing"],
       "chirang": ["tsirang"]
-    }
+    },
+    "timezones": ["asia/thimphu"]
   },
-  "bolivia": {
-    "code": "bo",
-    "continent": "sa",
+  "BO": {
+    "name": "bolivia",
+    "continent": "south america-sa",
     "currency": ["", ""],
     "provinces": {
       "tarija": ["yacuiba", "villamontes", "tarija"],
@@ -1280,11 +1338,12 @@
       "oruro": ["oruro", "huanuni"],
       "la paz": ["la paz"],
       "pando": ["cobija"]
-    }
+    },
+    "timezones": ["america/la_paz"]
   },
-  "bosnia and herzegovina": {
-    "code": "ba",
-    "continent": "eu",
+  "BA": {
+    "name": "bosnia and herzegovina",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "federation of bosnia and herzegovina": [
@@ -1306,11 +1365,12 @@
       ],
       "republika srpska": ["trebinje", "prijedor", "doboj", "bijeljina", "banja luka"],
       "brcko": ["brcko"]
-    }
+    },
+    "timezones": ["europe/belgrade", "europe/sarajevo"]
   },
-  "botswana": {
-    "code": "bw",
-    "continent": "af",
+  "BW": {
+    "name": "botswana",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "central": ["tonota", "serowe", "selebi-phikwe", "palapye", "mahalapye", "letlhakane"],
@@ -1320,11 +1380,12 @@
       "kgatleng": ["mochudi"],
       "north west": ["maun"],
       "north east": ["francistown"]
-    }
+    },
+    "timezones": ["africa/maputo central africa time", "africa/gaborone"]
   },
-  "brazil": {
-    "code": "br",
-    "continent": "sa",
+  "BR": {
+    "name": "brazil",
+    "continent": "south america-sa",
     "currency": ["brl", "r$"],
     "provinces": {
       "maranhão": [
@@ -2565,21 +2626,45 @@
         "cacoal"
       ],
       "roraima": ["boa vista"]
-    }
+    },
+    "timezones": [
+      "america/noronha atlantic islands",
+      "brazil/denoronha",
+      "america/belem pará (east); amapá",
+      "america/fortaleza brazil (northeast: ma, pi, ce, rn, pb)",
+      "america/recife pernambuco",
+      "america/araguaina tocantins",
+      "america/maceio alagoas, sergipe",
+      "america/bahia bahia",
+      "america/sao_paulo brazil (southeast: go, df, mg, es, rj, sp, pr, sc, rs)",
+      "brazil/east",
+      "america/campo_grande mato grosso do sul",
+      "america/cuiaba mato grosso",
+      "america/santarem pará (west)",
+      "america/porto_velho rondônia",
+      "america/boa_vista roraima",
+      "america/manaus amazonas (east)",
+      "brazil/west",
+      "america/eirunepe amazonas (west)",
+      "america/rio_branco acre",
+      "america/porto_acre",
+      "brazil/acre"
+    ]
   },
-  "brunei": {
-    "code": "bn",
-    "continent": "as",
+  "BN": {
+    "name": "brunei",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "tutong": ["tutong"],
       "belait": ["seria", "kuala belait"],
       "brunei and muara": ["bandar seri begawan"]
-    }
+    },
+    "timezones": ["asia/kuching sabah, sarawak", "asia/brunei"]
   },
-  "bulgaria": {
-    "code": "bg",
-    "continent": "eu",
+  "BG": {
+    "name": "bulgaria",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "yambol": ["yambol"],
@@ -2610,11 +2695,12 @@
       "montana": ["montana", "lom", "berkovitsa"],
       "kŭrdzhali": ["kardzhali"],
       "burgas": ["karnobat", "burgas", "aytos"]
-    }
+    },
+    "timezones": ["europe/sofia"]
   },
-  "burkina faso": {
-    "code": "bf",
-    "continent": "af",
+  "BF": {
+    "name": "burkina faso",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "plateau-central": ["zorgo", "bousse"],
@@ -2630,11 +2716,12 @@
       "sahel": ["dori", "djibo"],
       "cascades": ["banfora"],
       "southwest": ["gaoua"]
-    }
+    },
+    "timezones": ["africa/abidjan", "africa/ouagadougou"]
   },
-  "burundi": {
-    "code": "bi",
-    "continent": "af",
+  "BI": {
+    "name": "burundi",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "makamba": ["makamba"],
@@ -2647,11 +2734,12 @@
       "kayanza": ["kayanza"],
       "muyinga": ["muyinga"],
       "rutana": ["rutana"]
-    }
+    },
+    "timezones": ["africa/maputo central africa time", "africa/bujumbura"]
   },
-  "cambodia": {
-    "code": "kh",
-    "continent": "as",
+  "KH": {
+    "name": "cambodia",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "phnom penh": ["phnom penh"],
@@ -2676,11 +2764,12 @@
       "kampong chhnang": ["kampong chhnang"],
       "kampong cham": ["kampong cham"],
       "battambang": ["battambang"]
-    }
+    },
+    "timezones": ["asia/bangkok north vietnam", "asia/phnom_penh", "asia/bangkok"]
   },
-  "cameroon": {
-    "code": "cm",
-    "continent": "af",
+  "CM": {
+    "name": "cameroon",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "centre": [
@@ -2713,12 +2802,13 @@
       "north province": ["tchollire", "lagdo", "guider", "garoua"],
       "south province": ["sangmelima", "lolodorf", "kribi", "ebolowa"],
       "littoral": ["penja", "nkongsamba", "melong", "mbanga", "manjo", "loum", "edea", "douala", "dizangue"],
-      "east": ["garoua boulaï", "bertoua", "belabo", "batouri"]
-    }
+      "east": ["garoua boulaï", "bertoua", "belabo", "batouri", "africa/douala"]
+    },
+    "timezones": ["africa/lagos west africa time"]
   },
-  "canada": {
-    "code": "ca",
-    "continent": "na",
+  "CA": {
+    "name": "canada",
+    "continent": "north america-na",
     "currency": ["cad", "c$"],
     "provinces": {
       "british columbia": [
@@ -2944,28 +3034,69 @@
       ],
       "yukon": ["whitehorse"],
       "northwest territories": ["yellowknife"]
-    }
+    },
+    "timezones": [
+      "america/st_johns newfoundland; labrador (southeast)",
+      "canada/saskatchewan",
+      "canada/newfoundland",
+      "america/halifax atlantic - ns (most areas); pe",
+      "canada/atlantic",
+      "america/glace_bay atlantic - ns (cape breton)",
+      "america/moncton atlantic - new brunswick",
+      "america/goose_bay atlantic - labrador (most areas)",
+      "america/iqaluit eastern - nu (most areas)",
+      "america/pangnirtung",
+      "america/winnipeg central - on (west); manitoba",
+      "canada/central",
+      "america/resolute central - nu (resolute)",
+      "america/rankin_inlet central - nu (central)",
+      "america/regina cst - sk (most areas)",
+      "america/swift_current cst - sk (midwest)",
+      "america/edmonton mountain - ab; bc (e); nt (e); sk (w)",
+      "canada/mountain",
+      "america/cambridge_bay mountain - nu (west)",
+      "america/inuvik mountain - nt (west)",
+      "america/dawson_creek mst - bc (dawson cr, ft st john)",
+      "america/fort_nelson mst - bc (ft nelson)",
+      "america/whitehorse mst - yukon (east)",
+      "canada/yukon",
+      "america/dawson mst - yukon (west)",
+      "america/vancouver pacific - bc (most areas)",
+      "canada/pacific",
+      "america/toronto eastern - on, qc (most areas)",
+      "america/rainy_river",
+      "canada/eastern",
+      "america/montreal",
+      "america/nipigon",
+      "america/thunder_bay",
+      "america/phoenix mst - az (most areas), creston bc",
+      "america/creston",
+      "america/yellowknife",
+      "america/pangnirtung"
+    ]
   },
-  "cape verde": {
-    "code": "cv",
-    "continent": "af",
+  "CV": {
+    "name": "cape verde",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "sal": ["santa maria"],
       "praia": ["praia"],
       "são vicente": ["mindelo"],
       "santa catarina do fogo": ["cova figueira"]
-    }
+    },
+    "timezones": ["atlantic/cape_verde"]
   },
-  "cayman islands": {
-    "code": "ky",
-    "continent": "na",
+  "KY": {
+    "name": "cayman islands",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "george town": ["george town"] }
+    "provinces": { "george town": ["george town"] },
+    "timezones": ["america/panama est - on (atikokan), nu (coral h)", "america/cayman"]
   },
-  "central african republic": {
-    "code": "cf",
-    "continent": "af",
+  "CF": {
+    "name": "central african republic",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "basse-kotto": ["mobaye"],
@@ -2982,11 +3113,12 @@
       "nana-mambere": ["bouar"],
       "ouham": ["bossangoa", "batangafo"],
       "bangui": ["bangui"]
-    }
+    },
+    "timezones": ["africa/lagos west africa time", "africa/bangui"]
   },
-  "chad": {
-    "code": "td",
-    "continent": "af",
+  "TD": {
+    "name": "chad",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "ennedi-ouest": ["fada"],
@@ -3005,11 +3137,12 @@
       "mandoul": ["koumra"],
       "logone oriental": ["doba"],
       "mayo-kebbi est": ["bongor"]
-    }
+    },
+    "timezones": ["africa/ndjamena"]
   },
-  "chile": {
-    "code": "cl",
-    "continent": "sa",
+  "CL": {
+    "name": "chile",
+    "continent": "south america-sa",
     "currency": ["", ""],
     "provinces": {
       "valparaiso": [
@@ -3103,11 +3236,17 @@
       "coquimbo": ["ovalle", "la serena", "illapel", "coquimbo"],
       "tarapaca": ["iquique"],
       "arica y parinacota": ["arica"]
-    }
+    },
+    "timezones": [
+      "america/santiago most of chile",
+      "chile/continental",
+      "america/punta_arenas region of magallanes",
+      "pacific/easter easter island"
+    ]
   },
-  "china": {
-    "code": "cn",
-    "continent": "as",
+  "CN": {
+    "name": "china",
+    "continent": "asia-as",
     "currency": ["cny", "¥"],
     "provinces": {
       "tibet autonomous region": ["rikaze", "qamdo", "nagqu", "lhasa", "dêqên"],
@@ -3934,23 +4073,26 @@
         "anda",
         "acheng"
       ]
-    }
+    },
+    "timezones": ["asia/shanghai beijing time", "asia/chongqing", "asia/urumqi", "antarctica/vostok"]
   },
-  "christmas island": {
-    "code": "cx",
-    "continent": "as",
+  "CX": {
+    "name": "christmas island",
+    "continent": "asia-as",
     "currency": ["aud", "a$"],
-    "provinces": { "n/a": ["flying fish cove"] }
+    "provinces": { "n/a": ["flying fish cove"] },
+    "timezones": ["asia/bangkok north vietnam", "indian/christmas"]
   },
-  "cocos (keeling) islands": {
-    "code": "cc",
-    "continent": "as",
+  "CC": {
+    "name": "cocos (keeling) islands",
+    "continent": "asia-as",
     "currency": ["aud", "a$"],
-    "provinces": { "n/a": ["west island"] }
+    "provinces": { "n/a": ["west island"] },
+    "timezones": ["asia/yangon", "indian/cocos"]
   },
-  "colombia": {
-    "code": "co",
-    "continent": "sa",
+  "CO": {
+    "name": "colombia",
+    "continent": "south america-sa",
     "currency": ["", ""],
     "provinces": {
       "cundinamarca": [
@@ -4168,33 +4310,39 @@
       "caqueta": ["florencia"],
       "bogota d.c.": ["bogota"],
       "guaviare": ["san jose del guaviare"]
-    }
+    },
+    "timezones": ["america/bogota"]
   },
-  "comoros": {
-    "code": "km",
-    "continent": "af",
+  "KM": {
+    "name": "comoros",
+    "continent": "africa-af",
     "currency": ["", ""],
-    "provinces": { "anjouan": ["moutsamoudou"], "grande comore": ["moroni"] }
+    "provinces": { "anjouan": ["moutsamoudou"], "grande comore": ["moroni"] },
+    "timezones": ["africa/nairobi", "indian/comoro"]
   },
-  "republic of the congo": {
-    "code": "cg",
-    "continent": "af",
+  "CG": {
+    "name": "republic of the congo brazzaville",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "lekoumou": ["sibiti"],
-      "pointe-noire": ["pointe-noire", "loandjili"],
+      "pointe noire": ["pointe-noire", "loandjili"],
       "cuvette": ["owando"],
       "sangha": ["ouesso"],
       "niari": ["mossendjo", "dolisie"],
       "bouenza": ["madingou", "kayes"],
       "likouala": ["impfondo"],
       "plateaux": ["gamboma"],
-      "brazzaville": ["brazzaville"]
-    }
+      "brazzaville": ["brazzaville"],
+      "cuvette-ouest": [],
+      "kouilou": [],
+      "pool": []
+    },
+    "timezones": ["africa/lagos west africa time", "africa/brazzaville"]
   },
-  "democratic republic of the congo": {
-    "code": "cd",
-    "continent": "af",
+  "CD": {
+    "name": "democratic republic of the congo",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "eastern province": [
@@ -4211,7 +4359,7 @@
       ],
       "south kivu": ["uvira", "kabare", "bukavu"],
       "kasaï-occidental": ["tshikapa", "mweka", "luebo", "kananga", "ilebo", "demba"],
-      "nord kivu": ["sake", "goma", "butembo", "beni"],
+      "north kivu": ["sake", "goma", "butembo", "beni"],
       "kasaï-oriental": ["mwene-ditu", "mbuji-mayi", "lusambo", "lubao", "lodja", "kabinda", "gandajika"],
       "equateur": ["lisala", "gbadolite", "businga", "bumba", "boende", "mbandaka", "libenge", "gemena"],
       "katanga": [
@@ -4227,7 +4375,7 @@
         "kambove"
       ],
       "maniema": ["kindu", "kasongo", "kampene"],
-      "bas-congo": ["tshela", "mbanza-ngungu", "matadi", "kasangulu"],
+      "bas congo": ["tshela", "mbanza-ngungu", "matadi", "kasangulu"],
       "bandundu": [
         "nioki",
         "mushie",
@@ -4239,18 +4387,22 @@
         "bolobo",
         "bandundu"
       ],
-      "kinshasa": ["kinshasa", "masina"]
-    }
+      "kinshasa": ["kinshasa", "masina"],
+      "equator": [],
+      "orientale": []
+    },
+    "timezones": ["africa/maputo central africa time", "africa/kinshasa", "africa/lubumbashi"]
   },
-  "cook islands": {
-    "code": "ck",
-    "continent": "oc",
+  "CK": {
+    "name": "cook islands",
+    "continent": "australia-au",
     "currency": ["", ""],
-    "provinces": { "n/a": ["avarua"] }
+    "provinces": { "n/a": ["avarua"] },
+    "timezones": ["pacific/rarotonga"]
   },
-  "costa rica": {
-    "code": "cr",
-    "continent": "na",
+  "CR": {
+    "name": "costa rica",
+    "continent": "north america-na",
     "currency": ["", ""],
     "provinces": {
       "cartago": ["turrialba", "san diego", "paraiso", "cartago"],
@@ -4282,11 +4434,12 @@
       "heredia": ["san pablo", "san francisco", "mercedes", "heredia"],
       "puntarenas": ["puntarenas", "esparza", "chacarita"],
       "guanacaste": ["nicoya", "liberia", "canas"]
-    }
+    },
+    "timezones": ["america/costa_rica"]
   },
-  "cote d'ivoire": {
-    "code": "ci",
-    "continent": "af",
+  "CI": {
+    "name": "cote d'ivoire",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "marahoue": ["zuenoula", "bouafle"],
@@ -4314,14 +4467,17 @@
       "dix-huit montagnes": ["man", "guiglo", "duekoue", "danane", "biankouma", "bangolo"],
       "sud-bandama": ["lakota", "divo"],
       "sud-comoe": ["grand-bassam", "bonoua", "adiake", "aboisso"],
-      "n'zi-comoe": ["daoukro"],
+      "nzi-comoe": ["daoukro"],
       "moyen-comoe": ["agnibilekrou", "abengourou"],
-      "agneby": ["agboville"]
-    }
+      "agneby": ["agboville"],
+      "agnebi": [],
+      "moyen cavally": []
+    },
+    "timezones": ["africa/abidjan"]
   },
-  "croatia": {
-    "code": "hr",
-    "continent": "eu",
+  "HR": {
+    "name": "croatia",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "zagrebacka": ["zapresić", "velika gorica", "samobor"],
@@ -4343,11 +4499,12 @@
       "dubrovacko-neretvanska": ["dubrovnik"],
       "međimurska": ["cakovec"],
       "bjelovarsko-bilogorska": ["bjelovar"]
-    }
+    },
+    "timezones": ["europe/belgrade", "europe/zagreb"]
   },
-  "cuba": {
-    "code": "cu",
-    "continent": "na",
+  "CU": {
+    "name": "cuba",
+    "continent": "north america-na",
     "currency": ["", ""],
     "provinces": {
       "granma": [
@@ -4489,17 +4646,19 @@
       "guantanamo": ["rio guayabal de yateras", "maisi", "guantanamo", "baracoa"],
       "las tunas": ["puerto padre", "las tunas", "jobabo", "jesus menendez", "colombia", "amancio"],
       "isla de la juventud": ["nueva gerona"]
-    }
+    },
+    "timezones": ["america/havana"]
   },
-  "curacao": {
-    "code": "cw",
-    "continent": "na",
+  "CW": {
+    "name": "curacao",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "n/a": ["willemstad"] }
+    "provinces": { "n-a": ["willemstad"] },
+    "timezones": ["america/puerto_rico ast", "america/curacao"]
   },
-  "cyprus": {
-    "code": "cy",
-    "continent": "eu",
+  "CY": {
+    "name": "cyprus",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "ammochostos": ["protaras", "famagusta"],
@@ -4508,15 +4667,16 @@
       "limassol": ["limassol"],
       "larnaka": ["larnaca"],
       "keryneia": ["kyrenia"]
-    }
+    },
+    "timezones": ["asia/nicosia most of cyprus", "asia/famagusta northern cyprus", "europe/nicosia"]
   },
-  "czech republic": {
-    "code": "cz",
-    "continent": "eu",
+  "CZ": {
+    "name": "czech republic",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
-      "kralovehradecký": ["dvůr kralove nad labem", "trutnov", "nachod", "jičin", "hradec kralove"],
-      "south moravian": ["znojmo", "vyškov", "hodonin", "brno", "břeclav", "blansko"],
+      "hradec králové region": ["dvůr kralove nad labem", "trutnov", "nachod", "jičin", "hradec kralove"],
+      "south bohemian region": ["znojmo", "vyškov", "hodonin", "brno", "břeclav", "blansko"],
       "zlin": [
         "zlin",
         "vsetin",
@@ -4535,7 +4695,7 @@
         "jihlava",
         "havličkův brod"
       ],
-      "ustecký": [
+      "ústí nad labem region": [
         "zatec",
         "varnsdorf",
         "usti nad labem",
@@ -4552,8 +4712,8 @@
         "bilina kyselka",
         "bilina"
       ],
-      "pardubický": ["usti nad orlici", "svitavy", "pardubice", "chrudim", "česka třebova"],
-      "moravskoslezský": [
+      "pardubice region": ["usti nad orlici", "svitavy", "pardubice", "chrudim", "česka třebova"],
+      "moravian-silesian eegion": [
         "třinec",
         "starý bohumin",
         "ostrava",
@@ -4570,9 +4730,9 @@
         "bohumin"
       ],
       "jihočeský": ["tabor", "strakonice", "pisek", "jindřichův hradec", "česke budějovice"],
-      "olomoucký": ["šumperk", "prostějov", "přerov", "olomouc", "hranice"],
-      "karlovarský": ["sokolov", "ostrov", "karlovy vary", "cheb"],
-      "central bohemia": [
+      "olomouc region": ["šumperk", "prostějov", "přerov", "olomouc", "hranice"],
+      "karlovy vary region": ["sokolov", "ostrov", "karlovy vary", "cheb"],
+      "central bohemian region": [
         "slaný",
         "rakovnik",
         "přibram",
@@ -4587,14 +4747,15 @@
         "beroun",
         "benešov"
       ],
-      "praha": ["prosek", "prague", "modřany", "libeň", "letňany", "branik", "černý most"],
-      "plzeňský": ["pilsen", "klatovy"],
-      "liberecký": ["liberec", "jablonec nad nisou", "česka lipa"]
-    }
+      "prague": ["prosek", "prague", "modřany", "libeň", "letňany", "branik", "černý most"],
+      "plzeň region": ["pilsen", "klatovy"],
+      "liberec region": ["liberec", "jablonec nad nisou", "česka lipa"]
+    },
+    "timezones": ["europe/prague"]
   },
-  "denmark": {
-    "code": "dk",
-    "continent": "eu",
+  "DK": {
+    "name": "denmark",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "central jutland": [
@@ -4652,28 +4813,31 @@
         "greve"
       ],
       "north denmark": ["nørresundby", "hjørring", "frederikshavn", "aalborg"]
-    }
+    },
+    "timezones": ["europe/berlin most of germany", "europe/copenhagen"]
   },
-  "djibouti": {
-    "code": "dj",
-    "continent": "af",
+  "DJ": {
+    "name": "djibouti",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "tadjourah": ["tadjoura"],
       "obock": ["obock"],
       "djibouti": ["djibouti"],
       "ali sabieh": ["ḏânan", "'ali sabieh"]
-    }
+    },
+    "timezones": ["africa/nairobi", "africa/djibouti"]
   },
-  "dominica": {
-    "code": "dm",
-    "continent": "na",
+  "DM": {
+    "name": "dominica",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "saint george": ["roseau"] }
+    "provinces": { "saint george": ["roseau"] },
+    "timezones": ["america/puerto_rico ast", "america/dominica"]
   },
-  "dominican republic": {
-    "code": "do",
-    "continent": "na",
+  "DO": {
+    "name": "dominican republic",
+    "continent": "north america-na",
     "currency": ["", ""],
     "provinces": {
       "nacional": ["villa francisca", "villa consuelo", "santo domingo", "ciudad nueva", "bella vista"],
@@ -4704,11 +4868,12 @@
       "santo domingo": ["boca chica", "santo domingo oeste"],
       "peravia": ["bani"],
       "azua": ["azua"]
-    }
+    },
+    "timezones": ["america/santo_domingo"]
   },
-  "ecuador": {
-    "code": "ec",
-    "continent": "sa",
+  "EC": {
+    "name": "ecuador",
+    "continent": "south america-sa",
     "currency": ["usd", "$"],
     "provinces": {
       "zamora-chinchipe": ["zamora"],
@@ -4756,11 +4921,12 @@
       "sucumbios": ["nueva loja"],
       "bolivar": ["guaranda"],
       "azuay": ["gualaceo", "cuenca"]
-    }
+    },
+    "timezones": ["america/guayaquil ecuador (mainland)", "pacific/galapagos galápagos islands"]
   },
-  "egypt": {
-    "code": "eg",
-    "continent": "af",
+  "EG": {
+    "name": "egypt",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "muhafazat al gharbiyah": [
@@ -4853,11 +5019,12 @@
       "muhafazat al wadi al jadid": ["al kharijah"],
       "alexandria": ["alexandria"],
       "shamal sina'": ["arish"]
-    }
+    },
+    "timezones": ["africa/cairo"]
   },
-  "el salvador": {
-    "code": "sv",
-    "continent": "na",
+  "SV": {
+    "name": "el salvador",
+    "continent": "north america-na",
     "currency": ["usd", "$"],
     "provinces": {
       "la paz": ["zacatecoluca"],
@@ -4885,17 +5052,19 @@
       "la union": ["la union"],
       "chalatenango": ["chalatenango"],
       "ahuachapan": ["ahuachapan"]
-    }
+    },
+    "timezones": ["america/el_salvador"]
   },
-  "equatorial guinea": {
-    "code": "gq",
-    "continent": "af",
+  "GQ": {
+    "name": "equatorial guinea",
+    "continent": "africa-af",
     "currency": ["", ""],
-    "provinces": { "kie-ntem": ["ebebiyin"], "bioko norte": ["malabo"], "litoral": ["bata"] }
+    "provinces": { "kie-ntem": ["ebebiyin"], "bioko norte": ["malabo"], "litoral": ["bata"] },
+    "timezones": ["africa/lagos west africa time", "africa/malabo"]
   },
-  "eritrea": {
-    "code": "er",
-    "continent": "af",
+  "ER": {
+    "name": "eritrea",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "northern red sea region": ["massawa"],
@@ -4904,11 +5073,12 @@
       "ma'akel": ["asmara"],
       "debubawi k'eyih bahri": ["assab"],
       "debub": ["mendefera"]
-    }
+    },
+    "timezones": ["africa/nairobi", "africa/asmara", "africa/asmera"]
   },
-  "estonia": {
-    "code": "ee",
-    "continent": "eu",
+  "EE": {
+    "name": "estonia",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "viljandimaa": ["viljandi"],
@@ -4917,11 +5087,12 @@
       "ida-virumaa": ["sillamäe", "narva", "kohtla-järve"],
       "lääne-virumaa": ["rakvere"],
       "pärnumaa": ["pärnu"]
-    }
+    },
+    "timezones": ["europe/tallinn"]
   },
-  "ethiopia": {
-    "code": "et",
-    "continent": "af",
+  "ET": {
+    "name": "ethiopia",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "oromiya": [
@@ -5002,29 +5173,33 @@
       "dire dawa": ["dire dawa"],
       "binshangul gumuz": ["asosa"],
       "adis abeba": ["addis ababa"]
-    }
+    },
+    "timezones": ["africa/nairobi", "africa/addis_ababa"]
   },
-  "falkland islands": {
-    "code": "fk",
-    "continent": "sa",
+  "FK": {
+    "name": "falkland islands (islas malvinas)",
+    "continent": "south america-sa",
     "currency": ["", ""],
-    "provinces": { "n/a": ["stanley"] }
+    "provinces": { "n a": ["stanley"] },
+    "timezones": ["atlantic/stanley"]
   },
-  "faroe islands": {
-    "code": "fo",
-    "continent": "eu",
+  "FO": {
+    "name": "faroe islands",
+    "continent": "europe-eu",
     "currency": ["", ""],
-    "provinces": { "streymoy": ["torshavn"] }
+    "provinces": { "streymoy": ["torshavn"] },
+    "timezones": ["atlantic/faroe"]
   },
-  "fiji": {
-    "code": "fj",
-    "continent": "oc",
+  "FJ": {
+    "name": "fiji",
+    "continent": "australia-au",
     "currency": ["", ""],
-    "provinces": { "central": ["suva"], "western": ["nadi", "lautoka"], "northern": ["labasa"] }
+    "provinces": { "central": ["suva"], "western": ["nadi", "lautoka"], "northern": ["labasa"] },
+    "timezones": ["pacific/fiji"]
   },
-  "finland": {
-    "code": "fi",
-    "continent": "eu",
+  "FI": {
+    "name": "finland",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "pirkanmaa": ["ylöjärvi", "valkeakoski", "tampere", "pirkkala", "nokia", "lempäälä", "kangasala"],
@@ -5061,11 +5236,12 @@
       "central ostrobothnia": ["kokkola"],
       "kainuu": ["kajaani"],
       "north karelia": ["joensuu"]
-    }
+    },
+    "timezones": ["europe/helsinki"]
   },
-  "france": {
-    "code": "fr",
-    "continent": "eu",
+  "FR": {
+    "name": "france",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "île-de-france": [
@@ -5724,29 +5900,37 @@
         "agde"
       ],
       "corsica": ["bastia", "ajaccio"]
-    }
+    },
+    "timezones": ["europe/paris"]
   },
-  "french guiana": {
-    "code": "gf",
-    "continent": "sa",
+  "GF": {
+    "name": "french guiana",
+    "continent": "south america-sa",
     "currency": ["", ""],
-    "provinces": { "guyane": ["saint-laurent-du-maroni", "remire-montjoly", "matoury", "kourou", "cayenne"] }
+    "provinces": { "guyane": ["saint-laurent-du-maroni", "remire-montjoly", "matoury", "kourou", "cayenne"] },
+    "timezones": ["america/cayenne"]
   },
-  "french polynesia": {
-    "code": "pf",
-    "continent": "oc",
+  "PF": {
+    "name": "french polynesia",
+    "continent": "australia-au",
     "currency": ["", ""],
-    "provinces": { "îles du vent": ["punaauia", "papeete", "faaa"] }
+    "provinces": { "îles du vent": ["punaauia", "papeete", "faaa"] },
+    "timezones": [
+      "pacific/tahiti society islands",
+      "pacific/marquesas marquesas islands",
+      "pacific/gambier gambier islands"
+    ]
   },
-  "french southern territories": {
-    "code": "tf",
-    "continent": "oc",
+  "TF": {
+    "name": "french southern territories",
+    "continent": "australia-au",
     "currency": ["", ""],
-    "provinces": { "kerguelen": ["port-aux-francais"] }
+    "provinces": { "kerguelen": ["port-aux-francais"] },
+    "timezones": ["asia/dubai crozet, scattered is", "indian/kerguelen"]
   },
-  "gabon": {
-    "code": "ga",
-    "continent": "af",
+  "GA": {
+    "name": "gabon",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "nyanga": ["tchibanga"],
@@ -5757,21 +5941,23 @@
       "estuaire": ["libreville"],
       "moyen-ogooue": ["lambarene"],
       "ogooue-lolo": ["koulamoutou"]
-    }
+    },
+    "timezones": ["africa/lagos west africa time", "africa/libreville"]
   },
-  "gambia": {
-    "code": "gm",
-    "continent": "af",
+  "GM": {
+    "name": "gambia",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "western": ["sukuta", "brikama"],
       "north bank": ["lamin", "farafenni"],
       "banjul": ["banjul", "bakau"]
-    }
+    },
+    "timezones": ["africa/abidjan", "africa/banjul"]
   },
-  "georgia": {
-    "code": "ge",
-    "continent": "as",
+  "GE": {
+    "name": "georgia",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "samegrelo and zemo svaneti": ["zugdidi", "senak'i", "p'ot'i"],
@@ -5784,11 +5970,12 @@
       "guria": ["ozurgeti"],
       "ajaria": ["kobuleti", "batumi"],
       "samtskhe-javakheti": ["akhaltsikhe"]
-    }
+    },
+    "timezones": ["asia/tbilisi"]
   },
-  "germany": {
-    "code": "de",
-    "continent": "eu",
+  "DE": {
+    "name": "germany",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "saxony": [
@@ -6875,11 +7062,12 @@
         "beckingen"
       ],
       "bremen": ["bremerhaven", "bremen"]
-    }
+    },
+    "timezones": ["europe/zurich büsingen", "europe/busingen"]
   },
-  "ghana": {
-    "code": "gh",
-    "continent": "af",
+  "GH": {
+    "name": "ghana",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "northern": ["yendi", "tamale", "savelugu", "salaga"],
@@ -6911,17 +7099,19 @@
       ],
       "upper east": ["navrongo", "bolgatanga", "bawku"],
       "volta": ["kpandu", "keta", "hohoe", "ho", "anloga"]
-    }
+    },
+    "timezones": ["africa/abidjan", "africa/accra"]
   },
-  "gibraltar": {
-    "code": "gi",
-    "continent": "eu",
+  "GI": {
+    "name": "gibraltar",
+    "continent": "europe-eu",
     "currency": ["", ""],
-    "provinces": { "n/a": ["gibraltar"] }
+    "provinces": { "n/a": ["gibraltar"] },
+    "timezones": ["europe/gibraltar"]
   },
-  "greece": {
-    "code": "gr",
-    "continent": "eu",
+  "GR": {
+    "name": "greece",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "attica": [
@@ -7010,23 +7200,32 @@
       "east macedonia and thrace": ["xanthi", "orestiada", "komotini", "kavala", "drama", "alexandroupoli"],
       "west macedonia": ["ptolemaḯda", "kozani", "florina"],
       "ionian islands": ["corfu"]
-    }
+    },
+    "timezones": ["europe/athens"]
   },
-  "greenland": {
-    "code": "gl",
-    "continent": "na",
+  "GL": {
+    "name": "greenland",
+    "continent": "north america-na",
     "currency": ["dkk", "kr"],
-    "provinces": { "sermersooq": ["nuuk"] }
+    "provinces": { "sermersooq": ["nuuk"] },
+    "timezones": [
+      "america/nuuk most of greenland",
+      "america/godthab",
+      "america/danmarkshavn national park (east coast)",
+      "america/scoresbysund scoresbysund/ittoqqortoormiit",
+      "america/thule thule/pituffik"
+    ]
   },
-  "grenada": {
-    "code": "gd",
-    "continent": "na",
+  "GD": {
+    "name": "grenada",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "saint george": ["saint george's"] }
+    "provinces": { "saint george": ["saint george's"] },
+    "timezones": ["america/puerto_rico ast", "america/grenada"]
   },
-  "guadeloupe": {
-    "code": "gp",
-    "continent": "na",
+  "GP": {
+    "name": "guadeloupe",
+    "continent": "north america-na",
     "currency": ["", ""],
     "provinces": {
       "guadeloupe": [
@@ -7041,11 +7240,12 @@
         "basse-terre",
         "baie-mahault"
       ]
-    }
+    },
+    "timezones": ["america/puerto_rico ast", "america/guadeloupe"]
   },
-  "guam": {
-    "code": "gu",
-    "continent": "oc",
+  "GU": {
+    "name": "guam",
+    "continent": "australia-au",
     "currency": ["usd", "$"],
     "provinces": {
       "tamuning": ["tamuning-tumon-harmon village"],
@@ -7053,11 +7253,12 @@
       "hagatna": ["guam government house", "hagåtna"],
       "dededo": ["dededo village"],
       "mangilao": ["mangilao village"]
-    }
+    },
+    "timezones": ["pacific/guam"]
   },
-  "guatemala": {
-    "code": "gt",
-    "continent": "na",
+  "GT": {
+    "name": "guatemala",
+    "continent": "north america-na",
     "currency": ["", ""],
     "provinces": {
       "zacapa": ["zacapa", "gualan"],
@@ -7128,17 +7329,19 @@
       "huehuetenango": ["jacaltenango", "huehuetenango"],
       "chiquimula": ["esquipulas", "chiquimula"],
       "santa rosa": ["cuilapa", "barberena"]
-    }
+    },
+    "timezones": ["america/guatemala"]
   },
-  "guernsey": {
-    "code": "gg",
-    "continent": "eu",
+  "GG": {
+    "name": "guernsey",
+    "continent": "europe-eu",
     "currency": ["", ""],
-    "provinces": { "st peter port": ["saint peter port"] }
+    "provinces": { "st peter port": ["saint peter port"] },
+    "timezones": ["europe/london", "europe/guernsey"]
   },
-  "guinea": {
-    "code": "gn",
-    "continent": "af",
+  "GN": {
+    "name": "guinea",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "labe": ["tougue", "labe"],
@@ -7149,27 +7352,30 @@
       "faranah": ["kissidougou"],
       "boke": ["kamsar", "fria", "boke"],
       "conakry": ["conakry", "camayenne"]
-    }
+    },
+    "timezones": ["africa/abidjan", "africa/conakry"]
   },
-  "guinea-bissau": {
-    "code": "gw",
-    "continent": "af",
+  "GW": {
+    "name": "guinea-bissau",
+    "continent": "africa-af",
     "currency": ["", ""],
-    "provinces": { "bissau": ["bissau"], "bafata": ["bafata"] }
+    "provinces": { "bissau": ["bissau"], "bafata": ["bafata"] },
+    "timezones": ["africa/bissau"]
   },
-  "guyana": {
-    "code": "gy",
-    "continent": "sa",
+  "GY": {
+    "name": "guyana",
+    "continent": "south america-sa",
     "currency": ["", ""],
     "provinces": {
       "east berbice-corentyne": ["new amsterdam"],
       "upper demerara-berbice": ["linden"],
       "demerara-mahaica": ["georgetown"]
-    }
+    },
+    "timezones": ["america/guyana"]
   },
-  "haiti": {
-    "code": "ht",
-    "continent": "na",
+  "HT": {
+    "name": "haiti",
+    "continent": "north america-na",
     "currency": ["", ""],
     "provinces": {
       "artibonite": ["verrettes", "saint-marc", "gonayiv", "desarmes"],
@@ -7194,17 +7400,19 @@
       "sud-est": ["jacmel"],
       "centre": ["hinche"],
       "sud": ["les cayes"]
-    }
+    },
+    "timezones": ["america/port-au-prince"]
   },
-  "vatican city": {
-    "code": "va",
-    "continent": "eu",
+  "VA": {
+    "name": "vatican city",
+    "continent": "europe-eu",
     "currency": ["", ""],
-    "provinces": { "n/a": ["vatican city"] }
+    "provinces": { "n/a": ["vatican city"] },
+    "timezones": ["europe/rome", "europe/vatican"]
   },
-  "honduras": {
-    "code": "hn",
-    "continent": "na",
+  "HN": {
+    "name": "honduras",
+    "continent": "north america-na",
     "currency": ["", ""],
     "provinces": {
       "cortes": [
@@ -7228,11 +7436,12 @@
       "olancho": ["juticalpa"],
       "el paraiso": ["el paraiso", "danli"],
       "choluteca": ["ciudad choluteca"]
-    }
+    },
+    "timezones": ["america/tegucigalpa"]
   },
-  "hong kong": {
-    "code": "hk",
-    "continent": "as",
+  "HK": {
+    "name": "hong kong",
+    "continent": "asia-as",
     "currency": ["hkd", "hk$"],
     "provinces": {
       "tsuen wan": ["tsuen wan"],
@@ -7242,11 +7451,12 @@
       "sha tin": ["sha tin"],
       "kowloon city": ["kowloon"],
       "central and western": ["hong kong"]
-    }
+    },
+    "timezones": ["asia/hong_kong"]
   },
-  "hungary": {
-    "code": "hu",
-    "continent": "eu",
+  "HU": {
+    "name": "hungary",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "jasz-nagykun-szolnok": ["törökszentmiklos", "szolnok", "mezőtur", "karcag", "jaszbereny"],
@@ -7327,17 +7537,19 @@
         "budapest ii. kerület",
         "budapest i. kerület"
       ]
-    }
+    },
+    "timezones": ["europe/budapest"]
   },
-  "iceland": {
-    "code": "is",
-    "continent": "eu",
+  "IS": {
+    "name": "iceland",
+    "continent": "europe-eu",
     "currency": ["", ""],
-    "provinces": { "northeast": ["akureyri"], "capital region": ["reykjavik", "kopavogur", "hafnarfjörður"] }
+    "provinces": { "northeast": ["akureyri"], "capital region": ["reykjavik", "kopavogur", "hafnarfjörður"] },
+    "timezones": ["africa/abidjan", "atlantic/reykjavik"]
   },
-  "india": {
-    "code": "in",
-    "continent": "as",
+  "IN": {
+    "name": "india",
+    "continent": "asia-as",
     "currency": ["inr", "₹"],
     "provinces": {
       "kashmir": [
@@ -9764,11 +9976,12 @@
       "sikkim": ["gangtok"],
       "daman and diu": ["diu", "daman"],
       "chandigarh": ["chandigarh"]
-    }
+    },
+    "timezones": ["asia/kolkata"]
   },
-  "indonesia": {
-    "code": "id",
-    "continent": "as",
+  "ID": {
+    "name": "indonesia",
+    "continent": "asia-as",
     "currency": ["idr", "rp"],
     "provinces": {
       "north sumatra": [
@@ -10106,11 +10319,17 @@
       "jakarta raya": ["jakarta"],
       "gorontalo": ["gorontalo"],
       "bengkulu": ["curup", "bengkulu"]
-    }
+    },
+    "timezones": [
+      "asia/jakarta java, sumatra",
+      "asia/pontianak borneo (west, central)",
+      "asia/makassar borneo (east, south); sulawesi/celebes, bali, nusa tengarra; timor (west)",
+      "asia/jayapura new guinea (west papua / irian jaya); malukus/moluccas"
+    ]
   },
-  "iran": {
-    "code": "ir",
-    "continent": "as",
+  "IR": {
+    "name": "iran",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "hamadan": ["azadshahr", "nahavand", "malayer", "hamadan", "bahar", "asadabad", "pasragad branch"],
@@ -10251,11 +10470,12 @@
       "ilam": ["ilam", "dehloran", "darreh shahr", "abdanan"],
       "bushehr": ["bandar-e ganaveh", "bandar-e bushehr", "borazjan"],
       "sistan and baluchestan": ["zabol", "zahedan", "qasr-e qand", "khash", "iranshahr", "chabahar"]
-    }
+    },
+    "timezones": ["asia/tehran"]
   },
-  "iraq": {
-    "code": "iq",
-    "continent": "as",
+  "IQ": {
+    "name": "iraq",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "dahuk": ["zaxo", "sinah", "dihok"],
@@ -10283,11 +10503,12 @@
       "dhi qar": ["ash shatrah", "an nasiriyah", "nahiyat al fuhud"],
       "an najaf": ["najaf", "al mishkhab", "kufa"],
       "maysan": ["ali al gharbi", "al amarah"]
-    }
+    },
+    "timezones": ["asia/baghdad"]
   },
-  "ireland": {
-    "code": "ie",
-    "continent": "eu",
+  "IE": {
+    "name": "ireland",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "leinster": [
@@ -10318,17 +10539,19 @@
       "munster": ["waterford", "tralee", "luimneach", "ennis", "cork", "cluain meala"],
       "connaught": ["sligo", "gaillimh"],
       "ulster": ["letterkenny"]
-    }
+    },
+    "timezones": ["europe/dublin"]
   },
-  "isle of man": {
-    "code": "im",
-    "continent": "eu",
+  "IM": {
+    "name": "isle of man",
+    "continent": "europe-eu",
     "currency": ["", ""],
-    "provinces": { "douglas": ["douglas"] }
+    "provinces": { "douglas": ["douglas"] },
+    "timezones": ["europe/london", "europe/isle_of_man"]
   },
-  "israel": {
-    "code": "il",
-    "continent": "as",
+  "IL": {
+    "name": "israel",
+    "continent": "asia-as",
     "currency": ["ils", "₪"],
     "provinces": {
       "jerusalem": ["jerusalem", "mevo betar", "bet shemesh", "west jerusalem", "modiin ilit", "ariel"],
@@ -10408,11 +10631,12 @@
         "ashdod",
         "arad"
       ]
-    }
+    },
+    "timezones": ["asia/jerusalem"]
   },
-  "italy": {
-    "code": "it",
-    "continent": "eu",
+  "IT": {
+    "name": "italy",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "sicily": [
@@ -11004,11 +11228,12 @@
       "molise": ["termoli", "isernia", "campobasso"],
       "basilicate": ["potenza", "matera"],
       "aosta valley": ["aosta"]
-    }
+    },
+    "timezones": ["europe/rome"]
   },
-  "jamaica": {
-    "code": "jm",
-    "continent": "na",
+  "JM": {
+    "name": "jamaica",
+    "continent": "north america-na",
     "currency": ["", ""],
     "provinces": {
       "saint catherine": ["spanish town", "portmore", "old harbour", "linstead"],
@@ -11018,11 +11243,12 @@
       "clarendon": ["may pen"],
       "manchester": ["mandeville"],
       "kingston": ["kingston"]
-    }
+    },
+    "timezones": ["america/jamaica"]
   },
-  "japan": {
-    "code": "jp",
-    "continent": "as",
+  "JP": {
+    "name": "japan",
+    "continent": "asia-as",
     "currency": ["jpy", "¥"],
     "provinces": {
       "wakayama": ["shingu", "tanabe", "minato", "kainan", "iwade", "hashimoto", "gobō", "wakayama"],
@@ -11796,17 +12022,19 @@
         "aomorishi",
         "goshogawara"
       ]
-    }
+    },
+    "timezones": ["asia/tokyo"]
   },
-  "jersey": {
-    "code": "je",
-    "continent": "eu",
+  "JE": {
+    "name": "jersey",
+    "continent": "europe-eu",
     "currency": ["", ""],
-    "provinces": { "st helier": ["saint helier"] }
+    "provinces": { "st helier": ["saint helier"] },
+    "timezones": ["europe/london", "europe/jersey"]
   },
-  "jordan": {
-    "code": "jo",
-    "continent": "as",
+  "JO": {
+    "name": "jordan",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "amman": ["wadi as sir", "umm as summaq", "sahab", "amman", "al quwaysimah", "al jubayhah"],
@@ -11821,11 +12049,12 @@
       "ajlun": ["anjarah", "ajlun"],
       "mafraq": ["mafraq"],
       "aqaba": ["aqaba"]
-    }
+    },
+    "timezones": ["asia/amman"]
   },
-  "kazakhstan": {
-    "code": "kz",
-    "continent": "as",
+  "KZ": {
+    "name": "kazakhstan",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "mangghystau": ["zhanaozen", "aktau"],
@@ -11885,11 +12114,20 @@
       "bayqongyr qalasy": ["baykonyr"],
       "astana qalasy": ["astana"],
       "almaty qalasy": ["almaty"]
-    }
+    },
+    "timezones": [
+      "asia/almaty most of kazakhstan",
+      "asia/qyzylorda qyzylorda/kyzylorda/kzyl-orda",
+      "asia/qostanay qostanay/kostanay/kustanay",
+      "asia/aqtobe aqtöbe/aktobe",
+      "asia/aqtau mangghystaū/mankistau",
+      "asia/atyrau atyraū/atirau/gur'yev",
+      "asia/oral west kazakhstan"
+    ]
   },
-  "kenya": {
-    "code": "ke",
-    "continent": "af",
+  "KE": {
+    "name": "kenya",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "bungoma": ["webuye", "bungoma"],
@@ -11931,17 +12169,19 @@
       "uasin gishu": ["eldoret"],
       "siaya": ["siaya"],
       "nyandarua": ["ol kalou"]
-    }
+    },
+    "timezones": ["africa/nairobi"]
   },
-  "kiribati": {
-    "code": "ki",
-    "continent": "oc",
+  "KI": {
+    "name": "kiribati",
+    "continent": "australia-au",
     "currency": ["", ""],
-    "provinces": { "gilbert islands": ["tarawa"] }
+    "provinces": { "gilbert islands": ["tarawa"] },
+    "timezones": ["pacific/tarawa gilberts, marshalls, wake", "pacific/kanton"]
   },
-  "north korea": {
-    "code": "kp",
-    "continent": "as",
+  "KP": {
+    "name": "north korea",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "hwanghae-namdo": ["yŏnan-ŭp", "ongjin", "kaesŏng", "haeju", "changyŏn", "chaeryŏng-ŭp", "ayang-ni"],
@@ -11974,11 +12214,12 @@
       ],
       "yanggang-do": ["kapsan-ŭp", "hyesan-dong", "hyesan-si"],
       "chagang-do": ["kanggye-si"]
-    }
+    },
+    "timezones": ["asia/pyongyang"]
   },
-  "south korea": {
-    "code": "kr",
-    "continent": "as",
+  "KR": {
+    "name": "south korea",
+    "continent": "asia-as",
     "currency": ["krw", "₩"],
     "provinces": {
       "gyeongsangbuk-do": [
@@ -12104,11 +12345,12 @@
       "gwangju": ["gwangju"],
       "incheon": ["ganghwa-gun", "incheon"],
       "jeju-do": ["jeju city", "gaigeturi", "seogwipo"]
-    }
+    },
+    "timezones": ["asia/seoul"]
   },
-  "kuwait": {
-    "code": "kw",
-    "continent": "as",
+  "KW": {
+    "name": "kuwait",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "al farwaniyah": ["janub as surrah", "al farwaniyah"],
@@ -12118,11 +12360,12 @@
       "al asimah": ["kuwait city", "ad dasmah", "ar rabiyah"],
       "al jahra'": ["al jahra'"],
       "mubarak al kabir": ["sabah as salim"]
-    }
+    },
+    "timezones": ["asia/riyadh syowa", "asia/kuwait"]
   },
-  "kyrgyzstan": {
-    "code": "kg",
-    "continent": "as",
+  "KG": {
+    "name": "kyrgyzstan",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "batken": ["suluktu", "isfana", "kyzyl-kyya", "iradan"],
@@ -12134,11 +12377,12 @@
       "naryn": ["naryn", "at-bashi"],
       "bishkek": ["bishkek"],
       "osh city": ["osh city"]
-    }
+    },
+    "timezones": ["asia/bishkek"]
   },
-  "laos": {
-    "code": "la",
-    "continent": "as",
+  "LA": {
+    "name": "laos",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "vientiane": ["vientiane"],
@@ -12152,11 +12396,12 @@
       "khammouan": ["thakhèk"],
       "louangphabang": ["luang prabang"],
       "bokeo province": ["ban houakhoua"]
-    }
+    },
+    "timezones": ["asia/bangkok north vietnam", "asia/vientiane"]
   },
-  "latvia": {
-    "code": "lv",
-    "continent": "eu",
+  "LV": {
+    "name": "latvia",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "valmieras rajons": ["valmiera"],
@@ -12172,11 +12417,12 @@
       "jēkabpils municipality": ["jēkabpils"],
       "daugavpils municipality": ["daugavpils"],
       "cēsu rajons": ["cēsis"]
-    }
+    },
+    "timezones": ["europe/riga"]
   },
-  "lebanon": {
-    "code": "lb",
-    "continent": "as",
+  "LB": {
+    "name": "lebanon",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "beqaa": ["zahle"],
@@ -12186,11 +12432,12 @@
       "mont-liban": ["djounie", "jbaïl"],
       "nabatîye": ["habboûch", "nabatîye et tahta"],
       "baalbek-hermel": ["baalbek"]
-    }
+    },
+    "timezones": ["asia/beirut"]
   },
-  "lesotho": {
-    "code": "ls",
-    "continent": "af",
+  "LS": {
+    "name": "lesotho",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "quthing": ["quthing"],
@@ -12200,11 +12447,12 @@
       "leribe": ["maputsoe", "leribe"],
       "mafeteng": ["mafeteng"],
       "butha-buthe": ["butha-buthe"]
-    }
+    },
+    "timezones": ["africa/johannesburg", "africa/maseru"]
   },
-  "liberia": {
-    "code": "lr",
-    "continent": "af",
+  "LR": {
+    "name": "liberia",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "grand gedeh": ["zwedru"],
@@ -12216,11 +12464,12 @@
       "sinoe": ["greenville"],
       "bong": ["gbarnga"],
       "grand bassa": ["buchanan"]
-    }
+    },
+    "timezones": ["africa/monrovia"]
   },
-  "libya": {
-    "code": "ly",
-    "continent": "af",
+  "LY": {
+    "name": "libya",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "sha'biyat al butnan": ["tobruk"],
@@ -12244,17 +12493,19 @@
       "sha'biyat ghat": ["ghat"],
       "ash shati'": ["brak"],
       "sha'biyat wadi al hayat": ["awbari"]
-    }
+    },
+    "timezones": ["africa/tripoli"]
   },
-  "liechtenstein": {
-    "code": "li",
-    "continent": "eu",
+  "LI": {
+    "name": "liechtenstein",
+    "continent": "europe-eu",
     "currency": ["", ""],
-    "provinces": { "vaduz": ["vaduz"] }
+    "provinces": { "vaduz": ["vaduz"] },
+    "timezones": ["europe/zurich büsingen", "europe/vaduz"]
   },
-  "lithuania": {
-    "code": "lt",
-    "continent": "eu",
+  "LT": {
+    "name": "lithuania",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "utenos apskritis": ["visaginas", "utena"],
@@ -12286,18 +12537,26 @@
         "eiguliai"
       ],
       "alytaus apskritis": ["druskininkai", "alytus"]
-    }
+    },
+    "timezones": ["europe/vilnius"]
   },
-  "luxembourg": {
-    "code": "lu",
-    "continent": "eu",
+  "LU": {
+    "name": "luxembourg",
+    "continent": "europe-eu",
     "currency": ["", ""],
-    "provinces": { "luxembourg": ["luxembourg", "esch-sur-alzette", "dudelange"] }
+    "provinces": { "luxembourg": ["luxembourg", "esch-sur-alzette", "dudelange"] },
+    "timezones": ["europe/brussels", "europe/luxembourg"]
   },
-  "macao": { "code": "mo", "continent": "as", "currency": ["", ""], "provinces": { "macau": ["macau"] } },
-  "north macedonia": {
-    "code": "mk",
-    "continent": "eu",
+  "MO": {
+    "name": "macao",
+    "continent": "asia-as",
+    "currency": ["", ""],
+    "provinces": { "macau": ["macau"] },
+    "timezones": ["asia/macau"]
+  },
+  "MK": {
+    "name": "north macedonia",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "zelino": ["желино"],
@@ -12336,11 +12595,12 @@
       "ilinden": ["ilinden"],
       "kisela voda": ["kisela voda"],
       "centar zupa": ["centar zupa"]
-    }
+    },
+    "timezones": ["europe/belgrade", "europe/skopje"]
   },
-  "madagascar": {
-    "code": "mg",
-    "continent": "af",
+  "MG": {
+    "name": "madagascar",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "atsinanana": ["toamasina", "vohibinany", "marolambo", "mahanoro", "ampasimanolotra"],
@@ -12390,21 +12650,23 @@
       "amoron'i mania": ["fandriana", "ambositra", "ambatofinandrahana"],
       "sofia": ["bealanana", "antsohihy"],
       "diana": ["antsohimbondrona", "antsiranana", "hell-ville", "ambilobe", "ambarakaraka", "ambanja"]
-    }
+    },
+    "timezones": ["africa/nairobi", "indian/antananarivo"]
   },
-  "malawi": {
-    "code": "mw",
-    "continent": "af",
+  "MW": {
+    "name": "malawi",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "northern region": ["karonga", "rumphi", "mzuzu", "mzimba"],
       "southern region": ["zomba", "nsanje", "mulanje", "mangochi", "liwonde", "blantyre", "balaka"],
       "central region": ["salima", "nkhotakota", "mchinji", "lilongwe", "kasungu", "dedza"]
-    }
+    },
+    "timezones": ["africa/maputo central africa time", "africa/blantyre"]
   },
-  "malaysia": {
-    "code": "my",
-    "continent": "as",
+  "MY": {
+    "name": "malaysia",
+    "continent": "asia-as",
     "currency": ["myr", "rm"],
     "provinces": {
       "kedah": [
@@ -12553,17 +12815,19 @@
       "sarawak": ["kuching", "simanggang", "sarikei", "sibu", "kapit", "bintulu", "limbang", "miri"],
       "perlis": ["kangar", "pantai cenang"],
       "putrajaya": ["putrajaya"]
-    }
+    },
+    "timezones": ["asia/kuching sabah, sarawak", "asia/kuala_lumpur"]
   },
-  "maldives": {
-    "code": "mv",
-    "continent": "as",
+  "MV": {
+    "name": "maldives",
+    "continent": "asia-as",
     "currency": ["", ""],
-    "provinces": { "kaafu atoll": ["male"] }
+    "provinces": { "kaafu atoll": ["male"] },
+    "timezones": ["indian/maldives kerguelen, st paul i, amsterdam i"]
   },
-  "mali": {
-    "code": "ml",
-    "continent": "af",
+  "ML": {
+    "name": "mali",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "sikasso": ["yorosso", "sikasso", "koutiala", "bougouni"],
@@ -12574,11 +12838,12 @@
       "koulikoro": ["koulikoro", "kolokani", "kati", "kangaba", "banamba"],
       "gao": ["gao"],
       "bamako": ["bamako"]
-    }
+    },
+    "timezones": ["africa/abidjan", "africa/bamako", "africa/timbuktu"]
   },
-  "malta": {
-    "code": "mt",
-    "continent": "eu",
+  "MT": {
+    "name": "malta",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "ħaż-żabbar": ["żabbar"],
@@ -12586,17 +12851,19 @@
       "qormi": ["qormi"],
       "il-mosta": ["mosta"],
       "birkirkara": ["birkirkara"]
-    }
+    },
+    "timezones": ["europe/malta"]
   },
-  "marshall islands": {
-    "code": "mh",
-    "continent": "oc",
+  "MH": {
+    "name": "marshall islands",
+    "continent": "australia-au",
     "currency": ["usd", "$"],
-    "provinces": { "majuro atoll": ["majuro", "rmi capitol"] }
+    "provinces": { "majuro atoll": ["majuro", "rmi capitol"] },
+    "timezones": ["pacific/tarawa gilberts, marshalls, wake", "pacific/majuro", "pacific/kwajalein"]
   },
-  "martinique": {
-    "code": "mq",
-    "continent": "na",
+  "MQ": {
+    "name": "martinique",
+    "continent": "north america-na",
     "currency": ["", ""],
     "provinces": {
       "martinique": [
@@ -12610,11 +12877,12 @@
         "fort-de-france",
         "ducos"
       ]
-    }
+    },
+    "timezones": ["america/martinique"]
   },
-  "mauritania": {
-    "code": "mr",
-    "continent": "af",
+  "MR": {
+    "name": "mauritania",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "tiris zemmour": ["zouerate"],
@@ -12627,11 +12895,12 @@
       "gorgol": ["kaedi"],
       "adrar": ["atar"],
       "brakna": ["aleg"]
-    }
+    },
+    "timezones": ["africa/abidjan", "africa/nouakchott"]
   },
-  "mauritius": {
-    "code": "mu",
-    "continent": "af",
+  "MU": {
+    "name": "mauritius",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "plaines wilhems": ["vacoas", "quatre bornes", "curepipe"],
@@ -12641,17 +12910,19 @@
       "grand port": ["mahebourg"],
       "rivière du rempart": ["goodlands"],
       "flacq": ["centre de flacq", "bel air rivière sèche"]
-    }
+    },
+    "timezones": ["indian/mauritius"]
   },
-  "mayotte": {
-    "code": "yt",
-    "continent": "af",
+  "YT": {
+    "name": "mayotte",
+    "continent": "africa-af",
     "currency": ["", ""],
-    "provinces": { "mamoudzou": ["mamoudzou"], "dzaoudzi": ["dzaoudzi"], "koungou": ["koungou"] }
+    "provinces": { "mamoudzou": ["mamoudzou"], "dzaoudzi": ["dzaoudzi"], "koungou": ["koungou"] },
+    "timezones": ["africa/nairobi", "indian/mayotte"]
   },
-  "mexico": {
-    "code": "mx",
-    "continent": "na",
+  "MX": {
+    "name": "mexico",
+    "continent": "north america-na",
     "currency": ["mxn", "mex$"],
     "provinces": {
       "tamaulipas": [
@@ -13249,17 +13520,38 @@
         "chihuahua",
         "manuel ojinaga"
       ]
-    }
+    },
+    "timezones": [
+      "america/mexico_city central mexico",
+      "mexico/general",
+      "america/cancun quintana roo",
+      "america/merida campeche, yucatán",
+      "america/monterrey durango; coahuila, nuevo león, tamaulipas (most areas)",
+      "america/matamoros coahuila, nuevo león, tamaulipas (us border)",
+      "america/chihuahua chihuahua (most areas)",
+      "america/ciudad_juarez chihuahua (us border - west)",
+      "america/ojinaga chihuahua (us border - east)",
+      "america/mazatlan baja california sur, nayarit (most areas), sinaloa",
+      "america/bahia_banderas bahía de banderas",
+      "america/hermosillo sonora",
+      "america/tijuana baja california",
+      "mexico/bajanorte",
+      "america/santa_isabel",
+      "america/ensenada",
+      "mexico/bajasur",
+      "america/cordoba"
+    ]
   },
-  "micronesia": {
-    "code": "fm",
-    "continent": "oc",
+  "FM": {
+    "name": "micronesia",
+    "continent": "australia-au",
     "currency": ["usd", "$"],
-    "provinces": { "pohnpei": ["palikir - national government center"] }
+    "provinces": { "pohnpei": ["palikir - national government center"] },
+    "timezones": ["pacific/kosrae kosrae", "pacific/chuuk", "pacific/pohnpei"]
   },
-  "moldova": {
-    "code": "md",
-    "continent": "eu",
+  "MD": {
+    "name": "moldova",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "raionul edinet": ["edinet"],
@@ -13279,17 +13571,19 @@
       "cahul": ["cahul"],
       "bender": ["bender"],
       "bălti": ["bălti"]
-    }
+    },
+    "timezones": ["europe/chisinau"]
   },
-  "monaco": {
-    "code": "mc",
-    "continent": "eu",
+  "MC": {
+    "name": "monaco",
+    "continent": "europe-eu",
     "currency": ["", ""],
-    "provinces": { "monaco": ["monte-carlo", "monaco"] }
+    "provinces": { "monaco": ["monte-carlo", "monaco"] },
+    "timezones": ["europe/paris", "europe/monaco"]
   },
-  "mongolia": {
-    "code": "mn",
-    "continent": "as",
+  "MN": {
+    "name": "mongolia",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "dzabkhan": ["uliastay"],
@@ -13310,11 +13604,16 @@
       "bayanhongor": ["bayanhongor"],
       "sühbaatar": ["baruun-urt"],
       "central aimak": ["зуунмод"]
-    }
+    },
+    "timezones": [
+      "asia/ulaanbaatar most of mongolia",
+      "asia/hovd bayan-ölgii, govi-altai, hovd, uvs, zavkhan",
+      "asia/choibalsan dornod, sükhbaatar"
+    ]
   },
-  "montenegro": {
-    "code": "me",
-    "continent": "eu",
+  "ME": {
+    "name": "montenegro",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "podgorica": ["podgorica"],
@@ -13325,17 +13624,19 @@
       "budva": ["budva"],
       "bijelo polje": ["bijelo polje"],
       "bar": ["bar"]
-    }
+    },
+    "timezones": ["europe/belgrade", "europe/podgorica"]
   },
-  "montserrat": {
-    "code": "ms",
-    "continent": "na",
+  "MS": {
+    "name": "montserrat",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "saint anthony": ["plymouth"], "saint peter": ["brades"] }
+    "provinces": { "saint anthony": ["plymouth"], "saint peter": ["brades"] },
+    "timezones": ["america/puerto_rico ast", "america/montserrat"]
   },
-  "morocco": {
-    "code": "ma",
-    "continent": "af",
+  "MA": {
+    "name": "morocco",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "oriental": ["zaïo", "taourirt", "oujda", "nador", "jerada", "el aïoun", "berkane", "ahfir"],
@@ -13386,11 +13687,12 @@
       "marrakech-tensift-al haouz": ["marrakesh", "essaouira"],
       "tadla-azilal": ["kasba tadla", "fkih ben salah", "beni mellal"],
       "oued ed dahab-lagouira": ["dakhla"]
-    }
+    },
+    "timezones": ["africa/casablanca"]
   },
-  "mozambique": {
-    "code": "mz",
-    "continent": "af",
+  "MZ": {
+    "name": "mozambique",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "gaza": ["xai-xai", "macia", "manjacaze", "chokwe", "chibuto"],
@@ -13404,11 +13706,12 @@
       "maputo city": ["maputo"],
       "niassa": ["lichinga", "cuamba"],
       "manica": ["chimoio"]
-    }
+    },
+    "timezones": ["africa/maputo central africa time"]
   },
-  "myanmar (burma)": {
-    "code": "mm",
-    "continent": "as",
+  "MM": {
+    "name": "myanmar (burma)",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "magway": ["yenangyaung", "thayetmyo", "taungdwingyi", "pakokku", "minbu", "magway", "chauk", "myaydo"],
@@ -13456,11 +13759,12 @@
       "kachin": ["myitkyina", "bhamo"],
       "kayah": ["loikaw"],
       "chin": ["hakha"]
-    }
+    },
+    "timezones": ["asia/yangon"]
   },
-  "namibia": {
-    "code": "na",
-    "continent": "af",
+  "NA": {
+    "name": "namibia",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "zambezi": ["katima mulilo"],
@@ -13472,17 +13776,19 @@
       "oshana": ["oshakati"],
       "karas": ["lüderitz", "keetmanshoop"],
       "omaheke": ["gobabis"]
-    }
+    },
+    "timezones": ["africa/windhoek"]
   },
-  "nauru": {
-    "code": "nr",
-    "continent": "oc",
+  "NR": {
+    "name": "nauru",
+    "continent": "australia-au",
     "currency": ["aud", "a$"],
-    "provinces": { "yaren": ["yaren"] }
+    "provinces": { "yaren": ["yaren"] },
+    "timezones": ["pacific/nauru"]
   },
-  "nepal": {
-    "code": "np",
-    "continent": "as",
+  "NP": {
+    "name": "nepal",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "western region": ["waling", "tansen", "pokhara", "darchula", "butwal", "bhairahawa", "baglung"],
@@ -13514,11 +13820,12 @@
         "bharatpur",
         "banepa"
       ]
-    }
+    },
+    "timezones": ["asia/kathmandu"]
   },
-  "netherlands": {
-    "code": "nl",
-    "continent": "eu",
+  "NL": {
+    "name": "netherlands",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "overijssel": [
@@ -13775,17 +14082,19 @@
       ],
       "zeeland": ["vlissingen", "veere", "terneuzen", "middelburg", "goes", "borssele"],
       "drenthe": ["meppel", "hoogeveen", "emmen", "borger", "assen", "anloo"]
-    }
+    },
+    "timezones": ["europe/brussels", "europe/amsterdam"]
   },
-  "new caledonia": {
-    "code": "nc",
-    "continent": "oc",
+  "NC": {
+    "name": "new caledonia",
+    "continent": "australia-au",
     "currency": ["", ""],
-    "provinces": { "south province": ["noumea", "mont-dore", "dumbea"] }
+    "provinces": { "south province": ["noumea", "mont-dore", "dumbea"] },
+    "timezones": ["pacific/noumea"]
   },
-  "new zealand": {
-    "code": "nz",
-    "continent": "oc",
+  "NZ": {
+    "name": "new zealand",
+    "continent": "australia-au",
     "currency": ["aud", "a$"],
     "provinces": {
       "wellington": ["wellington", "porirua", "paraparaumu", "lower hutt", "masterton", "upper hutt"],
@@ -13810,11 +14119,12 @@
       "bay of plenty": ["tauranga", "whakatane", "rotorua"],
       "northland": ["whangarei"],
       "marlborough": ["blenheim"]
-    }
+    },
+    "timezones": ["pacific/auckland new zealand time", "antarctica/mcmurdo", "pacific/chatham"]
   },
-  "nicaragua": {
-    "code": "ni",
-    "continent": "na",
+  "NI": {
+    "name": "nicaragua",
+    "continent": "north america-na",
     "currency": ["", ""],
     "provinces": {
       "managua": ["tipitapa", "san rafael del sur", "managua", "el crucero", "ciudad sandino"],
@@ -13833,11 +14143,12 @@
       "jinotega": ["jinotega"],
       "esteli": ["esteli"],
       "boaco": ["camoapa", "boaco"]
-    }
+    },
+    "timezones": ["america/managua"]
   },
-  "niger": {
-    "code": "ne",
-    "continent": "af",
+  "NE": {
+    "name": "niger",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "tahoua": ["birni n konni", "tahoua", "madaoua", "illela"],
@@ -13848,11 +14159,12 @@
       "diffa": ["nguigmi", "diffa"],
       "dosso": ["gaya", "dosso", "dogondoutchi"],
       "agadez": ["alaghsas", "agadez"]
-    }
+    },
+    "timezones": ["africa/lagos west africa time", "africa/niamey"]
   },
-  "nigeria": {
-    "code": "ng",
-    "continent": "af",
+  "NG": {
+    "name": "nigeria",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "kebbi": ["zuru", "kamba", "jega", "birnin kebbi", "argungu"],
@@ -13980,24 +14292,33 @@
       "jigawa": ["kiyawa", "hadejia", "gwaram", "gumel", "dutse", "birnin kudu"],
       "bauchi": ["kari", "darazo", "bauchi", "azare"],
       "ebonyi": ["isieke", "ezza-ohu", "effium", "afikpo", "abakaliki"]
-    }
+    },
+    "timezones": ["africa/lagos west africa time"]
   },
-  "niue": { "code": "nu", "continent": "oc", "currency": ["", ""], "provinces": { "n/a": ["alofi"] } },
-  "norfolk island": {
-    "code": "nf",
-    "continent": "oc",
+  "NU": {
+    "name": "niue",
+    "continent": "australia-au",
+    "currency": ["", ""],
+    "provinces": { "n/a": ["alofi"] },
+    "timezones": ["pacific/niue"]
+  },
+  "NF": {
+    "name": "norfolk island",
+    "continent": "australia-au",
     "currency": ["aud", "a$"],
-    "provinces": { "n/a": ["kingston"] }
+    "provinces": { "n/a": ["kingston"] },
+    "timezones": ["pacific/norfolk"]
   },
-  "northern mariana islands": {
-    "code": "mp",
-    "continent": "oc",
+  "MP": {
+    "name": "northern mariana islands",
+    "continent": "australia-au",
     "currency": ["usd", "$"],
-    "provinces": { "saipan": ["saipan"] }
+    "provinces": { "saipan": ["saipan"] },
+    "timezones": ["pacific/guam", "pacific/saipan"]
   },
-  "norway": {
-    "code": "no",
-    "continent": "eu",
+  "NO": {
+    "name": "norway",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "sør-trøndelag": ["trondheim"],
@@ -14016,11 +14337,12 @@
       "hedmark": ["hamar"],
       "hordaland": ["bergen", "askøy", "ytrebygda"],
       "aust-agder": ["arendal"]
-    }
+    },
+    "timezones": ["europe/berlin most of germany", "europe/oslo"]
   },
-  "oman": {
-    "code": "om",
-    "continent": "as",
+  "OM": {
+    "name": "oman",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "ash sharqiyah south governorate": ["sur"],
@@ -14033,11 +14355,12 @@
       "ash sharqiyah north governorate": ["ibra'", "badiyah"],
       "al batinah south governorate": ["barka'", "rustaq"],
       "al buraimi": ["al buraymi"]
-    }
+    },
+    "timezones": ["asia/dubai crozet, scattered is", "asia/muscat"]
   },
-  "pakistan": {
-    "code": "pk",
-    "continent": "as",
+  "PK": {
+    "name": "pakistan",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "sindh": [
@@ -14354,17 +14677,19 @@
         "malakwal city"
       ],
       "islamabad": ["islamabad"]
-    }
+    },
+    "timezones": ["asia/karachi"]
   },
-  "palau": {
-    "code": "pw",
-    "continent": "oc",
+  "PW": {
+    "name": "palau",
+    "continent": "australia-au",
     "currency": ["usd", "$"],
-    "provinces": { "melekeok": ["melekeok"] }
+    "provinces": { "melekeok": ["melekeok"] },
+    "timezones": ["pacific/palau"]
   },
-  "palestinian": {
-    "code": "ps",
-    "continent": "as",
+  "PS": {
+    "name": "palestine",
+    "continent": "asia-as",
     "currency": ["ils", "₪"],
     "provinces": {
       "gaza strip": [
@@ -14410,11 +14735,12 @@
         "old city",
         "east jerusalem"
       ]
-    }
+    },
+    "timezones": ["asia/gaza gaza strip", "asia/hebron west bank"]
   },
-  "panama": {
-    "code": "pa",
-    "continent": "na",
+  "PA": {
+    "name": "panama",
+    "continent": "north america-na",
     "currency": ["", ""],
     "provinces": {
       "panama": [
@@ -14439,11 +14765,16 @@
       "herrera": ["chitre"],
       "bocas del toro": ["changuinola"],
       "cocle": ["aguadulce"]
-    }
+    },
+    "timezones": [
+      "america/panama est - on (atikokan), nu (coral h)",
+      "america/atikokan",
+      "america/coral_harbour"
+    ]
   },
-  "papua new guinea": {
-    "code": "pg",
-    "continent": "oc",
+  "PG": {
+    "name": "papua new guinea",
+    "continent": "australia-au",
     "currency": ["", ""],
     "provinces": {
       "east sepik": ["wewak"],
@@ -14458,11 +14789,12 @@
       "eastern highlands": ["goroka"],
       "western province": ["daru"],
       "bougainville": ["arawa"]
-    }
+    },
+    "timezones": ["pacific/port_moresby papua new guinea (most areas), chuuk, yap, dumont d'urville"]
   },
-  "paraguay": {
-    "code": "py",
-    "continent": "sa",
+  "PY": {
+    "name": "paraguay",
+    "continent": "south america-sa",
     "currency": ["", ""],
     "provinces": {
       "guaira": ["villarrica"],
@@ -14490,11 +14822,12 @@
       "caazapa": ["caazapa"],
       "cordillera": ["caacupe"],
       "asuncion": ["asuncion"]
-    }
+    },
+    "timezones": ["america/asuncion"]
   },
-  "peru": {
-    "code": "pe",
-    "continent": "sa",
+  "PE": {
+    "name": "peru",
+    "continent": "south america-sa",
     "currency": ["", ""],
     "provinces": {
       "loreto": ["yurimaguas", "iquitos"],
@@ -14573,11 +14906,12 @@
       "pasco": ["chaupimarca", "cerro de pasco"],
       "callao": ["callao"],
       "apurimac": ["andahuaylas", "abancay"]
-    }
+    },
+    "timezones": ["america/lima"]
   },
-  "philippines": {
-    "code": "ph",
-    "continent": "as",
+  "PH": {
+    "name": "philippines",
+    "continent": "asia-as",
     "currency": ["php", "₱"],
     "provinces": {
       "zamboanga peninsula": [
@@ -15042,17 +15376,19 @@
         "mamburao",
         "calapan"
       ]
-    }
+    },
+    "timezones": ["asia/manila"]
   },
-  "pitcairn islands": {
-    "code": "pn",
-    "continent": "oc",
+  "PN": {
+    "name": "pitcairn islands",
+    "continent": "australia-au",
     "currency": ["", ""],
-    "provinces": { "n/a": ["adamstown"] }
+    "provinces": { "n/a": ["adamstown"] },
+    "timezones": ["pacific/pitcairn"]
   },
-  "poland": {
-    "code": "pl",
-    "continent": "eu",
+  "PL": {
+    "name": "poland",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "masovian voivodeship": [
@@ -15414,11 +15750,12 @@
         "głuchołazy",
         "brzeg"
       ]
-    }
+    },
+    "timezones": ["europe/warsaw"]
   },
-  "portugal": {
-    "code": "pt",
-    "continent": "eu",
+  "PT": {
+    "name": "portugal",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "lisbon": [
@@ -15511,11 +15848,16 @@
       "coimbra": ["coimbra"],
       "braganca": ["braganca"],
       "azores": ["ponta delgada"]
-    }
+    },
+    "timezones": [
+      "europe/lisbon portugal (mainland)",
+      "atlantic/madeira madeira islands",
+      "atlantic/azores azores"
+    ]
   },
-  "puerto rico": {
-    "code": "pr",
-    "continent": "na",
+  "PR": {
+    "name": "puerto rico",
+    "continent": "north america-na",
     "currency": ["usd", "$"],
     "provinces": {
       "aguadilla": ["aguadilla"],
@@ -15538,11 +15880,12 @@
       "trujillo alto": ["trujillo alto"],
       "vega baja": ["vega baja"],
       "yauco": ["yauco"]
-    }
+    },
+    "timezones": ["america/puerto_rico ast", "america/blanc-sablon"]
   },
-  "qatar": {
-    "code": "qa",
-    "continent": "as",
+  "QA": {
+    "name": "qatar",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "baladiyat umm salal": ["umm salal muhammad"],
@@ -15550,11 +15893,12 @@
       "al wakrah": ["al wakrah"],
       "al khawr": ["al khawr"],
       "baladiyat ad dawhah": ["doha"]
-    }
+    },
+    "timezones": ["asia/qatar"]
   },
-  "reunion": {
-    "code": "re",
-    "continent": "af",
+  "RE": {
+    "name": "reunion",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "reunion": [
@@ -15573,11 +15917,12 @@
         "la possession"
       ],
       "n/a": ["piton saint-leu"]
-    }
+    },
+    "timezones": ["asia/dubai crozet, scattered is", "indian/reunion"]
   },
-  "romania": {
-    "code": "ro",
-    "continent": "eu",
+  "RO": {
+    "name": "romania",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "teleorman": ["zimnicea", "turnu măgurele", "roșiorii de vede", "alexandria"],
@@ -15629,11 +15974,12 @@
       "brăila": ["brăila"],
       "bistrita-năsăud": ["bistrita"],
       "arad": ["arad"]
-    }
+    },
+    "timezones": ["europe/bucharest"]
   },
-  "russia": {
-    "code": "ru",
-    "continent": "as",
+  "RU": {
+    "name": "russia",
+    "continent": "asia-as",
     "currency": ["rub", "₽"],
     "provinces": {
       "tverskaya": [
@@ -16678,11 +17024,40 @@
       "kamtsjatka": ["vilyuchinsk", "yelizovo", "petropavlovsk-kamchatsky"],
       "sakhalin": ["yuzhno-sakhalinsk", "poronaysk", "okha", "nevel'sk", "korsakov", "kholmsk"],
       "magadan": ["magadan"]
-    }
+    },
+    "timezones": [
+      "europe/kaliningrad msk-01 - kaliningrad",
+      "europe/moscow msk+00 - moscow area",
+      "europe/kirov msk+00 - kirov",
+      "europe/volgograd msk+00 - volgograd",
+      "europe/astrakhan msk+01 - astrakhan",
+      "europe/saratov msk+01 - saratov",
+      "europe/ulyanovsk msk+01 - ulyanovsk",
+      "europe/samara msk+01 - samara, udmurtia",
+      "asia/yekaterinburg msk+02 - urals",
+      "asia/omsk msk+03 - omsk",
+      "asia/novosibirsk msk+04 - novosibirsk",
+      "asia/barnaul msk+04 - altai",
+      "asia/tomsk msk+04 - tomsk",
+      "asia/novokuznetsk msk+04 - kemerovo",
+      "asia/krasnoyarsk msk+04 - krasnoyarsk area",
+      "asia/irkutsk msk+05 - irkutsk, buryatia",
+      "asia/chita msk+06 - zabaykalsky",
+      "asia/yakutsk msk+06 - lena river",
+      "asia/khandyga msk+06 - tomponsky, ust-maysky",
+      "asia/vladivostok msk+07 - amur river",
+      "asia/ust-nera msk+07 - oymyakonsky",
+      "asia/magadan msk+08 - magadan",
+      "asia/sakhalin msk+08 - sakhalin island",
+      "asia/srednekolymsk msk+08 - sakha (e); n kuril is",
+      "asia/kamchatka msk+09 - kamchatka",
+      "asia/anadyr msk+09 - bering sea",
+      "europe/simferopol crimea"
+    ]
   },
-  "rwanda": {
-    "code": "rw",
-    "continent": "af",
+  "RW": {
+    "name": "rwanda",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "eastern province": ["rwamagana", "kibungo"],
@@ -16690,66 +17065,109 @@
       "southern province": ["nzega", "gitarama", "butare"],
       "kigali": ["kigali"],
       "western province": ["kibuye", "cyangugu", "gisenyi"]
-    }
+    },
+    "timezones": ["africa/maputo central africa time", "africa/kigali"]
   },
-  "saint barthelemy": {
-    "code": "bl",
-    "continent": "na",
+  "BL": {
+    "name": "saint barthelemy",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "n/a": ["gustavia"] }
+    "provinces": { "n/a": ["gustavia"] },
+    "timezones": ["america/puerto_rico ast", "america/st_barthelemy"]
   },
-  "saint helena": {
-    "code": "sh",
-    "continent": "af",
+  "SH": {
+    "name": "saint helena",
+    "continent": "africa-af",
     "currency": ["", ""],
-    "provinces": { "saint helena": ["jamestown"] }
+    "provinces": { "saint helena": ["jamestown"], "ascension": [], "tristan da cunha": [] },
+    "timezones": ["africa/abidjan", "atlantic/st_helena"]
   },
-  "saint kitts and nevis": {
-    "code": "kn",
-    "continent": "na",
+  "KN": {
+    "name": "saint kitts and nevis",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "saint george basseterre": ["basseterre"] }
+    "provinces": {
+      "saint george basseterre parish": ["basseterre"],
+      "christ church nichola town parish": [],
+      "saint anne sandy point parish": [],
+      "saint george gingerland parish": [],
+      "saint james windward parish": [],
+      "saint john capisterre": [],
+      "saint john figtree parish": [],
+      "saint mary cayon parish": [],
+      "saint paul capisterre parish": [],
+      "saint paul charlestown parish": [],
+      "saint peter basseterre parish": [],
+      "saint thomas lowland parish": [],
+      "saint thomas middle island parish": [],
+      "trinity palmetto point parish": []
+    },
+    "timezones": ["america/puerto_rico ast", "america/st_kitts"]
   },
-  "saint lucia": {
-    "code": "lc",
-    "continent": "na",
+  "LC": {
+    "name": "saint lucia",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "castries quarter": ["castries"] }
+    "provinces": {
+      "castries": [],
+      "anse la raye": [],
+      "choiseul": [],
+      "dauphin": [],
+      "dennery": [],
+      "gros islet": [],
+      "laborie": [],
+      "micoud": [],
+      "praslin": [],
+      "soufriere": [],
+      "vieux fort": []
+    },
+    "timezones": ["america/puerto_rico ast", "america/st_lucia"]
   },
-  "saint martin": {
-    "code": "mf",
-    "continent": "na",
+  "MF": {
+    "name": "saint martin",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "n/a": ["marigot"] }
+    "provinces": { "n a": ["marigot"] },
+    "timezones": ["america/puerto_rico ast", "america/marigot"]
   },
-  "saint pierre and miquelon": {
-    "code": "pm",
-    "continent": "na",
+  "PM": {
+    "name": "saint pierre and miquelon",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "saint-pierre": ["saint-pierre"] }
+    "provinces": { "saint-pierre": [] },
+    "timezones": ["america/miquelon"]
   },
-  "saint vincent and the grenadines": {
-    "code": "vc",
-    "continent": "na",
+  "VC": {
+    "name": "saint vincent and grenadines",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "saint george": ["kingstown", "kingstown park"] }
+    "provinces": { "saint george": ["kingstown", "kingstown park"] },
+    "timezones": ["america/puerto_rico ast", "america/st_vincent"]
   },
-  "samoa": { "code": "ws", "continent": "oc", "currency": ["", ""], "provinces": { "tuamasaga": ["apia"] } },
-  "san marino": {
-    "code": "sm",
-    "continent": "eu",
+  "WS": {
+    "name": "samoa",
+    "continent": "australia-au",
     "currency": ["", ""],
-    "provinces": { "san marino": ["san marino"] }
+    "provinces": { "tuamasaga": ["apia"] },
+    "timezones": ["pacific/apia", "us/samoa", "pacific/pago_pago", "pacific/samoa"]
   },
-  "sao tome and principe": {
-    "code": "st",
-    "continent": "af",
+  "SM": {
+    "name": "san marino",
+    "continent": "europe-eu",
     "currency": ["", ""],
-    "provinces": { "são tome island": ["são tome"] }
+    "provinces": { "san marino": ["san marino"] },
+    "timezones": ["europe/rome", "europe/san_marino"]
   },
-  "saudi arabia": {
-    "code": "sa",
-    "continent": "as",
+  "ST": {
+    "name": "sao tome and principe",
+    "continent": "africa-af",
+    "currency": ["", ""],
+    "provinces": { "são tome": [], "sao tome": [] },
+    "timezones": ["africa/sao_tome"]
+  },
+  "SA": {
+    "name": "saudi arabia",
+    "continent": "asia-as",
     "currency": ["sr", "sr"],
     "provinces": {
       "al madinah al munawwarah": ["yanbu", "sultanah", "badr hunayn", "al ula", "medina"],
@@ -16783,11 +17201,12 @@
       "al-qassim": ["buraydah", "ar rass", "al mithnab", "al bukayriyah", "unaizah"],
       "ar riyad": ["az zulfi", "as sulayyil", "riyadh", "afif", "ad dilam", "ad dawadimi"],
       "mintaqat al bahah": ["al bahah"]
-    }
+    },
+    "timezones": ["asia/riyadh syowa"]
   },
-  "senegal": {
-    "code": "sn",
-    "continent": "af",
+  "SN": {
+    "name": "senegal",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "ziguinchor": ["ziguinchor", "bignona"],
@@ -16804,11 +17223,12 @@
       "matam": ["matam"],
       "kedougou": ["kedougou"],
       "kaffrine": ["kaffrine"]
-    }
+    },
+    "timezones": ["africa/abidjan", "africa/dakar"]
   },
-  "serbia": {
-    "code": "rs",
-    "continent": "eu",
+  "RS": {
+    "name": "serbia",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "vojvodina": [
@@ -16863,40 +17283,45 @@
         "sabac",
         "knjazevac"
       ]
-    }
+    },
+    "timezones": ["europe/belgrade"]
   },
-  "seychelles": {
-    "code": "sc",
-    "continent": "af",
+  "SC": {
+    "name": "seychelles",
+    "continent": "africa-af",
     "currency": ["", ""],
-    "provinces": { "english river": ["victoria"] }
+    "provinces": { "english river": ["victoria"] },
+    "timezones": ["asia/dubai crozet, scattered is", "indian/mahe"]
   },
-  "sierra leone": {
-    "code": "sl",
-    "continent": "af",
+  "SL": {
+    "name": "sierra leone",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "western area": ["waterloo", "freetown"],
       "eastern province": ["segbwema", "koidu", "kenema"],
       "northern province": ["port loko", "makeni", "lunsar", "kabala"],
       "southern province": ["bo"]
-    }
+    },
+    "timezones": ["africa/abidjan", "africa/freetown"]
   },
-  "singapore": {
-    "code": "sg",
-    "continent": "as",
+  "SG": {
+    "name": "singapore",
+    "continent": "asia-as",
     "currency": ["sgd", "s$"],
-    "provinces": { "central singapore": ["singapore"] }
+    "provinces": { "central singapore": ["singapore"] },
+    "timezones": ["asia/singapore peninsular malaysia"]
   },
-  "sint maarten": {
-    "code": "sx",
-    "continent": "na",
+  "SX": {
+    "name": "sint maarten",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "n/a": ["philipsburg"] }
+    "provinces": { "n/a": ["philipsburg"] },
+    "timezones": ["america/puerto_rico ast", "america/lower_princes"]
   },
-  "slovakia": {
-    "code": "sk",
-    "continent": "eu",
+  "SK": {
+    "name": "slovakia",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "presovsky": [
@@ -16944,11 +17369,12 @@
       "trnavsky": ["trnava", "skalica", "senica", "piesťany", "hlohovec", "galanta", "dunajska streda"],
       "trenciansky": ["trencin", "povazska bystrica", "nove mesto nad vahom", "banovce nad bebravou"],
       "bratislavsky": ["pezinok", "malacky", "bratislava"]
-    }
+    },
+    "timezones": ["europe/prague", "europe/bratislava"]
   },
-  "slovenia": {
-    "code": "si",
-    "continent": "eu",
+  "SI": {
+    "name": "slovenia",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "trbovlje": ["trbovlje"],
@@ -16960,17 +17386,19 @@
       "kranj": ["kranj"],
       "koper-capodistria": ["koper"],
       "celje": ["celje"]
-    }
+    },
+    "timezones": ["europe/belgrade", "europe/ljubljana"]
   },
-  "solomon islands": {
-    "code": "sb",
-    "continent": "oc",
+  "SB": {
+    "name": "solomon islands",
+    "continent": "australia-au",
     "currency": ["", ""],
-    "provinces": { "guadalcanal": ["honiara"] }
+    "provinces": { "guadalcanal": ["honiara"] },
+    "timezones": ["pacific/guadalcanal pohnpei"]
   },
-  "somalia": {
-    "code": "so",
-    "continent": "af",
+  "SO": {
+    "name": "somalia",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "lower shabeelle": ["wanlaweyn", "qoryooley", "marka", "afgooye"],
@@ -16990,11 +17418,12 @@
       "togdheer": ["burao"],
       "sool": ["laascaanood"],
       "awdal": ["baki"]
-    }
+    },
+    "timezones": ["africa/nairobi", "africa/mogadishu"]
   },
-  "south africa": {
-    "code": "za",
-    "continent": "af",
+  "ZA": {
+    "name": "south africa",
+    "continent": "africa-af",
     "currency": ["zar", "r"],
     "provinces": {
       "gauteng": [
@@ -17170,17 +17599,19 @@
         "rondebosch",
         "retreat"
       ]
-    }
+    },
+    "timezones": ["africa/johannesburg"]
   },
-  "south georgia islands": {
-    "code": "gs",
-    "continent": "sa",
+  "GS": {
+    "name": "south georgia islands",
+    "continent": "south america-sa",
     "currency": ["gbp", "£"],
-    "provinces": { "n/a": ["grytviken"] }
+    "provinces": { "n a": ["grytviken"] },
+    "timezones": ["atlantic/south_georgia"]
   },
-  "south sudan": {
-    "code": "ss",
-    "continent": "af",
+  "SS": {
+    "name": "south sudan",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "central equatoria": ["yei", "juba"],
@@ -17192,11 +17623,12 @@
       "lakes": ["rumbek"],
       "upper nile": ["malakal"],
       "jonglei": ["bor"]
-    }
+    },
+    "timezones": ["africa/juba"]
   },
-  "spain": {
-    "code": "es",
-    "continent": "eu",
+  "ES": {
+    "name": "spain",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "andalusia": [
@@ -17793,11 +18225,16 @@
       ],
       "la rioja": ["logrono", "calahorra"],
       "ceuta": ["ceuta"]
-    }
+    },
+    "timezones": [
+      "europe/madrid spain (mainland)",
+      "africa/ceuta ceuta, melilla",
+      "atlantic/canary canary islands"
+    ]
   },
-  "sri lanka": {
-    "code": "lk",
-    "continent": "as",
+  "LK": {
+    "name": "sri lanka",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "western": [
@@ -17836,11 +18273,12 @@
       "central": ["nuwara eliya", "kandy", "hatton", "gampola", "dambulla"],
       "uva": ["badulla"],
       "north central": ["anuradhapura"]
-    }
+    },
+    "timezones": ["asia/colombo"]
   },
-  "sudan": {
-    "code": "sd",
-    "continent": "af",
+  "SD": {
+    "name": "sudan",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "central darfur": ["zalingei"],
@@ -17860,35 +18298,45 @@
       "western darfur": ["geneina"],
       "northern darfur": ["el fasher"],
       "eastern darfur": ["el daein"]
-    }
+    },
+    "timezones": ["africa/khartoum"]
   },
-  "suriname": {
-    "code": "sr",
-    "continent": "sa",
+  "SR": {
+    "name": "suriname",
+    "continent": "south america-sa",
     "currency": ["", ""],
-    "provinces": { "paramaribo": ["paramaribo"], "wanica": ["lelydorp"] }
+    "provinces": { "paramaribo": ["paramaribo"], "wanica": ["lelydorp"] },
+    "timezones": ["america/paramaribo"]
   },
-  "svalbard and jan mayen": {
-    "code": "sj",
-    "continent": "eu",
+  "SJ": {
+    "name": "svalbard and jan mayen",
+    "continent": "europe-eu",
     "currency": ["", ""],
-    "provinces": { "svalbard": ["longyearbyen"] }
+    "provinces": { "svalbard": ["longyearbyen"] },
+    "timezones": ["europe/berlin most of germany", "atlantic/jan_mayen", "arctic/longyearbyen", "europe/oslo"]
   },
-  "swaziland-eswatini": {
-    "code": "sz",
-    "continent": "af",
+  "SZ": {
+    "name": "eswatini",
+    "continent": "africa-af",
     "currency": ["", ""],
-    "provinces": { "hhohho": ["mbabane", "lobamba"], "manzini": ["manzini"] }
+    "provinces": {
+      "hhohho": ["mbabane", "lobamba"],
+      "manzini": ["manzini"],
+      "lubombo": [],
+      "shiselweni": []
+    },
+    "timezones": ["africa/johannesburg", "africa/mbabane"]
   },
-  "sint eustatius": {
-    "code": "bq",
-    "continent": "na",
+  "BQ": {
+    "name": "caribbean netherlands",
+    "continent": "north america-na",
     "currency": ["", ""],
-    "provinces": { "bonaire": ["kralendijk", "kralendijk"] }
+    "provinces": { "bonaire": ["kralendijk", "kralendijk"], "saba": [], "sint eustatius": [] },
+    "timezones": ["america/puerto_rico ast", "america/kralendijk"]
   },
-  "sweden": {
-    "code": "se",
-    "continent": "eu",
+  "SE": {
+    "name": "sweden",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "västerbotten": ["umeå", "skellefteå"],
@@ -17963,11 +18411,12 @@
       "värmland": ["kristinehamn", "karlstad"],
       "blekinge": ["karlskrona", "karlshamn"],
       "dalarna": ["falun", "borlänge"]
-    }
+    },
+    "timezones": ["europe/berlin most of germany", "europe/stockholm"]
   },
-  "switzerland": {
-    "code": "ch",
-    "continent": "eu",
+  "CH": {
+    "name": "switzerland",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "zurich": [
@@ -18030,11 +18479,12 @@
       "fribourg": ["fribourg"],
       "grisons": ["chur"],
       "basel-city": ["basel", "riehen"]
-    }
+    },
+    "timezones": ["europe/zurich büsingen"]
   },
-  "syria": {
-    "code": "sy",
-    "continent": "as",
+  "SY": {
+    "name": "syria",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "rif-dimashq": [
@@ -18098,11 +18548,12 @@
       "ar-raqqah": ["ath thawrah", "ar raqqah"],
       "as-suwayda": ["as suwayda'"],
       "quneitra": ["al qunaytirah"]
-    }
+    },
+    "timezones": ["asia/damascus"]
   },
-  "taiwan": {
-    "code": "tw",
-    "continent": "as",
+  "TW": {
+    "name": "taiwan",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "taiwan": [
@@ -18127,11 +18578,12 @@
       "taipei": ["taipei", "banqiao"],
       "kaohsiung": ["kaohsiung"],
       "fukien": ["jincheng"]
-    }
+    },
+    "timezones": ["asia/taipei"]
   },
-  "tajikistan": {
-    "code": "tj",
-    "continent": "as",
+  "TJ": {
+    "name": "tajikistan",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "khatlon": [
@@ -18151,11 +18603,12 @@
       "republican subordination": ["tursunzoda", "vahdat", "hisor"],
       "gorno-badakhshan": ["khorugh", "ishqoshim"],
       "dushanbe": ["dushanbe", "boshkengash"]
-    }
+    },
+    "timezones": ["asia/dushanbe"]
   },
-  "tanzania": {
-    "code": "tz",
-    "continent": "af",
+  "TZ": {
+    "name": "tanzania",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "zanzibar urban/west": ["zanzibar"],
@@ -18269,11 +18722,12 @@
         "luchingu",
         "kitama"
       ]
-    }
+    },
+    "timezones": ["africa/nairobi", "africa/dar_es_salaam"]
   },
-  "thailand": {
-    "code": "th",
-    "continent": "as",
+  "TH": {
+    "name": "thailand",
+    "continent": "asia-as",
     "currency": ["thb", "฿"],
     "provinces": {
       "phuket": ["ban talat yai", "ban talat nua", "phuket", "kathu", "wichit", "ban chalong", "ban ratsada"],
@@ -18394,11 +18848,12 @@
       "khon kaen": ["khon kaen", "chum phae", "ban phai"],
       "chai nat": ["chai nat"],
       "amnat charoen": ["amnat charoen"]
-    }
+    },
+    "timezones": ["asia/bangkok north vietnam"]
   },
-  "timor-leste": {
-    "code": "tl",
-    "continent": "as",
+  "TL": {
+    "name": "timor-leste",
+    "continent": "asia-as",
     "currency": ["usd", "$"],
     "provinces": {
       "cova lima": ["suai"],
@@ -18409,11 +18864,12 @@
       "aileu": ["aileu"],
       "manufahi": ["same"],
       "lautem": ["lospalos"]
-    }
+    },
+    "timezones": ["asia/dili"]
   },
-  "togo": {
-    "code": "tg",
-    "continent": "af",
+  "TG": {
+    "name": "togo",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "maritime": ["vogan", "tsevie", "lome", "aneho"],
@@ -18421,34 +18877,41 @@
       "plateaux": ["notse", "kpalime", "badou", "atakpame"],
       "kara": ["niamtougou", "kara", "bassar", "bafilo"],
       "savanes": ["sansanne-mango", "dapaong"]
-    }
+    },
+    "timezones": ["africa/abidjan", "africa/lome"]
   },
-  "tonga": {
-    "code": "to",
-    "continent": "oc",
+  "TO": {
+    "name": "tonga",
+    "continent": "australia-au",
     "currency": ["", ""],
-    "provinces": { "tongatapu": ["nuku'alofa"] }
+    "provinces": { "tongatapu": ["nuku'alofa"] },
+    "timezones": ["pacific/tongatapu"]
   },
-  "trinidad and tobago": {
-    "code": "tt",
-    "continent": "na",
+  "TT": {
+    "name": "trinidad and tobago",
+    "continent": "north america-na",
     "currency": ["", ""],
     "provinces": {
-      "tunapuna/piarco": ["tunapuna", "paradise"],
+      "tunapuna-piarco": ["tunapuna", "paradise"],
       "tobago": ["scarborough"],
       "sangre grande": ["sangre grande"],
-      "city of san fernando": ["san fernando", "mon repos", "marabella"],
-      "mayaro": ["rio claro"],
-      "city of port of spain": ["port of spain"],
+      "san fernando": ["san fernando", "mon repos", "marabella"],
+      "rio claro-mayaro": ["rio claro"],
+      "port of spain": [],
       "point fortin": ["point fortin"],
-      "san juan/laventille": ["laventille"],
+      "san juan-laventille": ["laventille"],
       "chaguanas": ["chaguanas"],
-      "borough of arima": ["arima"]
-    }
+      "couva-tabaquite-talparo": [],
+      "diego martin": [],
+      "penal-debe": [],
+      "princes town": [],
+      "siparia": []
+    },
+    "timezones": ["america/puerto_rico ast", "america/port_of_spain"]
   },
-  "tunisia": {
-    "code": "tn",
-    "continent": "af",
+  "TN": {
+    "name": "tunisia",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "zaghwan": ["zaghouan", "el fahs"],
@@ -18503,11 +18966,12 @@
       "jundubah": ["jendouba"],
       "bin arus": ["ben arous"],
       "al qayrawan": ["kairouan"]
-    }
+    },
+    "timezones": ["africa/tunis"]
   },
-  "turkey": {
-    "code": "tr",
-    "continent": "as",
+  "TR": {
+    "name": "turkiye",
+    "continent": "asia-as",
     "currency": ["try", "₺"],
     "provinces": {
       "hakkâri": ["yüksekova", "semdinli", "hakkari"],
@@ -18729,19 +19193,20 @@
       "karabük": ["safranbolu", "karabük"],
       "rize": ["rize", "cayeli", "ardesen"],
       "kırklareli": ["lüleburgaz", "kırklareli", "babaeski"],
-      "gümüshane": ["kelkit", "gumushkhane"],
+      "gümüşhane": ["kelkit", "gumushkhane"],
       "artvin": ["hopa", "artvin", "arhavi"],
       "bolu": ["gerede", "bolu"],
       "düzce": ["düzce", "akcakoca"],
-      "cankırı": ["cerkes", "khanjarah"],
+      "çankırı": ["cerkes", "khanjarah"],
       "bayburt": ["bayburt"],
       "bartın": ["bartın"],
       "ardahan": ["ardahan"]
-    }
+    },
+    "timezones": ["europe/istanbul", "asia/istanbul"]
   },
-  "turkmenistan": {
-    "code": "tm",
-    "continent": "as",
+  "TM": {
+    "name": "turkmenistan",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "balkan": ["balkanabat", "gumdag", "gazanjyk", "türkmenbasy"],
@@ -18749,23 +19214,26 @@
       "dasoguz": ["yylanly", "tagta", "köneürgench", "boldumsaz", "dasoguz"],
       "mary": ["yolöten", "seydi", "mary", "bayramaly"],
       "lebap": ["sayat", "atamyrat", "gowurdak", "türkmenabat", "gazojak"]
-    }
+    },
+    "timezones": ["asia/ashgabat"]
   },
-  "turks and caicos islands": {
-    "code": "tc",
-    "continent": "na",
+  "TC": {
+    "name": "turks and caicos islands",
+    "continent": "north america-na",
     "currency": ["usd", "$"],
-    "provinces": { "n/a": ["cockburn town"] }
+    "provinces": { "n a": ["cockburn town"] },
+    "timezones": ["america/grand_turk"]
   },
-  "tuvalu": {
-    "code": "tv",
-    "continent": "oc",
+  "TV": {
+    "name": "tuvalu",
+    "continent": "australia-au",
     "currency": ["", ""],
-    "provinces": { "funafuti": ["funafuti"] }
+    "provinces": { "funafuti": ["funafuti"] },
+    "timezones": ["pacific/tarawa gilberts, marshalls, wake", "pacific/funafuti"]
   },
-  "uganda": {
-    "code": "ug",
-    "continent": "af",
+  "UG": {
+    "name": "uganda",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "northern region": [
@@ -18822,11 +19290,12 @@
         "bwizibwera",
         "bundibugyo"
       ]
-    }
+    },
+    "timezones": ["africa/nairobi", "africa/kampala"]
   },
-  "ukraine": {
-    "code": "ua",
-    "continent": "eu",
+  "UA": {
+    "name": "ukraine",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "sumy": [
@@ -19089,11 +19558,18 @@
       "ivano-frankivsk": ["nadvirna", "kolomyya", "kalush", "ivano-frankivs'k", "dolyna"],
       "kyiv city": ["kiev"],
       "chernivtsi": ["chernivtsi"]
-    }
+    },
+    "timezones": [
+      "europe/kyiv most of ukraine",
+      "europe/simferopol crimea",
+      "europe/kiev",
+      "europe/zaporozhye",
+      "europe/uzhgorod"
+    ]
   },
-  "united arab emirates": {
-    "code": "ae",
-    "continent": "as",
+  "AE": {
+    "name": "united arab emirates",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "umm al qaywayn": ["umm al qaywayn"],
@@ -19103,11 +19579,12 @@
       "al fujayrah": ["dibba al-fujairah", "dibba al-hisn", "al fujayrah"],
       "abu dhabi": ["ar ruways", "al ain", "abu dhabi"],
       "ajman": ["ajman"]
-    }
+    },
+    "timezones": ["asia/dubai crozet, scattered is"]
   },
-  "united kingdom": {
-    "code": "gb",
-    "continent": "eu",
+  "GB": {
+    "name": "united kingdom",
+    "continent": "europe-eu",
     "currency": ["gbp", "£"],
     "provinces": {
       "england": [
@@ -19631,11 +20108,12 @@
         "antrim",
         "craigavon"
       ]
-    }
+    },
+    "timezones": ["europe/london", "europe/belfast"]
   },
-  "united states": {
-    "code": "us",
-    "continent": "na",
+  "US": {
+    "name": "united states",
+    "continent": "north america-na",
     "currency": ["usd", "$"],
     "provinces": {
       "virginia": ["fort hunt", "oak hill"],
@@ -22398,11 +22876,60 @@
         "makakilo",
         "schofield barracks"
       ]
-    }
+    },
+    "timezones": [
+      "america/new_york eastern (most areas)",
+      "us/eastern",
+      "america/detroit eastern - mi (most areas)",
+      "us/michigan",
+      "america/kentucky/louisville eastern - ky (louisville area)",
+      "america/louisville",
+      "america/kentucky/monticello eastern - ky (wayne)",
+      "america/indiana/indianapolis eastern - in (most areas)",
+      "us/east-indiana",
+      "america/fort_wayne",
+      "america/indiana/vincennes eastern - in (da, du, k, mn)",
+      "america/indiana/winamac eastern - in (pulaski)",
+      "america/indiana/marengo eastern - in (crawford)",
+      "america/indiana/petersburg eastern - in (pike)",
+      "america/indiana/vevay eastern - in (switzerland)",
+      "america/chicago central (most areas)",
+      "us/central",
+      "america/indiana/tell_city central - in (perry)",
+      "america/indiana/knox central - in (starke)",
+      "us/indiana-starke",
+      "america/knox_in",
+      "america/menominee central - mi (wisconsin border)",
+      "america/north_dakota/center central - nd (oliver)",
+      "america/north_dakota/new_salem central - nd (morton rural)",
+      "america/north_dakota/beulah central - nd (mercer)",
+      "america/denver mountain (most areas)",
+      "us/mountain",
+      "america/shiprock",
+      "america/boise mountain - id (south); or (east)",
+      "america/los_angeles pacific",
+      "us/pacific",
+      "america/anchorage alaska (most areas)",
+      "us/alaska",
+      "america/juneau alaska - juneau area",
+      "america/sitka alaska - sitka area",
+      "america/metlakatla alaska - annette island",
+      "america/yakutat alaska - yakutat",
+      "america/nome alaska (west)",
+      "america/adak alaska - western aleutians",
+      "america/atka",
+      "us/aleutian",
+      "pacific/honolulu hawaii",
+      "us/hawaii",
+      "pacific/johnston",
+      "america/phoenix mst - az (most areas), creston bc",
+      "us/arizona",
+      "america/indianapolis"
+    ]
   },
-  "uruguay": {
-    "code": "uy",
-    "continent": "sa",
+  "UY": {
+    "name": "uruguay",
+    "continent": "south america-sa",
     "currency": ["", ""],
     "provinces": {
       "rio negro": ["young", "fray bentos"],
@@ -22432,11 +22959,12 @@
       "durazno": ["durazno"],
       "colonia": ["colonia del sacramento", "carmelo"],
       "artigas": ["artigas"]
-    }
+    },
+    "timezones": ["america/montevideo"]
   },
-  "uzbekistan": {
-    "code": "uz",
-    "continent": "as",
+  "UZ": {
+    "name": "uzbekistan",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "karakalpakstan": ["nukus", "khŭjayli", "oltinko'l", "novyy turtkul'", "manghit", "beruniy"],
@@ -22503,17 +23031,19 @@
       "xorazm": ["urganch", "showot", "qŭshkŭpir", "khiwa", "hazorasp", "gurlan"],
       "toshkent shahri": ["tashkent", "bektemir"],
       "andijon": ["asaka", "qŭrghontepa", "khŭjaobod", "andijon"]
-    }
+    },
+    "timezones": ["asia/samarkand uzbekistan (west)", "asia/tashkent uzbekistan (east)"]
   },
-  "vanuatu": {
-    "code": "vu",
-    "continent": "oc",
+  "VU": {
+    "name": "vanuatu",
+    "continent": "australia-au",
     "currency": ["", ""],
-    "provinces": { "shefa": ["port-vila"] }
+    "provinces": { "shefa": ["port-vila"] },
+    "timezones": ["pacific/efate"]
   },
-  "venezuela": {
-    "code": "ve",
-    "continent": "sa",
+  "VE": {
+    "name": "venezuela",
+    "continent": "south america-sa",
     "currency": ["", ""],
     "provinces": {
       "nueva esparta": ["la asuncion", "porlamar", "juan griego"],
@@ -22599,11 +23129,12 @@
       "capital": ["caracas"],
       "monagas": ["maturin"],
       "apure": ["guasdualito", "san fernando de apure"]
-    }
+    },
+    "timezones": ["america/caracas"]
   },
-  "vietnam": {
-    "code": "vn",
-    "continent": "as",
+  "VN": {
+    "name": "vietnam",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "nghệ an": ["yên vinh", "vinh"],
@@ -22667,35 +23198,47 @@
       "bạc liêu": ["thành phố bạc liêu"],
       "bắc giang": ["bắc giang"],
       "bắc kạn": ["bắc kạn"]
-    }
+    },
+    "timezones": ["asia/bangkok north vietnam", "asia/ho_chi_minh"]
   },
-  "british virgin islands": {
-    "code": "vg",
-    "continent": "na",
+  "VG": {
+    "name": "british virgin islands",
+    "continent": "north america-na",
     "currency": ["usd", "$"],
-    "provinces": { "n/a": ["road town", "tortola"] }
+    "provinces": { "n/a": ["road town", "tortola"] },
+    "timezones": ["america/puerto_rico ast", "america/tortola"]
   },
-  "u.s. virgin islands": {
-    "code": "vi",
-    "continent": "na",
+  "VI": {
+    "name": "u.s. virgin islands",
+    "continent": "north america-na",
     "currency": ["usd", "$"],
-    "provinces": { "saint thomas island": ["charlotte amalie"], "saint croix island": ["saint croix"] }
+    "provinces": { "saint thomas island": ["charlotte amalie"], "saint croix island": ["saint croix"] },
+    "timezones": ["america/puerto_rico ast", "america/st_thomas", "america/virgin"]
   },
-  "wallis and futuna": {
-    "code": "wf",
-    "continent": "oc",
+  "UM": {
+    "name": "u.s. outlying islands",
+    "continent": "north america-na",
+    "currency": ["usd", "$"],
+    "provinces": {},
+    "timezones": ["pacific/pago_pago midway", "pacific/wake", "pacific/midway"]
+  },
+  "WF": {
+    "name": "wallis and futuna",
+    "continent": "australia-au",
     "currency": ["", ""],
-    "provinces": { "circonscription d'uvea": ["mata-utu"] }
+    "provinces": { "alo": [], "circonscription d'uvea": ["mata-utu"] },
+    "timezones": ["pacific/tarawa gilberts, marshalls, wake", "pacific/wallis"]
   },
-  "western sahara": {
-    "code": "eh",
-    "continent": "af",
+  "EH": {
+    "name": "western sahara",
+    "continent": "africa-af",
     "currency": ["", ""],
-    "provinces": { "oued ed-dahab-lagouira": ["smara", "laâyoune / el aaiun", "dakhla"] }
+    "provinces": { "oued ed-dahab-lagouira": ["smara", "laâyoune / el aaiun", "dakhla"] },
+    "timezones": ["africa/el_aaiun"]
   },
-  "kosovo": {
-    "code": "xk",
-    "continent": "eu",
+  "XK": {
+    "name": "kosovo",
+    "continent": "europe-eu",
     "currency": ["", ""],
     "provinces": {
       "mitrovica": ["zvecan", "vushtrri", "leposaviq", "mitrovice"],
@@ -22705,11 +23248,12 @@
       "pristina": ["pristina", "podujeva", "kosovo polje", "glogovac"],
       "pec": ["peje", "istok"],
       "gjakova": ["orahovac", "decan", "gjakove"]
-    }
+    },
+    "timezones": ["europe/belgrade"]
   },
-  "yemen": {
-    "code": "ye",
-    "continent": "as",
+  "YE": {
+    "name": "yemen",
+    "continent": "asia-as",
     "currency": ["", ""],
     "provinces": {
       "abyan": ["zinjibar"],
@@ -22728,11 +23272,12 @@
       "al jawf": ["al hazm"],
       "al bayda'": ["al bayda'"],
       "aden": ["aden"]
-    }
+    },
+    "timezones": ["asia/riyadh syowa", "asia/aden"]
   },
-  "zambia": {
-    "code": "zm",
-    "continent": "af",
+  "ZM": {
+    "name": "zambia",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "luapula": ["nchelenge", "kawambwa", "samfya", "mansa"],
@@ -22744,11 +23289,12 @@
       "central": ["mumbwa", "kapiri mposhi", "kabwe"],
       "lusaka": ["lusaka", "kafue"],
       "north-western": ["kansanshi"]
-    }
+    },
+    "timezones": ["africa/maputo central africa time", "africa/lusaka"]
   },
-  "zimbabwe": {
-    "code": "zw",
-    "continent": "af",
+  "ZW": {
+    "name": "zimbabwe",
+    "continent": "africa-af",
     "currency": ["", ""],
     "provinces": {
       "masvingo": ["zvishavane", "masvingo", "chiredzi"],
@@ -22761,6 +23307,35 @@
       "bulawayo": ["bulawayo"],
       "mashonaland central": ["bindura"],
       "matabeleland south": ["beitbridge"]
-    }
+    },
+    "timezones": ["africa/maputo central africa time", "africa/harare"]
+  },
+  "BV": {
+    "name": "bouvet island",
+    "continent": "antarctica",
+    "currency": ["", ""],
+    "provinces": [],
+    "timezones": []
+  },
+  "IO": {
+    "name": "british indian ocean territory",
+    "continent": "antarctica",
+    "currency": ["", ""],
+    "provinces": [],
+    "timezones": ["indian/chagos"]
+  },
+  "HM": {
+    "name": "heard & mcdonald islands",
+    "continent": "antarctica",
+    "currency": ["", ""],
+    "provinces": [],
+    "timezones": ["indian/kerguelen"]
+  },
+  "TK": {
+    "name": "tokelau",
+    "continent": "antarctica",
+    "currency": ["", ""],
+    "provinces": [],
+    "timezones": ["pacific/fakaofo"]
   }
 }

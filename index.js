@@ -7,6 +7,7 @@ const Validator = require("./validator/validator");
 const Formatter = require("./formatter/formatter");
 const Distance = require("./distance/distance");
 const Logger = require("./logger/logger");
+const getCountryByTimezone = require("./geo-and-timezone/get-country-by-timezone");
 const countries = require("./data/countries.json");
 
 module.exports = {
@@ -17,5 +18,6 @@ module.exports = {
   Formatter,
   Distance,
   Logger,
+  getCountryByTimezone,
   countries,
 };
