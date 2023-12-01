@@ -3,7 +3,7 @@ const countryCodes = Object.keys(countries);
 
 module.exports = function getCountryByTimezone(timezone) {
   let countryCode = countryCodes.find((cc) => {
-    const [aContinent, aProvince, aCity] = timezone.toLowerCase().split("/");
+    const [aContinent, aProvince, aCity] = timezone.toLowerCase().replaceAll("-", " ").split("/");
     const { continent, name, provinces } = countries[cc];
     const cities = Object.keys(provinces)
       .map((p) => [p, ...provinces[p]])
