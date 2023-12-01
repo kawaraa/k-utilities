@@ -1,10 +1,10 @@
 {
   "name": "k-utilities",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "description": "Simple functions that do useful tasks",
   "main": "index.js",
   "scripts": {
-    "publish": "npm publish --access public",
+    "live": "npm publish --access public",
     "test": "echo \"no test specified\""
   },
   "repository": {
