@@ -9,6 +9,7 @@ const Distance = require("./distance/distance");
 const Logger = require("./logger/logger");
 const getCountryByTimezone = require("./geo-and-timezone/get-country-by-timezone");
 const countries = require("./data/countries.json");
+const categories = require("./data/categories.json");
 
 module.exports = {
   Crypto,
@@ -20,4 +21,5 @@ module.exports = {
   Logger,
   getCountryByTimezone,
   countries,
+  categories,
 };

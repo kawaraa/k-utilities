@@ -1,0 +1,2730 @@
+{
+  "arts & entertainment": [
+    { "name": "celebrities & entertainment news", "id": 184 },
+    {
+      "subcategories": [
+        { "name": "animated films", "id": 1104 },
+        { "name": "anime & manga", "id": 317 },
+        { "name": "cartoons", "id": 319 },
+        { "name": "comics", "id": 318 }
+      ],
+      "name": "comics & animation",
+      "id": 316
+    },
+    {
+      "subcategories": [
+        {
+          "subcategories": [
+            { "name": "film & tv awards", "id": 1108 },
+            { "name": "film & tv production", "id": 1117 }
+          ],
+          "name": "film & tv industry",
+          "id": 1116
+        },
+        {
+          "subcategories": [
+            { "name": "music awards", "id": 1113 },
+            { "name": "record labels", "id": 1114 }
+          ],
+          "name": "recording industry",
+          "id": 1115
+        }
+      ],
+      "name": "entertainment industry",
+      "id": 612
+    },
+    {
+      "subcategories": [
+        { "name": "clubs & nightlife", "id": 188 },
+        { "name": "concerts & music festivals", "id": 891 },
+        { "name": "film festivals", "id": 1086 },
+        { "name": "live sporting events", "id": 1273 },
+        { "name": "movie listings & theater showtimes", "id": 1085 },
+        { "name": "ticket sales", "id": 614 }
+      ],
+      "name": "events & listings",
+      "id": 569
+    },
+    {
+      "subcategories": [
+        { "name": "dress-up & fashion games", "id": 1173 },
+        { "name": "flash-based entertainment", "id": 447 },
+        { "name": "fun tests & silly surveys", "id": 1174 }
+      ],
+      "name": "fun & trivia",
+      "id": 539
+    },
+    {
+      "subcategories": [
+        { "name": "comedy films", "id": 1095 },
+        { "name": "live comedy", "id": 895 },
+        { "name": "political humor", "id": 1180 },
+        { "name": "spoofs & satire", "id": 1244 },
+        { "name": "tv comedies", "id": 1047 }
+      ],
+      "name": "humor",
+      "id": 182
+    },
+    {
+      "subcategories": [
+        {
+          "subcategories": [
+            { "name": "martial arts films", "id": 1101 },
+            { "name": "superhero films", "id": 1100 },
+            { "name": "western films", "id": 1099 }
+          ],
+          "name": "action & adventure films",
+          "id": 1097
+        },
+        { "name": "animated films", "id": 1104 },
+        { "name": "bollywood & south asian film", "id": 360 },
+        { "subcategories": [{ "name": "silent films", "id": 1098 }], "name": "classic films", "id": 1102 },
+        { "name": "comedy films", "id": 1095 },
+        { "name": "cult & indie films", "id": 1103 },
+        { "name": "documentary films", "id": 1072 },
+        { "name": "drama films", "id": 1094 },
+        {
+          "subcategories": [{ "name": "dvd & video rentals", "id": 1145 }],
+          "name": "dvd & video shopping",
+          "id": 210
+        },
+        { "name": "family films", "id": 1291 },
+        { "name": "film & tv awards", "id": 1108 },
+        { "name": "film festivals", "id": 1086 },
+        { "name": "horror films", "id": 615 },
+        { "name": "movie memorabilia", "id": 213 },
+        {
+          "subcategories": [{ "name": "movie reviews & previews", "id": 1107 }],
+          "name": "movie reference",
+          "id": 1106
+        },
+        { "name": "musical films", "id": 1105 },
+        { "name": "romance films", "id": 1310 },
+        { "name": "science fiction & fantasy films", "id": 616 },
+        { "name": "thriller, crime & mystery films", "id": 1096 }
+      ],
+      "name": "movies",
+      "id": 34
+    },
+    {
+      "subcategories": [
+        { "name": "cd & audio shopping", "id": 217 },
+        { "subcategories": [{ "name": "opera", "id": 1185 }], "name": "classical music", "id": 586 },
+        { "name": "country music", "id": 587 },
+        { "name": "dance & electronic music", "id": 588 },
+        { "name": "experimental & industrial music", "id": 1022 },
+        { "name": "folk & traditional music", "id": 1023 },
+        {
+          "subcategories": [
+            { "name": "blues", "id": 1040 },
+            { "name": "jazz", "id": 42 }
+          ],
+          "name": "jazz & blues",
+          "id": 589
+        },
+        { "name": "latin pop", "id": 1285 },
+        { "name": "music art & memorabilia", "id": 218 },
+        { "name": "music education & instruction", "id": 1087 },
+        {
+          "subcategories": [
+            { "name": "dj resources & equipment", "id": 1025 },
+            { "name": "music recording technology", "id": 1026 },
+            {
+              "subcategories": [
+                { "name": "drums & percussion", "id": 1327 },
+                { "name": "guitars", "id": 1325 },
+                { "name": "pianos & keyboards", "id": 1326 }
+              ],
+              "name": "musical instruments",
+              "id": 216
+            },
+            { "name": "samples & sound libraries", "id": 1091 }
+          ],
+          "name": "music equipment & technology",
+          "id": 1024
+        },
+        {
+          "subcategories": [
+            { "name": "music composition & theory", "id": 1028 },
+            { "name": "sheet music", "id": 892 },
+            { "name": "song lyrics & tabs", "id": 617 }
+          ],
+          "name": "music reference",
+          "id": 1027
+        },
+        { "name": "music streams & downloads", "id": 220 },
+        { "name": "pop music", "id": 1021 },
+        {
+          "subcategories": [
+            { "name": "podcasting", "id": 809 },
+            { "name": "talk radio", "id": 1186 }
+          ],
+          "name": "radio",
+          "id": 215
+        },
+        {
+          "subcategories": [{ "name": "christian & gospel music", "id": 585 }],
+          "name": "religious music",
+          "id": 1020
+        },
+        {
+          "subcategories": [
+            { "name": "classic rock & oldies", "id": 1037 },
+            { "name": "hard rock & progressive", "id": 1035 },
+            { "name": "indie & alternative music", "id": 1038 },
+            { "name": "metal (music)", "id": 1036 },
+            { "name": "punk (music)", "id": 1041 }
+          ],
+          "name": "rock music",
+          "id": 590
+        },
+        { "name": "soundtracks", "id": 893 },
+        {
+          "subcategories": [
+            { "name": "rap & hip-hop", "id": 1030 },
+            { "name": "reggaeton", "id": 1242 },
+            { "name": "soul & r&b", "id": 1039 }
+          ],
+          "name": "urban & hip-hop",
+          "id": 592
+        },
+        { "name": "vocals & show tunes", "id": 618 },
+        {
+          "subcategories": [
+            { "name": "african music", "id": 1208 },
+            { "name": "arab & middle eastern music", "id": 1034 },
+            { "name": "east asian music", "id": 1033 },
+            {
+              "subcategories": [
+                { "name": "brazilian music", "id": 1287 },
+                { "name": "latin pop", "id": 1285 },
+                { "name": "reggaeton", "id": 1242 },
+                { "name": "salsa & tropical music", "id": 1286 }
+              ],
+              "name": "latin american music",
+              "id": 591
+            },
+            {
+              "subcategories": [{ "name": "reggaeton", "id": 1242 }],
+              "name": "reggae & caribbean music",
+              "id": 1031
+            },
+            { "name": "south asian music", "id": 1032 }
+          ],
+          "name": "world music",
+          "id": 593
+        }
+      ],
+      "name": "music & audio",
+      "id": 35
+    },
+    {
+      "subcategories": [
+        { "name": "edgy & bizarre", "id": 538 },
+        { "name": "occult & paranormal", "id": 449 }
+      ],
+      "name": "offbeat",
+      "id": 33
+    },
+    {
+      "subcategories": [
+        { "name": "flash-based entertainment", "id": 447 },
+        { "name": "music streams & downloads", "id": 220 },
+        {
+          "subcategories": [{ "name": "massive multiplayer", "id": 935 }],
+          "name": "online games",
+          "id": 105
+        },
+        {
+          "subcategories": [
+            { "name": "photo & image sharing", "id": 978 },
+            { "name": "photo rating sites", "id": 320 },
+            { "name": "stock photography", "id": 574 }
+          ],
+          "name": "online image galleries",
+          "id": 1222
+        },
+        { "subcategories": [{ "name": "video sharing", "id": 979 }], "name": "online video", "id": 211 },
+        { "name": "web portals", "id": 301 },
+        { "name": "webcams & virtual tours", "id": 575 }
+      ],
+      "name": "online media",
+      "id": 613
+    },
+    {
+      "subcategories": [
+        { "name": "acting & theater", "id": 894 },
+        { "name": "broadway & musical theater", "id": 1243 },
+        { "name": "dance", "id": 581 },
+        { "name": "opera", "id": 1185 }
+      ],
+      "name": "performing arts",
+      "id": 23
+    },
+    {
+      "subcategories": [
+        { "subcategories": [{ "name": "video sharing", "id": 979 }], "name": "online video", "id": 211 },
+        { "name": "tv commercials", "id": 1055 },
+        { "name": "tv guides & reference", "id": 1187 },
+        { "name": "tv networks & stations", "id": 359 },
+        {
+          "subcategories": [
+            { "name": "tv comedies", "id": 1047 },
+            {
+              "subcategories": [
+                { "name": "tv crime & legal shows", "id": 1111 },
+                { "name": "tv medical shows", "id": 1194 },
+                { "name": "tv soap operas", "id": 357 }
+              ],
+              "name": "tv dramas",
+              "id": 1193
+            },
+            { "name": "tv family-oriented shows", "id": 1110 },
+            { "name": "tv game shows", "id": 1050 },
+            { "name": "tv reality shows", "id": 1049 },
+            { "name": "tv sci-fi & fantasy shows", "id": 1112 },
+            { "name": "tv talk shows", "id": 1048 }
+          ],
+          "name": "tv shows & programs",
+          "id": 358
+        }
+      ],
+      "name": "tv & video",
+      "id": 36
+    },
+    {
+      "subcategories": [
+        { "name": "architecture", "id": 477 },
+        { "name": "art & craft supplies", "id": 1361 },
+        { "name": "arts education", "id": 1195 },
+        {
+          "subcategories": [
+            { "name": "cad & cam", "id": 1300 },
+            { "name": "graphic design", "id": 654 },
+            { "name": "industrial & product design", "id": 655 },
+            { "name": "interior design", "id": 656 }
+          ],
+          "name": "design",
+          "id": 653
+        },
+        { "name": "painting", "id": 1167 },
+        {
+          "subcategories": [
+            {
+              "subcategories": [
+                { "name": "binoculars, telescopes & optical devices", "id": 1384 },
+                {
+                  "subcategories": [
+                    { "name": "camcorders", "id": 308 },
+                    { "name": "camera lenses", "id": 1383 },
+                    { "name": "cameras", "id": 307 }
+                  ],
+                  "name": "cameras & camcorders",
+                  "id": 306
+                }
+              ],
+              "name": "camera & photo equipment",
+              "id": 573
+            },
+            {
+              "subcategories": [{ "name": "video file formats & codecs", "id": 1315 }],
+              "name": "photo & video software",
+              "id": 577
+            }
+          ],
+          "name": "photographic & digital arts",
+          "id": 439
+        }
+      ],
+      "name": "visual art & design",
+      "id": 24
+    }
+  ],
+  "autos & vehicles": [
+    { "name": "automotive industry", "id": 1190 },
+    { "name": "bicycles & accessories", "id": 1191 },
+    { "name": "boats & watercraft", "id": 1140 },
+    { "name": "campers & rvs", "id": 1213 },
+    { "name": "classic vehicles", "id": 1013 },
+    {
+      "subcategories": [{ "name": "cargo trucks & trailers", "id": 1215 }],
+      "name": "commercial vehicles",
+      "id": 1214
+    },
+    { "name": "custom & performance vehicles", "id": 806 },
+    {
+      "subcategories": [{ "name": "electric & plug-in vehicles", "id": 1380 }],
+      "name": "hybrid & alternative vehicles",
+      "id": 810
+    },
+    { "name": "microcars & city cars", "id": 1317 },
+    { "name": "motorcycles", "id": 273 },
+    { "name": "off-road vehicles", "id": 148 },
+    { "name": "personal aircraft", "id": 1147 },
+    { "name": "scooters & mopeds", "id": 1212 },
+    {
+      "subcategories": [
+        { "name": "suvs", "id": 1057 },
+        { "name": "trucks", "id": 1056 },
+        { "name": "vans & minivans", "id": 1058 }
+      ],
+      "name": "trucks & suvs",
+      "id": 610
+    },
+    {
+      "subcategories": [
+        { "name": "acura", "id": 820 },
+        { "name": "audi", "id": 821 },
+        { "name": "bentley", "id": 1059 },
+        { "name": "bmw", "id": 822 },
+        { "name": "buick", "id": 1060 },
+        { "name": "cadillac", "id": 823 },
+        { "name": "chevrolet", "id": 826 },
+        { "name": "chrysler", "id": 833 },
+        { "name": "citroën", "id": 834 },
+        { "name": "dodge", "id": 836 },
+        { "name": "ferrari", "id": 1061 },
+        { "name": "fiat", "id": 838 },
+        { "name": "ford", "id": 840 },
+        { "name": "gm-daewoo", "id": 896 },
+        { "name": "gmc", "id": 842 },
+        { "name": "honda", "id": 843 },
+        { "name": "hummer", "id": 1062 },
+        { "name": "hyundai", "id": 845 },
+        { "name": "isuzu", "id": 1378 },
+        { "name": "jaguar", "id": 1063 },
+        { "name": "jeep", "id": 846 },
+        { "name": "kia", "id": 848 },
+        { "name": "lamborghini", "id": 1064 },
+        { "name": "land rover", "id": 1065 },
+        { "name": "lexus", "id": 849 },
+        { "name": "lincoln", "id": 850 },
+        { "name": "maserati", "id": 1066 },
+        { "name": "mazda", "id": 851 },
+        { "name": "mercedes-benz", "id": 852 },
+        { "name": "mercury", "id": 853 },
+        { "name": "mini", "id": 1067 },
+        { "name": "mitsubishi", "id": 854 },
+        { "subcategories": [{ "name": "infiniti", "id": 1377 }], "name": "nissan", "id": 855 },
+        { "name": "peugeot", "id": 856 },
+        { "name": "pontiac", "id": 857 },
+        { "name": "porsche", "id": 858 },
+        { "name": "renault-samsung", "id": 859 },
+        { "name": "rolls-royce", "id": 1068 },
+        { "name": "saab", "id": 897 },
+        { "name": "saturn", "id": 860 },
+        { "name": "subaru", "id": 861 },
+        { "name": "suzuki", "id": 1070 },
+        { "subcategories": [{ "name": "scion", "id": 1069 }], "name": "toyota", "id": 863 },
+        { "name": "vauxhall-opel", "id": 898 },
+        { "name": "volkswagen", "id": 865 },
+        { "name": "volvo", "id": 867 }
+      ],
+      "name": "vehicle brands",
+      "id": 815
+    },
+    {
+      "subcategories": [{ "name": "drunk driving law", "id": 968 }],
+      "name": "vehicle codes & driving laws",
+      "id": 1294
+    },
+    { "name": "vehicle licensing & registration", "id": 170 },
+    { "name": "vehicle maintenance", "id": 138 },
+    {
+      "subcategories": [
+        { "name": "auto exterior", "id": 1217 },
+        { "name": "auto interior", "id": 1218 },
+        {
+          "subcategories": [
+            { "name": "car audio", "id": 230 },
+            { "name": "car video", "id": 1189 },
+            { "name": "gps & navigation", "id": 794 }
+          ],
+          "name": "car electronics",
+          "id": 1188
+        },
+        { "name": "engine & transmission", "id": 1216 },
+        { "name": "vehicle fuels & lubricants", "id": 1269 },
+        { "name": "vehicle wheels & tires", "id": 438 }
+      ],
+      "name": "vehicle parts & accessories",
+      "id": 89
+    },
+    {
+      "subcategories": [
+        { "name": "fuel economy & gas prices", "id": 1268 },
+        { "name": "vehicle specs, reviews & comparisons", "id": 1267 }
+      ],
+      "name": "vehicle shopping",
+      "id": 473
+    },
+    { "name": "vehicle shows", "id": 803 }
+  ],
+  "beauty & fitness": [
+    { "name": "beauty pageants", "id": 1219 },
+    { "name": "body art", "id": 239 },
+    {
+      "subcategories": [{ "name": "cosmetic surgery", "id": 238 }],
+      "name": "cosmetic procedures",
+      "id": 1220
+    },
+    { "name": "cosmetology & beauty professionals", "id": 147 },
+    {
+      "subcategories": [
+        { "name": "hygiene & toiletries", "id": 244 },
+        { "name": "make-up & cosmetics", "id": 234 },
+        { "name": "perfumes & fragrances", "id": 242 },
+        { "name": "skin & nail care", "id": 93 },
+        { "name": "unwanted body & facial hair removal", "id": 144 }
+      ],
+      "name": "face & body care",
+      "id": 143
+    },
+    {
+      "subcategories": [
+        { "name": "fashion designers & collections", "id": 98 },
+        { "name": "fashion modeling", "id": 1155 }
+      ],
+      "name": "fashion & style",
+      "id": 185
+    },
+    {
+      "subcategories": [
+        { "name": "bodybuilding", "id": 241 },
+        { "name": "yoga & pilates", "id": 611 }
+      ],
+      "name": "fitness",
+      "id": 94
+    },
+    { "subcategories": [{ "name": "hair loss", "id": 235 }], "name": "hair care", "id": 146 },
+    {
+      "subcategories": [{ "name": "massage therapy", "id": 557 }],
+      "name": "spas & beauty services",
+      "id": 145
+    },
+    { "name": "weight loss", "id": 236 }
+  ],
+  "books & literature": [
+    { "name": "biographies & quotations", "id": 690 },
+    { "name": "book retailers", "id": 355 },
+    { "name": "children's literature", "id": 1183 },
+    { "name": "e-books", "id": 608 },
+    { "name": "fan fiction", "id": 540 },
+    { "name": "literary classics", "id": 1184 },
+    { "name": "magazines", "id": 412 },
+    { "name": "poetry", "id": 565 },
+    { "name": "writers resources", "id": 1177 }
+  ],
+  "business & industrial": [
+    {
+      "subcategories": [
+        {
+          "subcategories": [{ "name": "loyalty cards & programs", "id": 1309 }],
+          "name": "marketing services",
+          "id": 83
+        },
+        { "name": "public relations", "id": 327 },
+        { "name": "search engine optimization & marketing", "id": 84 },
+        { "name": "telemarketing", "id": 328 }
+      ],
+      "name": "advertising & marketing",
+      "id": 25
+    },
+    {
+      "subcategories": [
+        { "name": "defense industry", "id": 669 },
+        { "name": "space technology", "id": 668 }
+      ],
+      "name": "aerospace & defense",
+      "id": 356
+    },
+    {
+      "subcategories": [
+        { "name": "agricultural equipment", "id": 748 },
+        { "name": "aquaculture", "id": 747 },
+        { "name": "crops & seed", "id": 749 },
+        { "name": "food production", "id": 621 },
+        { "name": "forestry", "id": 750 },
+        { "name": "horticulture", "id": 751 },
+        { "name": "livestock", "id": 752 }
+      ],
+      "name": "agriculture & forestry",
+      "id": 46
+    },
+    { "name": "automotive industry", "id": 1190 },
+    { "name": "business education", "id": 799 },
+    {
+      "subcategories": [
+        { "name": "commercial lending", "id": 1160 },
+        { "name": "investment banking", "id": 1139 },
+        { "name": "risk management", "id": 620 },
+        { "name": "venture capital", "id": 905 }
+      ],
+      "name": "business finance",
+      "id": 1138
+    },
+    {
+      "subcategories": [
+        {
+          "subcategories": [
+            { "name": "company earnings", "id": 1240 },
+            { "name": "mergers & acquisitions", "id": 1241 }
+          ],
+          "name": "company news",
+          "id": 1179
+        },
+        { "name": "economy news", "id": 1164 },
+        { "name": "financial markets", "id": 1163 },
+        { "name": "fiscal policy news", "id": 1165 }
+      ],
+      "name": "business news",
+      "id": 784
+    },
+    {
+      "subcategories": [
+        { "name": "business plans & presentations", "id": 336 },
+        {
+          "subcategories": [
+            { "name": "compensation & benefits", "id": 723 },
+            { "name": "corporate training", "id": 331 },
+            { "name": "payroll services", "id": 724 },
+            { "name": "recruitment & staffing", "id": 330 }
+          ],
+          "name": "human resources",
+          "id": 157
+        },
+        {
+          "subcategories": [
+            { "name": "business process", "id": 721 },
+            {
+              "subcategories": [{ "name": "project management software", "id": 1359 }],
+              "name": "project management",
+              "id": 1360
+            },
+            { "name": "strategic planning", "id": 722 },
+            { "name": "supply chain management", "id": 801 }
+          ],
+          "name": "management",
+          "id": 338
+        }
+      ],
+      "name": "business operations",
+      "id": 1159
+    },
+    {
+      "subcategories": [
+        {
+          "subcategories": [
+            {
+              "subcategories": [{ "name": "loyalty cards & programs", "id": 1309 }],
+              "name": "marketing services",
+              "id": 83
+            },
+            { "name": "public relations", "id": 327 },
+            { "name": "search engine optimization & marketing", "id": 84 },
+            { "name": "telemarketing", "id": 328 }
+          ],
+          "name": "advertising & marketing",
+          "id": 25
+        },
+        { "name": "consulting", "id": 1162 },
+        {
+          "subcategories": [{ "name": "trade shows & conventions", "id": 335 }],
+          "name": "corporate events",
+          "id": 334
+        },
+        {
+          "subcategories": [{ "name": "merchant services & payment systems", "id": 280 }],
+          "name": "e-commerce services",
+          "id": 340
+        },
+        { "name": "fire & security services", "id": 726 },
+        { "name": "knowledge management", "id": 800 },
+        {
+          "subcategories": [{ "name": "office & facilities management", "id": 337 }],
+          "name": "office services",
+          "id": 28
+        },
+        {
+          "subcategories": [
+            { "name": "business cards & stationary", "id": 1375 },
+            { "name": "office furniture", "id": 333 },
+            {
+              "subcategories": [
+                { "name": "copiers", "id": 1331 },
+                { "name": "fax machines", "id": 1332 },
+                { "name": "ink & toner", "id": 1333 },
+                { "name": "printers", "id": 494 },
+                { "name": "scanners", "id": 495 }
+              ],
+              "name": "printers, copiers & fax",
+              "id": 1330
+            }
+          ],
+          "name": "office supplies",
+          "id": 95
+        },
+        { "name": "outsourcing", "id": 718 },
+        {
+          "subcategories": [{ "name": "stock photography", "id": 574 }],
+          "name": "photo & video services",
+          "id": 576
+        },
+        { "name": "physical asset management", "id": 719 },
+        { "name": "quality control & tracking", "id": 720 },
+        { "name": "signage", "id": 1076 },
+        { "name": "writing & editing services", "id": 725 }
+      ],
+      "name": "business services",
+      "id": 329
+    },
+    {
+      "subcategories": [
+        { "name": "agrochemicals", "id": 670 },
+        { "name": "cleaning agents", "id": 671 },
+        { "name": "coatings & adhesives", "id": 672 },
+        { "name": "dyes & pigments", "id": 673 },
+        { "name": "plastics & polymers", "id": 674 }
+      ],
+      "name": "chemicals industry",
+      "id": 288
+    },
+    {
+      "subcategories": [
+        {
+          "subcategories": [
+            { "name": "doors & windows", "id": 827 },
+            { "name": "hvac & climate control", "id": 828 },
+            { "name": "nails screws & fasteners", "id": 829 },
+            { "name": "plumbing fixtures & equipment", "id": 830 },
+            { "name": "wood & plastics", "id": 831 }
+          ],
+          "name": "building materials & supplies",
+          "id": 650
+        },
+        { "name": "civil engineering", "id": 651 },
+        { "name": "construction consulting & contracting", "id": 652 },
+        { "name": "urban & regional planning", "id": 686 }
+      ],
+      "name": "construction & maintenance",
+      "id": 48
+    },
+    {
+      "subcategories": [
+        { "name": "electricity", "id": 658 },
+        { "name": "nuclear energy", "id": 954 },
+        {
+          "subcategories": [{ "name": "vehicle fuels & lubricants", "id": 1269 }],
+          "name": "oil & gas",
+          "id": 659
+        },
+        { "name": "renewable & alternative energy", "id": 657 },
+        { "subcategories": [{ "name": "recycling", "id": 1307 }], "name": "waste management", "id": 660 },
+        { "name": "water supply & treatment", "id": 1349 }
+      ],
+      "name": "energy & utilities",
+      "id": 233
+    },
+    {
+      "subcategories": [
+        { "name": "customer relationship management (crm)", "id": 341 },
+        { "name": "data management", "id": 343 },
+        {
+          "subcategories": [{ "name": "merchant services & payment systems", "id": 280 }],
+          "name": "e-commerce services",
+          "id": 340
+        },
+        { "name": "enterprise resource planning (erp)", "id": 342 }
+      ],
+      "name": "enterprise technology",
+      "id": 77
+    },
+    {
+      "subcategories": [
+        {
+          "subcategories": [
+            { "name": "film & tv awards", "id": 1108 },
+            { "name": "film & tv production", "id": 1117 }
+          ],
+          "name": "film & tv industry",
+          "id": 1116
+        },
+        {
+          "subcategories": [
+            { "name": "music awards", "id": 1113 },
+            { "name": "record labels", "id": 1114 }
+          ],
+          "name": "recording industry",
+          "id": 1115
+        }
+      ],
+      "name": "entertainment industry",
+      "id": 612
+    },
+    {
+      "subcategories": [
+        { "name": "event planning", "id": 956 },
+        {
+          "subcategories": [
+            { "name": "grocery & food retailers", "id": 121 },
+            { "name": "restaurant supply", "id": 816 }
+          ],
+          "name": "food service",
+          "id": 957
+        }
+      ],
+      "name": "hospitality industry",
+      "id": 955
+    },
+    {
+      "subcategories": [
+        {
+          "subcategories": [{ "name": "valves hoses & fittings", "id": 839 }],
+          "name": "fluid handling",
+          "id": 1152
+        },
+        { "name": "generators", "id": 835 },
+        { "name": "heavy machinery", "id": 837 }
+      ],
+      "name": "industrial materials & equipment",
+      "id": 287
+    },
+    { "subcategories": [{ "name": "factory automation", "id": 661 }], "name": "manufacturing", "id": 49 },
+    { "name": "metals & mining", "id": 606 },
+    { "name": "pharmaceuticals & biotech", "id": 255 },
+    {
+      "subcategories": [
+        {
+          "subcategories": [{ "name": "business cards & stationary", "id": 1375 }],
+          "name": "document & printing services",
+          "id": 332
+        },
+        { "name": "journalism & news industry", "id": 1204 }
+      ],
+      "name": "printing & publishing",
+      "id": 1176
+    },
+    { "name": "professional & trade associations", "id": 1199 },
+    {
+      "subcategories": [{ "name": "retail equipment & technology", "id": 844 }],
+      "name": "retail trade",
+      "id": 841
+    },
+    {
+      "subcategories": [
+        { "name": "business formation", "id": 1200 },
+        { "name": "home office", "id": 727 },
+        { "name": "mlm & business opportunities", "id": 552 }
+      ],
+      "name": "small business",
+      "id": 551
+    },
+    { "name": "textiles & nonwovens", "id": 566 },
+    {
+      "subcategories": [
+        { "name": "aviation", "id": 662 },
+        { "name": "distribution & logistics", "id": 664 },
+        {
+          "subcategories": [{ "name": "cargo trucks & trailers", "id": 1215 }],
+          "name": "freight & trucking",
+          "id": 289
+        },
+        { "name": "import & export", "id": 354 },
+        {
+          "subcategories": [{ "name": "couriers & messengers", "id": 663 }],
+          "name": "mail & package delivery",
+          "id": 1150
+        },
+        { "name": "maritime transport", "id": 665 },
+        { "name": "moving & relocation", "id": 291 },
+        { "name": "packaging", "id": 290 },
+        {
+          "subcategories": [{ "name": "airport parking & transportation", "id": 1245 }],
+          "name": "parking",
+          "id": 1306
+        },
+        { "name": "public storage", "id": 1347 },
+        { "name": "rail transport", "id": 666 },
+        { "name": "urban transport", "id": 667 }
+      ],
+      "name": "transportation & logistics",
+      "id": 50
+    }
+  ],
+  "computers & electronics": [
+    { "name": "cad & cam", "id": 1300 },
+    {
+      "subcategories": [
+        {
+          "subcategories": [
+            { "name": "chips & processors", "id": 741 },
+            { "name": "computer memory", "id": 226 },
+            { "name": "sound & video cards", "id": 740 }
+          ],
+          "name": "computer components",
+          "id": 717
+        },
+        {
+          "subcategories": [
+            { "name": "cd & dvd drives & burners", "id": 1321 },
+            { "name": "cd & dvd storage media", "id": 1322 },
+            { "name": "computer memory", "id": 226 },
+            { "name": "data backup & recovery", "id": 1323 },
+            { "name": "flash drives & memory cards", "id": 1318 },
+            { "name": "hard drives", "id": 1320 },
+            { "name": "memory card readers", "id": 1319 },
+            { "name": "network storage", "id": 729 }
+          ],
+          "name": "computer drives & storage",
+          "id": 496
+        },
+        {
+          "subcategories": [
+            { "name": "computer monitors & displays", "id": 487 },
+            { "name": "input devices", "id": 493 },
+            {
+              "subcategories": [
+                { "name": "copiers", "id": 1331 },
+                { "name": "fax machines", "id": 1332 },
+                { "name": "ink & toner", "id": 1333 },
+                { "name": "printers", "id": 494 },
+                { "name": "scanners", "id": 495 }
+              ],
+              "name": "printers, copiers & fax",
+              "id": 1330
+            }
+          ],
+          "name": "computer peripherals",
+          "id": 312
+        },
+        { "name": "computer servers", "id": 728 },
+        { "name": "desktop computers", "id": 309 },
+        { "name": "hardware modding & tuning", "id": 739 },
+        { "subcategories": [{ "name": "tablet pcs", "id": 1277 }], "name": "laptops & notebooks", "id": 310 }
+      ],
+      "name": "computer hardware",
+      "id": 30
+    },
+    {
+      "subcategories": [
+        { "name": "antivirus & malware", "id": 315 },
+        { "name": "network security", "id": 344 }
+      ],
+      "name": "computer security",
+      "id": 314
+    },
+    {
+      "subcategories": [
+        {
+          "subcategories": [
+            { "name": "headphones", "id": 1396 },
+            { "name": "mp3 & portable media players", "id": 227 },
+            { "name": "speakers", "id": 1158 },
+            { "name": "stereo systems & components", "id": 91 }
+          ],
+          "name": "audio equipment",
+          "id": 361
+        },
+        {
+          "subcategories": [
+            { "name": "binoculars, telescopes & optical devices", "id": 1384 },
+            {
+              "subcategories": [
+                { "name": "camcorders", "id": 308 },
+                { "name": "camera lenses", "id": 1383 },
+                { "name": "cameras", "id": 307 }
+              ],
+              "name": "cameras & camcorders",
+              "id": 306
+            }
+          ],
+          "name": "camera & photo equipment",
+          "id": 573
+        },
+        {
+          "subcategories": [
+            { "name": "car audio", "id": 230 },
+            { "name": "car video", "id": 1189 },
+            { "name": "gps & navigation", "id": 794 }
+          ],
+          "name": "car electronics",
+          "id": 1188
+        },
+        { "name": "electronic accessories", "id": 1192 },
+        {
+          "subcategories": [
+            { "name": "e-book readers", "id": 1324 },
+            { "name": "handheld game consoles", "id": 1046 },
+            { "name": "mp3 & portable media players", "id": 227 },
+            { "name": "pdas & handhelds", "id": 228 }
+          ],
+          "name": "gadgets & portable electronics",
+          "id": 362
+        },
+        {
+          "subcategories": [
+            { "name": "handheld game consoles", "id": 1046 },
+            { "name": "nintendo", "id": 1043 },
+            { "name": "sony playstation", "id": 1044 },
+            { "name": "xbox", "id": 1045 }
+          ],
+          "name": "game systems & consoles",
+          "id": 899
+        },
+        { "name": "gps & navigation", "id": 794 },
+        {
+          "subcategories": [
+            { "name": "dvrs & set-top boxes", "id": 1393 },
+            { "name": "home theater systems", "id": 1157 },
+            { "name": "projectors & screens", "id": 1334 },
+            {
+              "subcategories": [
+                { "name": "hdtvs", "id": 1354 },
+                { "name": "lcd tvs", "id": 1356 },
+                { "name": "plasma tvs", "id": 1355 },
+                { "name": "projection tvs", "id": 1357 }
+              ],
+              "name": "televisions",
+              "id": 305
+            },
+            {
+              "subcategories": [
+                { "name": "blu-ray players & recorders", "id": 1394 },
+                { "name": "dvd players & recorders", "id": 1395 }
+              ],
+              "name": "video players & recorders",
+              "id": 492
+            }
+          ],
+          "name": "tv & video equipment",
+          "id": 229
+        }
+      ],
+      "name": "consumer electronics",
+      "id": 78
+    },
+    {
+      "subcategories": [
+        { "name": "data sheets & electronics reference", "id": 900 },
+        { "name": "electromechanical devices", "id": 743 },
+        { "name": "electronic components", "id": 742 },
+        { "name": "optoelectronics & fiber", "id": 744 },
+        { "name": "power supplies", "id": 745 },
+        { "name": "test & measurement", "id": 746 }
+      ],
+      "name": "electronics & electrical",
+      "id": 434
+    },
+    {
+      "subcategories": [
+        { "name": "customer relationship management (crm)", "id": 341 },
+        { "name": "data management", "id": 343 },
+        {
+          "subcategories": [{ "name": "merchant services & payment systems", "id": 280 }],
+          "name": "e-commerce services",
+          "id": 340
+        },
+        { "name": "enterprise resource planning (erp)", "id": 342 }
+      ],
+      "name": "enterprise technology",
+      "id": 77
+    },
+    {
+      "subcategories": [
+        { "name": "data formats & protocols", "id": 488 },
+        { "name": "distributed & parallel computing", "id": 1298 },
+        { "name": "network monitoring & management", "id": 347 },
+        { "name": "networking equipment", "id": 346 },
+        { "name": "vpn & remote access", "id": 1279 }
+      ],
+      "name": "networking",
+      "id": 311
+    },
+    {
+      "subcategories": [
+        { "name": "c & c++", "id": 731 },
+        { "name": "developer jobs", "id": 802 },
+        { "name": "development tools", "id": 730 },
+        { "name": "java", "id": 732 },
+        { "name": "scripting languages", "id": 733 },
+        { "name": "windows & .net", "id": 734 }
+      ],
+      "name": "programming",
+      "id": 31
+    },
+    {
+      "subcategories": [
+        {
+          "subcategories": [
+            { "name": "accounting & financial software", "id": 1341 },
+            { "name": "calendar & scheduling software", "id": 1358 },
+            { "name": "presentation software", "id": 1346 },
+            { "name": "project management software", "id": 1359 },
+            { "name": "spreadsheet software", "id": 1344 },
+            { "name": "word processing software", "id": 1345 }
+          ],
+          "name": "business & productivity software",
+          "id": 498
+        },
+        { "name": "device drivers", "id": 225 },
+        { "name": "educational software", "id": 804 },
+        { "name": "freeware & shareware", "id": 901 },
+        {
+          "subcategories": [
+            { "name": "content management", "id": 808 },
+            { "name": "internet clients & browsers", "id": 304 },
+            { "name": "proxying & filtering", "id": 902 }
+          ],
+          "name": "internet software",
+          "id": 807
+        },
+        {
+          "subcategories": [{ "name": "ringtones & mobile goodies", "id": 532 }],
+          "name": "mobile apps & add-ons",
+          "id": 1109
+        },
+        {
+          "subcategories": [
+            {
+              "subcategories": [{ "name": "audio files formats & codecs", "id": 1092 }],
+              "name": "audio & music software",
+              "id": 1089
+            },
+            { "subcategories": [{ "name": "fonts", "id": 805 }], "name": "desktop publishing", "id": 1088 },
+            { "name": "graphics & animation software", "id": 486 },
+            { "name": "media players", "id": 1090 },
+            {
+              "subcategories": [{ "name": "video file formats & codecs", "id": 1315 }],
+              "name": "photo & video software",
+              "id": 577
+            }
+          ],
+          "name": "multimedia software",
+          "id": 497
+        },
+        { "name": "open source", "id": 313 },
+        {
+          "subcategories": [
+            { "name": "linux & unix", "id": 736 },
+            { "name": "mac os", "id": 735 },
+            { "name": "mobile os", "id": 1382 },
+            { "name": "windows os", "id": 737 }
+          ],
+          "name": "operating systems",
+          "id": 303
+        },
+        { "name": "software utilities", "id": 224 },
+        { "name": "web apps & online tools", "id": 1142 }
+      ],
+      "name": "software",
+      "id": 32
+    },
+    { "name": "technical support", "id": 567 },
+    { "name": "technology news", "id": 785 }
+  ],
+  "finance": [
+    {
+      "subcategories": [
+        { "name": "accounting & financial software", "id": 1341 },
+        { "name": "tax preparation & planning", "id": 1283 }
+      ],
+      "name": "accounting & auditing",
+      "id": 278
+    },
+    { "name": "banking", "id": 37 },
+    {
+      "subcategories": [
+        { "name": "auto financing", "id": 468 },
+        { "name": "college financing", "id": 813 },
+        { "name": "credit cards", "id": 811 },
+        { "name": "debt management", "id": 812 },
+        { "name": "home financing", "id": 466 }
+      ],
+      "name": "credit & lending",
+      "id": 279
+    },
+    { "name": "currencies & foreign exchange", "id": 814 },
+    { "name": "financial planning", "id": 903 },
+    {
+      "subcategories": [{ "name": "college financing", "id": 813 }],
+      "name": "grants & financial assistance",
+      "id": 1282
+    },
+    {
+      "subcategories": [
+        { "name": "auto insurance", "id": 467 },
+        { "name": "health insurance", "id": 249 },
+        { "name": "home insurance", "id": 465 }
+      ],
+      "name": "insurance",
+      "id": 38
+    },
+    {
+      "subcategories": [{ "name": "commodities & futures trading", "id": 904 }],
+      "name": "investing",
+      "id": 107
+    },
+    { "name": "retirement & pension", "id": 619 }
+  ],
+  "food & drink": [
+    {
+      "subcategories": [
+        { "name": "beer", "id": 404 },
+        { "name": "liquor", "id": 406 },
+        { "name": "wine", "id": 405 }
+      ],
+      "name": "alcoholic beverages",
+      "id": 277
+    },
+    { "name": "candy & sweets", "id": 906 },
+    {
+      "subcategories": [
+        { "name": "baked goods", "id": 907 },
+        { "name": "fruits & vegetables", "id": 908 },
+        { "name": "meat & seafood", "id": 909 },
+        { "name": "soups & stews", "id": 910 },
+        { "name": "vegetarian cuisine", "id": 825 },
+        {
+          "subcategories": [
+            { "name": "asian cuisine", "id": 912 },
+            { "name": "latin american cuisine", "id": 913 },
+            { "name": "mediterranean cuisine", "id": 914 },
+            { "name": "north american cuisine", "id": 915 }
+          ],
+          "name": "world cuisines",
+          "id": 911
+        }
+      ],
+      "name": "cooking & recipes",
+      "id": 122
+    },
+    { "name": "culinary training", "id": 297 },
+    { "name": "grocery & food retailers", "id": 121 },
+    {
+      "subcategories": [{ "name": "coffee & tea", "id": 916 }],
+      "name": "non-alcoholic beverages",
+      "id": 560
+    },
+    {
+      "subcategories": [
+        { "name": "dining guides", "id": 917 },
+        { "name": "fast food", "id": 918 },
+        { "name": "restaurant supply", "id": 816 }
+      ],
+      "name": "restaurants",
+      "id": 276
+    }
+  ],
+  "games": [
+    { "name": "arcade & coin-op games", "id": 919 },
+    {
+      "subcategories": [
+        { "name": "chess & abstract strategy games", "id": 921 },
+        { "name": "miniatures & wargaming", "id": 922 }
+      ],
+      "name": "board games",
+      "id": 920
+    },
+    {
+      "subcategories": [
+        { "name": "collectible card games", "id": 923 },
+        { "name": "poker & casino games", "id": 924 }
+      ],
+      "name": "card games",
+      "id": 39
+    },
+    {
+      "subcategories": [
+        { "name": "action & platform games", "id": 1311 },
+        { "name": "adventure games", "id": 925 },
+        { "name": "casual games", "id": 926 },
+        { "name": "driving & racing games", "id": 927 },
+        { "name": "fighting games", "id": 928 },
+        {
+          "subcategories": [
+            { "name": "handheld game consoles", "id": 1046 },
+            { "name": "nintendo", "id": 1043 },
+            { "name": "sony playstation", "id": 1044 },
+            { "name": "xbox", "id": 1045 }
+          ],
+          "name": "game systems & consoles",
+          "id": 899
+        },
+        {
+          "subcategories": [{ "name": "game cheats & hints", "id": 381 }],
+          "name": "gaming media & reference",
+          "id": 1343
+        },
+        { "name": "music & dance games", "id": 929 },
+        { "name": "shooter games", "id": 930 },
+        { "name": "simulation games", "id": 931 },
+        { "name": "sports games", "id": 932 },
+        { "name": "strategy games", "id": 933 },
+        { "name": "video game emulation", "id": 1342 },
+        { "name": "video game retailers", "id": 1146 }
+      ],
+      "name": "computer & video games",
+      "id": 41
+    },
+    {
+      "subcategories": [
+        { "name": "drawing & coloring", "id": 1397 },
+        { "name": "dress-up & fashion games", "id": 1173 }
+      ],
+      "name": "family-oriented games & activities",
+      "id": 1290
+    },
+    { "subcategories": [{ "name": "massive multiplayer", "id": 935 }], "name": "online games", "id": 105 },
+    { "name": "party games", "id": 936 },
+    { "name": "puzzles & brainteasers", "id": 937 },
+    { "name": "roleplaying games", "id": 622 },
+    {
+      "subcategories": [
+        { "name": "billiards", "id": 939 },
+        { "name": "table tennis", "id": 940 }
+      ],
+      "name": "table games",
+      "id": 938
+    }
+  ],
+  "health": [
+    {
+      "subcategories": [{ "name": "alzheimer's disease", "id": 624 }],
+      "name": "aging & geriatrics",
+      "id": 623
+    },
+    {
+      "subcategories": [
+        { "name": "acupuncture & chinese medicine", "id": 1239 },
+        { "name": "cleansing & detoxification", "id": 1238 }
+      ],
+      "name": "alternative & natural medicine",
+      "id": 499
+    },
+    {
+      "subcategories": [
+        { "name": "aids & hiv", "id": 625 },
+        { "name": "allergies", "id": 626 },
+        { "name": "arthritis", "id": 628 },
+        { "name": "cancer", "id": 429 },
+        { "name": "cold & flu", "id": 629 },
+        { "name": "diabetes", "id": 630 },
+        { "name": "ear nose & throat", "id": 1211 },
+        { "name": "eating disorders", "id": 571 },
+        {
+          "subcategories": [
+            { "name": "diabetes", "id": 630 },
+            { "name": "thyroid conditions", "id": 1329 }
+          ],
+          "name": "endocrine conditions",
+          "id": 1328
+        },
+        { "name": "genetic disorders", "id": 941 },
+        { "name": "gerd & digestive disorders", "id": 638 },
+        { "name": "heart & hypertension", "id": 559 },
+        {
+          "subcategories": [
+            { "name": "cold & flu", "id": 629 },
+            { "name": "parasites & parasitic diseases", "id": 1262 },
+            {
+              "subcategories": [{ "name": "aids & hiv", "id": 625 }],
+              "name": "sexually transmitted diseases",
+              "id": 421
+            },
+            { "name": "vaccines & immunizations", "id": 1263 }
+          ],
+          "name": "infectious diseases",
+          "id": 632
+        },
+        { "name": "injury", "id": 817 },
+        {
+          "subcategories": [{ "name": "alzheimer's disease", "id": 624 }],
+          "name": "neurological disorders",
+          "id": 942
+        },
+        { "name": "obesity", "id": 818 },
+        {
+          "subcategories": [{ "name": "headaches & migraines", "id": 631 }],
+          "name": "pain management",
+          "id": 819
+        },
+        { "subcategories": [{ "name": "asthma", "id": 627 }], "name": "respiratory conditions", "id": 824 },
+        { "name": "skin conditions", "id": 420 },
+        { "name": "sleep disorders", "id": 633 }
+      ],
+      "name": "health conditions",
+      "id": 419
+    },
+    { "name": "health education & medical training", "id": 254 },
+    { "name": "health foundations & medical research", "id": 252 },
+    { "subcategories": [{ "name": "health policy", "id": 1256 }], "name": "health news", "id": 1253 },
+    {
+      "subcategories": [
+        {
+          "subcategories": [{ "name": "mobility equipment & accessories", "id": 1353 }],
+          "name": "assistive technology",
+          "id": 1352
+        }
+      ],
+      "name": "medical devices & equipment",
+      "id": 251
+    },
+    {
+      "subcategories": [
+        { "name": "doctors' offices", "id": 634 },
+        { "name": "hospitals & treatment centers", "id": 250 },
+        {
+          "subcategories": [
+            { "name": "medical tests & exams", "id": 943 },
+            { "subcategories": [{ "name": "cosmetic surgery", "id": 238 }], "name": "surgery", "id": 944 },
+            { "name": "vaccines & immunizations", "id": 1263 }
+          ],
+          "name": "medical procedures",
+          "id": 635
+        },
+        { "name": "physical therapy", "id": 500 }
+      ],
+      "name": "medical facilities & services",
+      "id": 256
+    },
+    {
+      "subcategories": [{ "name": "medical photos & illustration", "id": 945 }],
+      "name": "medical literature & resources",
+      "id": 253
+    },
+    { "subcategories": [{ "name": "erectile dysfunction", "id": 202 }], "name": "men's health", "id": 636 },
+    {
+      "subcategories": [
+        { "name": "anxiety & stress", "id": 639 },
+        { "name": "depression", "id": 640 },
+        {
+          "subcategories": [{ "name": "add & adhd", "id": 642 }],
+          "name": "learning & developmental disabilities",
+          "id": 641
+        }
+      ],
+      "name": "mental health",
+      "id": 437
+    },
+    {
+      "subcategories": [{ "name": "assisted living & long term care", "id": 649 }],
+      "name": "nursing",
+      "id": 418
+    },
+    {
+      "subcategories": [
+        {
+          "subcategories": [{ "name": "cholesterol issues", "id": 643 }],
+          "name": "special & restricted diets",
+          "id": 457
+        },
+        { "name": "vitamins & supplements", "id": 237 }
+      ],
+      "name": "nutrition",
+      "id": 456
+    },
+    { "name": "oral & dental care", "id": 245 },
+    { "name": "pediatrics", "id": 645 },
+    { "subcategories": [{ "name": "drugs & medications", "id": 646 }], "name": "pharmacy", "id": 248 },
+    {
+      "subcategories": [
+        { "name": "health policy", "id": 1256 },
+        { "name": "occupational health & safety", "id": 644 },
+        { "name": "poisons & overdoses", "id": 946 },
+        { "name": "vaccines & immunizations", "id": 1263 }
+      ],
+      "name": "public health",
+      "id": 947
+    },
+    {
+      "subcategories": [
+        { "name": "birth control", "id": 198 },
+        { "name": "erectile dysfunction", "id": 202 },
+        { "name": "infertility", "id": 647 },
+        { "subcategories": [{ "name": "pregnancy & maternity", "id": 401 }], "name": "obgyn", "id": 558 },
+        { "name": "sex education & counseling", "id": 536 },
+        { "name": "sexual enhancement", "id": 1236 },
+        {
+          "subcategories": [{ "name": "aids & hiv", "id": 625 }],
+          "name": "sexually transmitted diseases",
+          "id": 421
+        }
+      ],
+      "name": "reproductive health",
+      "id": 195
+    },
+    {
+      "subcategories": [
+        { "name": "drug & alcohol testing", "id": 1351 },
+        { "name": "drug & alcohol treatment", "id": 1350 },
+        { "name": "smoking & smoking cessation", "id": 1237 },
+        { "name": "steroids & performance-enhancing drugs", "id": 1235 }
+      ],
+      "name": "substance abuse",
+      "id": 257
+    },
+    { "subcategories": [{ "name": "eyeglasses & contacts", "id": 1224 }], "name": "vision care", "id": 246 },
+    {
+      "subcategories": [
+        { "subcategories": [{ "name": "pregnancy & maternity", "id": 401 }], "name": "obgyn", "id": 558 }
+      ],
+      "name": "women's health",
+      "id": 648
+    }
+  ],
+  "hobbies & leisure": [
+    { "name": "antiques & collectibles", "id": 64 },
+    { "name": "bowling", "id": 1016 },
+    { "name": "clubs & nightlife", "id": 188 },
+    { "name": "clubs & organizations", "id": 189 },
+    {
+      "subcategories": [
+        { "name": "film & tv awards", "id": 1108 },
+        { "name": "lottery & sweepstakes", "id": 364 }
+      ],
+      "name": "contests, awards & prizes",
+      "id": 1276
+    },
+    { "subcategories": [{ "name": "fiber & textile arts", "id": 1230 }], "name": "crafts", "id": 284 },
+    { "subcategories": [{ "name": "bicycles & accessories", "id": 1191 }], "name": "cycling", "id": 458 },
+    {
+      "subcategories": [
+        { "name": "equestrian", "id": 568 },
+        { "name": "fishing", "id": 462 },
+        { "name": "hiking & camping", "id": 542 },
+        { "name": "hunting & shooting", "id": 461 }
+      ],
+      "name": "outdoors",
+      "id": 688
+    },
+    { "name": "paintball", "id": 786 },
+    {
+      "subcategories": [
+        {
+          "subcategories": [
+            { "name": "animal welfare", "id": 883 },
+            { "name": "pet food & supplies", "id": 379 },
+            { "name": "veterinarians", "id": 380 }
+          ],
+          "name": "animal products & services",
+          "id": 882
+        },
+        {
+          "subcategories": [
+            { "name": "birds", "id": 884 },
+            { "name": "cats", "id": 885 },
+            { "name": "dogs", "id": 886 },
+            { "name": "exotic pets", "id": 607 },
+            { "name": "fish & aquaria", "id": 887 },
+            { "name": "horses", "id": 888 },
+            { "name": "rabbits & rodents", "id": 889 },
+            { "name": "reptiles & amphibians", "id": 890 }
+          ],
+          "name": "pets",
+          "id": 563
+        },
+        {
+          "subcategories": [
+            { "name": "insects & entomology", "id": 1278 },
+            { "name": "zoos-aquariums-preserves", "id": 1009 }
+          ],
+          "name": "wildlife",
+          "id": 119
+        }
+      ],
+      "name": "pets & animals",
+      "id": 66
+    },
+    {
+      "subcategories": [
+        {
+          "subcategories": [
+            { "name": "binoculars, telescopes & optical devices", "id": 1384 },
+            {
+              "subcategories": [
+                { "name": "camcorders", "id": 308 },
+                { "name": "camera lenses", "id": 1383 },
+                { "name": "cameras", "id": 307 }
+              ],
+              "name": "cameras & camcorders",
+              "id": 306
+            }
+          ],
+          "name": "camera & photo equipment",
+          "id": 573
+        },
+        {
+          "subcategories": [{ "name": "video file formats & codecs", "id": 1315 }],
+          "name": "photo & video software",
+          "id": 577
+        }
+      ],
+      "name": "photographic & digital arts",
+      "id": 439
+    },
+    { "name": "radio control & modeling", "id": 787 },
+    {
+      "subcategories": [{ "name": "personal aircraft", "id": 1147 }],
+      "name": "recreational aviation",
+      "id": 999
+    },
+    { "name": "running & walking", "id": 541 },
+    {
+      "subcategories": [
+        {
+          "subcategories": [
+            { "name": "cards & greetings", "id": 100 },
+            { "name": "flowers", "id": 323 },
+            { "name": "gifts", "id": 99 },
+            { "name": "party & holiday supplies", "id": 324 }
+          ],
+          "name": "gifts & special event items",
+          "id": 70
+        },
+        {
+          "subcategories": [
+            { "name": "birthdays & name days", "id": 1270 },
+            { "name": "carnival & mardi gras", "id": 1246 },
+            {
+              "subcategories": [
+                { "name": "christmas", "id": 1078 },
+                { "name": "easter", "id": 1123 }
+              ],
+              "name": "christian holidays",
+              "id": 1274
+            },
+            { "name": "halloween & october 31st", "id": 1079 },
+            { "name": "islamic holidays", "id": 1275 },
+            { "name": "jewish holidays", "id": 1124 },
+            { "name": "new year", "id": 1271 },
+            { "name": "thanksgiving", "id": 1125 },
+            { "name": "valentine's day", "id": 1122 }
+          ],
+          "name": "holidays & seasonal events",
+          "id": 678
+        },
+        { "name": "weddings", "id": 293 }
+      ],
+      "name": "special occasions",
+      "id": 977
+    },
+    {
+      "subcategories": [
+        { "name": "goth subculture", "id": 503 },
+        { "name": "science fiction & fantasy", "id": 676 }
+      ],
+      "name": "subcultures & niche interests",
+      "id": 502
+    },
+    {
+      "subcategories": [
+        { "subcategories": [{ "name": "boats & watercraft", "id": 1140 }], "name": "boating", "id": 459 },
+        { "name": "diving & underwater activities", "id": 1305 },
+        { "name": "surf & swim", "id": 689 },
+        { "name": "water sports", "id": 118 }
+      ],
+      "name": "water activities",
+      "id": 1002
+    }
+  ],
+  "home & garden": [
+    {
+      "subcategories": [
+        { "name": "bathroom", "id": 1365 },
+        {
+          "subcategories": [
+            { "name": "bedding & bed linens", "id": 1369 },
+            { "name": "beds & headboards", "id": 1367 },
+            { "name": "mattresses", "id": 1368 }
+          ],
+          "name": "bedroom",
+          "id": 1366
+        }
+      ],
+      "name": "bed & bath",
+      "id": 948
+    },
+    {
+      "subcategories": [{ "name": "cleaning supplies & services", "id": 949 }],
+      "name": "domestic services",
+      "id": 472
+    },
+    { "name": "gardening & landscaping", "id": 269 },
+    {
+      "subcategories": [
+        { "name": "major kitchen appliances", "id": 1293 },
+        { "name": "small kitchen appliances", "id": 1292 },
+        { "name": "water filters & purifiers", "id": 1371 }
+      ],
+      "name": "home appliances",
+      "id": 271
+    },
+    {
+      "subcategories": [
+        { "name": "clocks", "id": 1363 },
+        { "name": "lamps & lighting", "id": 272 },
+        { "name": "rugs & carpets", "id": 1362 },
+        { "name": "sofas & chairs", "id": 1370 }
+      ],
+      "name": "home furnishings",
+      "id": 270
+    },
+    {
+      "subcategories": [
+        { "name": "construction & power tools", "id": 950 },
+        { "name": "doors & windows", "id": 827 },
+        { "subcategories": [{ "name": "rugs & carpets", "id": 1362 }], "name": "flooring", "id": 832 },
+        { "name": "house painting & finishing", "id": 1232 },
+        { "name": "hvac & climate control", "id": 828 },
+        { "name": "plumbing", "id": 1153 },
+        { "name": "roofing", "id": 1175 }
+      ],
+      "name": "home improvement",
+      "id": 158
+    },
+    { "name": "home storage & shelving", "id": 1348 },
+    { "name": "homemaking & interior decor", "id": 137 },
+    { "name": "hvac & climate control", "id": 828 },
+    {
+      "subcategories": [
+        {
+          "subcategories": [{ "name": "cutlery & cutting accessories", "id": 1373 }],
+          "name": "cookware & diningware",
+          "id": 120
+        },
+        { "name": "major kitchen appliances", "id": 1293 },
+        { "name": "small kitchen appliances", "id": 1292 }
+      ],
+      "name": "kitchen & dining",
+      "id": 951
+    },
+    { "name": "laundry", "id": 1364 },
+    { "name": "nursery & playroom", "id": 1372 },
+    { "name": "pest control", "id": 471 },
+    { "name": "swimming pools & spas", "id": 952 },
+    { "name": "yard & patio", "id": 953 }
+  ],
+  "internet & telecom": [
+    {
+      "subcategories": [{ "name": "radio equipment", "id": 1182 }],
+      "name": "communications equipment",
+      "id": 385
+    },
+    {
+      "subcategories": [
+        { "name": "microblogging", "id": 1381 },
+        { "name": "text & instant messaging", "id": 1379 },
+        { "name": "voice & video chat", "id": 386 }
+      ],
+      "name": "email & messaging",
+      "id": 394
+    },
+    {
+      "subcategories": [
+        {
+          "subcategories": [{ "name": "bluetooth accessories", "id": 1170 }],
+          "name": "mobile & wireless accessories",
+          "id": 1171
+        },
+        {
+          "subcategories": [{ "name": "ringtones & mobile goodies", "id": 532 }],
+          "name": "mobile apps & add-ons",
+          "id": 1109
+        },
+        { "name": "mobile os", "id": 1382 },
+        { "subcategories": [{ "name": "smart phones", "id": 1071 }], "name": "mobile phones", "id": 390 }
+      ],
+      "name": "mobile & wireless",
+      "id": 382
+    },
+    { "subcategories": [{ "name": "people search", "id": 1234 }], "name": "search engines", "id": 485 },
+    {
+      "subcategories": [
+        { "name": "cable & satellite providers", "id": 501 },
+        { "name": "isps", "id": 104 },
+        {
+          "subcategories": [{ "name": "calling cards", "id": 389 }],
+          "name": "phone service providers",
+          "id": 384
+        }
+      ],
+      "name": "service providers",
+      "id": 383
+    },
+    { "name": "teleconferencing", "id": 392 },
+    { "name": "web apps & online tools", "id": 1142 },
+    { "name": "web portals", "id": 301 },
+    {
+      "subcategories": [
+        { "name": "affiliate programs", "id": 326 },
+        { "name": "search engine optimization & marketing", "id": 84 },
+        { "name": "web design & development", "id": 422 },
+        { "name": "web hosting & domain registration", "id": 53 },
+        { "name": "web stats & analytics", "id": 675 }
+      ],
+      "name": "web services",
+      "id": 302
+    }
+  ],
+  "jobs & education": [
+    {
+      "subcategories": [
+        { "name": "academic conferences & publications", "id": 1289 },
+        { "name": "alumni & reunions", "id": 1015 },
+        { "name": "arts education", "id": 1195 },
+        { "name": "business education", "id": 799 },
+        { "name": "colleges & universities", "id": 372 },
+        { "name": "distance learning", "id": 367 },
+        { "name": "early childhood education", "id": 1012 },
+        { "name": "foreign language study", "id": 1266 },
+        { "name": "health education & medical training", "id": 254 },
+        { "name": "homeschooling", "id": 791 },
+        { "name": "legal education", "id": 792 },
+        { "name": "music education & instruction", "id": 1087 },
+        { "name": "primary & secondary schooling (k-12)", "id": 371 },
+        { "name": "special education", "id": 1118 },
+        { "name": "standardized & admissions tests", "id": 373 },
+        { "name": "study abroad", "id": 1308 },
+        { "name": "teaching & classroom resources", "id": 700 },
+        { "name": "training & certification", "id": 1388 },
+        {
+          "subcategories": [{ "name": "computer education", "id": 1229 }],
+          "name": "vocational & continuing education",
+          "id": 369
+        }
+      ],
+      "name": "education",
+      "id": 74
+    },
+    {
+      "subcategories": [
+        { "name": "career resources & planning", "id": 959 },
+        { "name": "developer jobs", "id": 802 },
+        { "name": "job listings", "id": 960 },
+        { "name": "resumes & portfolios", "id": 961 }
+      ],
+      "name": "jobs",
+      "id": 60
+    }
+  ],
+  "law & government": [
+    {
+      "subcategories": [
+        { "name": "courts & judiciary", "id": 1075 },
+        { "name": "embassies & consulates", "id": 962 },
+        { "name": "executive branch", "id": 963 },
+        { "name": "government agencies", "id": 1387 },
+        { "name": "government contracting & procurement", "id": 1385 },
+        { "name": "intelligence & counterterrorism", "id": 1221 },
+        { "name": "legislative branch", "id": 964 },
+        { "name": "lobbying", "id": 1386 },
+        { "name": "multilateral organizations", "id": 965 },
+        { "name": "public finance", "id": 1161 },
+        {
+          "subcategories": [
+            { "name": "drug laws & policy", "id": 1314 },
+            { "name": "fiscal policy news", "id": 1165 },
+            { "name": "health policy", "id": 1256 },
+            { "name": "immigration policy & border issues", "id": 1313 },
+            { "name": "international relations", "id": 521 }
+          ],
+          "name": "public policy",
+          "id": 1316
+        },
+        { "name": "royalty", "id": 702 },
+        { "name": "state & local government", "id": 966 },
+        { "name": "visa & immigration", "id": 555 }
+      ],
+      "name": "government",
+      "id": 76
+    },
+    {
+      "subcategories": [
+        { "name": "accident & personal injury law", "id": 427 },
+        { "name": "bankruptcy", "id": 423 },
+        { "name": "business & corporate law", "id": 1272 },
+        { "name": "constitutional law & civil rights", "id": 967 },
+        { "name": "criminal law", "id": 424 },
+        { "name": "family law", "id": 522 },
+        { "name": "intellectual property", "id": 426 },
+        { "name": "labor & employment law", "id": 701 },
+        { "name": "legal education", "id": 792 },
+        { "name": "legal services", "id": 969 },
+        { "name": "product liability", "id": 970 },
+        {
+          "subcategories": [{ "name": "drunk driving law", "id": 968 }],
+          "name": "vehicle codes & driving laws",
+          "id": 1294
+        }
+      ],
+      "name": "legal",
+      "id": 75
+    },
+    {
+      "subcategories": [
+        { "name": "air force", "id": 1247 },
+        { "name": "army", "id": 1248 },
+        { "name": "marines", "id": 1250 },
+        { "name": "military history", "id": 1288 },
+        { "name": "navy", "id": 1249 },
+        { "name": "veterans", "id": 793 }
+      ],
+      "name": "military",
+      "id": 366
+    },
+    {
+      "subcategories": [
+        {
+          "subcategories": [
+            { "name": "corporate & financial crime", "id": 1181 },
+            { "name": "gangs & organized crime", "id": 1312 },
+            { "name": "prisons & corrections", "id": 1284 }
+          ],
+          "name": "crime & justice",
+          "id": 704
+        },
+        { "name": "emergency services", "id": 168 },
+        {
+          "subcategories": [{ "name": "intelligence & counterterrorism", "id": 1221 }],
+          "name": "law enforcement",
+          "id": 535
+        },
+        {
+          "subcategories": [
+            { "name": "health policy", "id": 1256 },
+            { "name": "occupational health & safety", "id": 644 },
+            { "name": "poisons & overdoses", "id": 946 },
+            { "name": "vaccines & immunizations", "id": 1263 }
+          ],
+          "name": "public health",
+          "id": 947
+        },
+        { "name": "security products & services", "id": 705 }
+      ],
+      "name": "public safety",
+      "id": 166
+    },
+    {
+      "subcategories": [
+        { "name": "counseling services", "id": 511 },
+        { "name": "welfare & unemployment", "id": 706 }
+      ],
+      "name": "social services",
+      "id": 508
+    }
+  ],
+  "news": [
+    { "name": "broadcast & network news", "id": 112 },
+    {
+      "subcategories": [
+        {
+          "subcategories": [
+            { "name": "company earnings", "id": 1240 },
+            { "name": "mergers & acquisitions", "id": 1241 }
+          ],
+          "name": "company news",
+          "id": 1179
+        },
+        { "name": "economy news", "id": 1164 },
+        { "name": "financial markets", "id": 1163 },
+        { "name": "fiscal policy news", "id": 1165 }
+      ],
+      "name": "business news",
+      "id": 784
+    },
+    { "name": "celebrities & entertainment news", "id": 184 },
+    {
+      "subcategories": [{ "name": "scandals & investigations", "id": 1259 }],
+      "name": "gossip & tabloid news",
+      "id": 507
+    },
+    { "subcategories": [{ "name": "health policy", "id": 1256 }], "name": "health news", "id": 1253 },
+    { "name": "journalism & news industry", "id": 1204 },
+    { "name": "local news", "id": 572 },
+    { "name": "newspapers", "id": 408 },
+    {
+      "subcategories": [
+        { "name": "campaigns & elections", "id": 398 },
+        { "name": "left-wing politics", "id": 410 },
+        { "name": "media critics & watchdogs", "id": 1203 },
+        { "name": "opinion & commentary", "id": 1201 },
+        { "name": "political polls & surveys", "id": 1202 },
+        { "name": "right-wing politics", "id": 409 }
+      ],
+      "name": "politics",
+      "id": 396
+    },
+    { "name": "sports news", "id": 1077 },
+    { "name": "technology news", "id": 785 },
+    { "name": "weather", "id": 63 },
+    { "name": "world news", "id": 1209 }
+  ],
+  "online communities": [
+    {
+      "subcategories": [{ "name": "microblogging", "id": 1381 }],
+      "name": "blogging resources & services",
+      "id": 504
+    },
+    {
+      "subcategories": [
+        { "name": "matrimonial services", "id": 546 },
+        { "name": "personals", "id": 102 },
+        { "name": "photo rating sites", "id": 320 }
+      ],
+      "name": "dating & personals",
+      "id": 55
+    },
+    { "name": "file sharing & hosting", "id": 321 },
+    { "name": "forum & chat providers", "id": 191 },
+    {
+      "subcategories": [
+        { "name": "clip art & animated gifs", "id": 1223 },
+        { "name": "skins themes & wallpapers", "id": 578 },
+        { "name": "social network apps & add-ons", "id": 847 }
+      ],
+      "name": "online goodies",
+      "id": 43
+    },
+    { "name": "online journals & personal sites", "id": 582 },
+    {
+      "subcategories": [
+        { "name": "photo & image sharing", "id": 978 },
+        { "name": "video sharing", "id": 979 }
+      ],
+      "name": "photo & video sharing",
+      "id": 275
+    },
+    {
+      "subcategories": [{ "name": "social network apps & add-ons", "id": 847 }],
+      "name": "social networks",
+      "id": 529
+    },
+    { "name": "virtual worlds", "id": 972 }
+  ],
+  "people & society": [
+    {
+      "subcategories": [
+        {
+          "subcategories": [{ "name": "mobility equipment & accessories", "id": 1353 }],
+          "name": "assistive technology",
+          "id": 1352
+        }
+      ],
+      "name": "disabled & special needs",
+      "id": 677
+    },
+    {
+      "subcategories": [
+        {
+          "subcategories": [{ "name": "african-americans", "id": 547 }],
+          "name": "africans & diaspora",
+          "id": 579
+        },
+        { "name": "arabs & middle easterners", "id": 556 },
+        {
+          "subcategories": [
+            { "name": "east asians & diaspora", "id": 549 },
+            { "name": "south asians & diaspora", "id": 528 },
+            { "name": "southeast asians & pacific islanders", "id": 580 }
+          ],
+          "name": "asians & diaspora",
+          "id": 1257
+        },
+        { "name": "discrimination & identity relations", "id": 1205 },
+        { "name": "eastern europeans", "id": 682 },
+        { "name": "expatriate communities", "id": 973 },
+        { "name": "gay-lesbian-bisexual-transgender", "id": 113 },
+        {
+          "subcategories": [{ "name": "native americans", "id": 171 }],
+          "name": "indigenous peoples",
+          "id": 681
+        },
+        { "subcategories": [{ "name": "jewish holidays", "id": 1124 }], "name": "jewish culture", "id": 550 },
+        { "name": "latinos & latin-americans", "id": 548 },
+        { "name": "western europeans", "id": 683 }
+      ],
+      "name": "ethnic & identity groups",
+      "id": 56
+    },
+    {
+      "subcategories": [
+        { "name": "etiquette", "id": 1304 },
+        {
+          "subcategories": [
+            { "name": "ancestry & genealogy", "id": 400 },
+            { "name": "baby & pet names", "id": 1231 },
+            {
+              "subcategories": [
+                { "name": "adoption", "id": 974 },
+                {
+                  "subcategories": [{ "name": "baby care & hygiene", "id": 115 }],
+                  "name": "babies & toddlers",
+                  "id": 1374
+                },
+                { "name": "child care", "id": 403 },
+                { "name": "pregnancy & maternity", "id": 401 },
+                { "name": "youth camps", "id": 402 }
+              ],
+              "name": "parenting",
+              "id": 58
+            }
+          ],
+          "name": "family",
+          "id": 1132
+        },
+        { "name": "friendship", "id": 1134 },
+        {
+          "subcategories": [
+            { "name": "divorce & separation", "id": 1261 },
+            { "name": "weddings", "id": 293 }
+          ],
+          "name": "marriage",
+          "id": 1133
+        },
+        { "name": "romance", "id": 1135 },
+        {
+          "subcategories": [{ "name": "divorce & separation", "id": 1261 }],
+          "name": "troubled relationships",
+          "id": 1260
+        }
+      ],
+      "name": "family & relationships",
+      "id": 1131
+    },
+    {
+      "subcategories": [
+        {
+          "subcategories": [
+            { "name": "children's literature", "id": 1183 },
+            { "name": "family films", "id": 1291 },
+            {
+              "subcategories": [
+                { "name": "drawing & coloring", "id": 1397 },
+                { "name": "dress-up & fashion games", "id": 1173 }
+              ],
+              "name": "family-oriented games & activities",
+              "id": 1290
+            },
+            { "name": "tv family-oriented shows", "id": 1110 }
+          ],
+          "name": "children's interests",
+          "id": 679
+        },
+        { "name": "teen interests", "id": 680 }
+      ],
+      "name": "kids & teens",
+      "id": 154
+    },
+    {
+      "subcategories": [
+        { "name": "astrology & divination", "id": 448 },
+        { "name": "buddhism", "id": 862 },
+        {
+          "subcategories": [
+            {
+              "subcategories": [
+                { "name": "christmas", "id": 1078 },
+                { "name": "easter", "id": 1123 }
+              ],
+              "name": "christian holidays",
+              "id": 1274
+            }
+          ],
+          "name": "christianity",
+          "id": 864
+        },
+        { "name": "hinduism", "id": 866 },
+        { "subcategories": [{ "name": "islamic holidays", "id": 1275 }], "name": "islam", "id": 868 },
+        { "name": "judaism", "id": 869 },
+        { "name": "occult & paranormal", "id": 449 },
+        { "name": "pagan & esoteric traditions", "id": 1258 },
+        { "name": "places of worship", "id": 1296 },
+        { "name": "scientology", "id": 1251 },
+        { "name": "self-help & motivational", "id": 870 },
+        { "name": "skeptics & non-believers", "id": 975 },
+        { "name": "spirituality", "id": 101 },
+        { "name": "theology & religious study", "id": 1340 }
+      ],
+      "name": "religion & belief",
+      "id": 59
+    },
+    { "name": "seniors & retirement", "id": 298 },
+    {
+      "subcategories": [
+        { "name": "animal welfare", "id": 883 },
+        { "name": "charity & philanthropy", "id": 57 },
+        { "name": "discrimination & identity relations", "id": 1205 },
+        { "name": "drug laws & policy", "id": 1314 },
+        {
+          "subcategories": [{ "name": "climate change & global warming", "id": 1255 }],
+          "name": "environmental issues",
+          "id": 82
+        },
+        { "name": "health policy", "id": 1256 },
+        { "name": "housing & development", "id": 1166 },
+        { "name": "human rights & liberties", "id": 1280 },
+        { "name": "immigration policy & border issues", "id": 1313 },
+        { "name": "media critics & watchdogs", "id": 1203 },
+        { "name": "poverty & hunger", "id": 1127 },
+        { "name": "privacy issues", "id": 1281 },
+        { "name": "reproductive rights", "id": 976 },
+        { "name": "same-sex marriage", "id": 1301 },
+        {
+          "subcategories": [
+            { "name": "labor & employment law", "id": 701 },
+            { "name": "unions & labor movement", "id": 1121 }
+          ],
+          "name": "work & labor issues",
+          "id": 703
+        }
+      ],
+      "name": "social issues & advocacy",
+      "id": 54
+    },
+    {
+      "subcategories": [
+        {
+          "subcategories": [{ "name": "public speaking", "id": 1303 }],
+          "name": "communications & media studies",
+          "id": 1302
+        },
+        { "name": "demographics", "id": 510 },
+        { "name": "economics", "id": 520 },
+        { "name": "international relations", "id": 521 },
+        { "name": "psychology", "id": 543 }
+      ],
+      "name": "social sciences",
+      "id": 509
+    },
+    {
+      "subcategories": [
+        { "name": "goth subculture", "id": 503 },
+        { "name": "science fiction & fantasy", "id": 676 }
+      ],
+      "name": "subcultures & niche interests",
+      "id": 502
+    }
+  ],
+  "pets & animals": [
+    {
+      "subcategories": [
+        { "name": "animal welfare", "id": 883 },
+        { "name": "pet food & supplies", "id": 379 },
+        { "name": "veterinarians", "id": 380 }
+      ],
+      "name": "animal products & services",
+      "id": 882
+    },
+    {
+      "subcategories": [
+        { "name": "birds", "id": 884 },
+        { "name": "cats", "id": 885 },
+        { "name": "dogs", "id": 886 },
+        { "name": "exotic pets", "id": 607 },
+        { "name": "fish & aquaria", "id": 887 },
+        { "name": "horses", "id": 888 },
+        { "name": "rabbits & rodents", "id": 889 },
+        { "name": "reptiles & amphibians", "id": 890 }
+      ],
+      "name": "pets",
+      "id": 563
+    },
+    {
+      "subcategories": [
+        { "name": "insects & entomology", "id": 1278 },
+        { "name": "zoos-aquariums-preserves", "id": 1009 }
+      ],
+      "name": "wildlife",
+      "id": 119
+    }
+  ],
+  "real estate": [
+    { "name": "apartments & residential rentals", "id": 378 },
+    { "name": "commercial & investment real estate", "id": 1178 },
+    { "name": "property development", "id": 687 },
+    { "name": "property inspections & appraisals", "id": 463 },
+    { "name": "property management", "id": 425 },
+    { "name": "real estate agencies", "id": 96 },
+    { "name": "real estate listings", "id": 1080 },
+    { "name": "timeshares & vacation properties", "id": 1081 }
+  ],
+  "reference": [
+    {
+      "subcategories": [{ "name": "business & personal listings", "id": 377 }],
+      "name": "directories & listings",
+      "id": 527
+    },
+    {
+      "subcategories": [
+        { "name": "biographies & quotations", "id": 690 },
+        { "name": "calculators & reference tools", "id": 691 },
+        { "name": "dictionaries & encyclopedias", "id": 692 },
+        { "name": "educational resources", "id": 374 },
+        {
+          "subcategories": [{ "name": "legal forms", "id": 1137 }],
+          "name": "forms guides & templates",
+          "id": 693
+        },
+        { "name": "how-to, diy & expert content", "id": 694 },
+        { "name": "public records", "id": 1136 },
+        { "name": "time & calendars", "id": 695 }
+      ],
+      "name": "general reference",
+      "id": 980
+    },
+    {
+      "subcategories": [
+        { "name": "city & local guides", "id": 1014 },
+        { "subcategories": [{ "name": "traffic & public transit", "id": 685 }], "name": "maps", "id": 268 }
+      ],
+      "name": "geographic reference",
+      "id": 1084
+    },
+    {
+      "subcategories": [
+        { "subcategories": [{ "name": "military history", "id": 1288 }], "name": "history", "id": 433 },
+        { "name": "myth & folklore", "id": 609 },
+        { "name": "philosophy", "id": 1093 }
+      ],
+      "name": "humanities",
+      "id": 474
+    },
+    {
+      "subcategories": [
+        { "name": "dictionaries & encyclopedias", "id": 692 },
+        {
+          "subcategories": [
+            { "name": "foreign language study", "id": 1266 },
+            { "name": "translation tools & resources", "id": 1265 }
+          ],
+          "name": "foreign language resources",
+          "id": 1264
+        }
+      ],
+      "name": "language resources",
+      "id": 108
+    },
+    { "name": "libraries & museums", "id": 375 },
+    {
+      "subcategories": [
+        {
+          "subcategories": [{ "name": "public speaking", "id": 1303 }],
+          "name": "communications & media studies",
+          "id": 1302
+        },
+        { "name": "demographics", "id": 510 },
+        { "name": "economics", "id": 520 },
+        { "name": "international relations", "id": 521 },
+        { "name": "psychology", "id": 543 }
+      ],
+      "name": "social sciences",
+      "id": 509
+    },
+    {
+      "subcategories": [
+        { "name": "data sheets & electronics reference", "id": 900 },
+        { "name": "technical support", "id": 567 }
+      ],
+      "name": "technical reference",
+      "id": 1233
+    }
+  ],
+  "science": [
+    { "name": "astronomy", "id": 435 },
+    {
+      "subcategories": [
+        { "name": "anatomy", "id": 788 },
+        {
+          "subcategories": [{ "name": "insects & entomology", "id": 1278 }],
+          "name": "flora & fauna",
+          "id": 981
+        },
+        { "name": "genetics", "id": 982 },
+        { "name": "neuroscience", "id": 1226 }
+      ],
+      "name": "biological sciences",
+      "id": 440
+    },
+    { "name": "chemistry", "id": 505 },
+    {
+      "subcategories": [
+        { "name": "computer education", "id": 1229 },
+        { "name": "distributed & parallel computing", "id": 1298 },
+        { "name": "machine learning & artificial intelligence", "id": 1299 },
+        {
+          "subcategories": [
+            { "name": "c & c++", "id": 731 },
+            { "name": "developer jobs", "id": 802 },
+            { "name": "development tools", "id": 730 },
+            { "name": "java", "id": 732 },
+            { "name": "scripting languages", "id": 733 },
+            { "name": "windows & .net", "id": 734 }
+          ],
+          "name": "programming",
+          "id": 31
+        }
+      ],
+      "name": "computer science",
+      "id": 1227
+    },
+    {
+      "subcategories": [
+        {
+          "subcategories": [{ "name": "climate change & global warming", "id": 1255 }],
+          "name": "atmospheric science",
+          "id": 1254
+        },
+        { "name": "geology", "id": 443 },
+        { "name": "paleontology", "id": 1169 },
+        { "name": "water & marine sciences", "id": 441 }
+      ],
+      "name": "earth sciences",
+      "id": 1168
+    },
+    {
+      "subcategories": [{ "name": "climate change & global warming", "id": 1255 }],
+      "name": "ecology & environment",
+      "id": 442
+    },
+    {
+      "subcategories": [
+        { "name": "cad & cam", "id": 1300 },
+        { "name": "robotics", "id": 1141 },
+        { "name": "technology news", "id": 785 }
+      ],
+      "name": "engineering & technology",
+      "id": 231
+    },
+    { "subcategories": [{ "name": "statistics", "id": 1252 }], "name": "mathematics", "id": 436 },
+    { "name": "physics", "id": 444 },
+    { "name": "scientific equipment", "id": 445 },
+    { "name": "scientific institutions", "id": 446 }
+  ],
+  "shopping": [
+    { "name": "antiques & collectibles", "id": 64 },
+    {
+      "subcategories": [
+        { "name": "apparel services", "id": 1228 },
+        { "name": "athletic apparel", "id": 983 },
+        { "subcategories": [{ "name": "t-shirts", "id": 428 }], "name": "casual apparel", "id": 984 },
+        { "name": "children's clothing", "id": 985 },
+        {
+          "subcategories": [
+            { "name": "gems & jewelry", "id": 350 },
+            { "name": "handbags & purses", "id": 986 },
+            { "name": "watches", "id": 987 }
+          ],
+          "name": "clothing accessories",
+          "id": 124
+        },
+        { "name": "costumes", "id": 988 },
+        { "subcategories": [{ "name": "eyeglasses & contacts", "id": 1224 }], "name": "eyewear", "id": 989 },
+        { "name": "footwear", "id": 697 },
+        { "name": "formal wear", "id": 990 },
+        { "name": "headwear", "id": 991 },
+        { "name": "men's clothing", "id": 992 },
+        { "name": "outerwear", "id": 993 },
+        { "name": "sleepwear", "id": 994 },
+        { "name": "swimwear", "id": 995 },
+        { "name": "undergarments", "id": 530 },
+        { "name": "uniforms & workwear", "id": 996 },
+        { "name": "women's clothing", "id": 997 }
+      ],
+      "name": "apparel",
+      "id": 68
+    },
+    { "name": "auctions", "id": 292 },
+    { "name": "classifieds", "id": 61 },
+    {
+      "subcategories": [
+        {
+          "subcategories": [
+            { "name": "headphones", "id": 1396 },
+            { "name": "mp3 & portable media players", "id": 227 },
+            { "name": "speakers", "id": 1158 },
+            { "name": "stereo systems & components", "id": 91 }
+          ],
+          "name": "audio equipment",
+          "id": 361
+        },
+        {
+          "subcategories": [
+            { "name": "binoculars, telescopes & optical devices", "id": 1384 },
+            {
+              "subcategories": [
+                { "name": "camcorders", "id": 308 },
+                { "name": "camera lenses", "id": 1383 },
+                { "name": "cameras", "id": 307 }
+              ],
+              "name": "cameras & camcorders",
+              "id": 306
+            }
+          ],
+          "name": "camera & photo equipment",
+          "id": 573
+        },
+        {
+          "subcategories": [
+            { "name": "car audio", "id": 230 },
+            { "name": "car video", "id": 1189 },
+            { "name": "gps & navigation", "id": 794 }
+          ],
+          "name": "car electronics",
+          "id": 1188
+        },
+        { "name": "electronic accessories", "id": 1192 },
+        {
+          "subcategories": [
+            { "name": "e-book readers", "id": 1324 },
+            { "name": "handheld game consoles", "id": 1046 },
+            { "name": "mp3 & portable media players", "id": 227 },
+            { "name": "pdas & handhelds", "id": 228 }
+          ],
+          "name": "gadgets & portable electronics",
+          "id": 362
+        },
+        {
+          "subcategories": [
+            { "name": "handheld game consoles", "id": 1046 },
+            { "name": "nintendo", "id": 1043 },
+            { "name": "sony playstation", "id": 1044 },
+            { "name": "xbox", "id": 1045 }
+          ],
+          "name": "game systems & consoles",
+          "id": 899
+        },
+        { "name": "gps & navigation", "id": 794 },
+        {
+          "subcategories": [
+            { "name": "dvrs & set-top boxes", "id": 1393 },
+            { "name": "home theater systems", "id": 1157 },
+            { "name": "projectors & screens", "id": 1334 },
+            {
+              "subcategories": [
+                { "name": "hdtvs", "id": 1354 },
+                { "name": "lcd tvs", "id": 1356 },
+                { "name": "plasma tvs", "id": 1355 },
+                { "name": "projection tvs", "id": 1357 }
+              ],
+              "name": "televisions",
+              "id": 305
+            },
+            {
+              "subcategories": [
+                { "name": "blu-ray players & recorders", "id": 1394 },
+                { "name": "dvd players & recorders", "id": 1395 }
+              ],
+              "name": "video players & recorders",
+              "id": 492
+            }
+          ],
+          "name": "tv & video equipment",
+          "id": 229
+        }
+      ],
+      "name": "consumer electronics",
+      "id": 78
+    },
+    {
+      "subcategories": [
+        { "name": "consumer advocacy & protection", "id": 97 },
+        { "name": "coupons & discount offers", "id": 365 },
+        {
+          "subcategories": [
+            { "name": "loyalty cards & programs", "id": 1309 },
+            { "name": "technical support", "id": 567 },
+            { "name": "warranties & service contracts", "id": 451 }
+          ],
+          "name": "customer services",
+          "id": 450
+        },
+        {
+          "subcategories": [
+            { "name": "price comparisons", "id": 352 },
+            { "name": "vehicle specs, reviews & comparisons", "id": 1267 }
+          ],
+          "name": "product reviews & price comparisons",
+          "id": 353
+        }
+      ],
+      "name": "consumer resources",
+      "id": 69
+    },
+    {
+      "subcategories": [
+        { "name": "book retailers", "id": 355 },
+        { "name": "cd & audio shopping", "id": 217 },
+        {
+          "subcategories": [{ "name": "dvd & video rentals", "id": 1145 }],
+          "name": "dvd & video shopping",
+          "id": 210
+        },
+        {
+          "subcategories": [{ "name": "dvd & video rentals", "id": 1145 }],
+          "name": "entertainment media rentals",
+          "id": 1144
+        },
+        { "name": "video game retailers", "id": 1146 }
+      ],
+      "name": "entertainment media",
+      "id": 1143
+    },
+    {
+      "subcategories": [
+        { "name": "cards & greetings", "id": 100 },
+        { "name": "flowers", "id": 323 },
+        { "name": "gifts", "id": 99 },
+        { "name": "party & holiday supplies", "id": 324 }
+      ],
+      "name": "gifts & special event items",
+      "id": 70
+    },
+    { "name": "luxury goods", "id": 696 },
+    { "name": "mass merchants & department stores", "id": 73 },
+    {
+      "subcategories": [{ "name": "stock photography", "id": 574 }],
+      "name": "photo & video services",
+      "id": 576
+    },
+    { "name": "shopping portals & search engines", "id": 531 },
+    {
+      "subcategories": [
+        { "name": "bicycles & accessories", "id": 1191 },
+        { "name": "sports memorabilia", "id": 1083 }
+      ],
+      "name": "sporting goods",
+      "id": 263
+    },
+    { "name": "swap meets & outdoor markets", "id": 1210 },
+    { "name": "ticket sales", "id": 614 },
+    { "name": "tobacco products", "id": 123 },
+    { "name": "toys", "id": 432 },
+    { "name": "wholesalers & liquidators", "id": 1225 }
+  ],
+  "sports": [
+    { "name": "college sports", "id": 1073 },
+    {
+      "subcategories": [
+        { "name": "boxing", "id": 515 },
+        { "name": "martial arts", "id": 516 },
+        { "name": "wrestling", "id": 512 }
+      ],
+      "name": "combat sports",
+      "id": 514
+    },
+    {
+      "subcategories": [
+        { "name": "drag & street racing", "id": 1206 },
+        { "name": "stunts & dangerous feats", "id": 1207 }
+      ],
+      "name": "extreme sports",
+      "id": 554
+    },
+    { "name": "fantasy sports", "id": 998 },
+    {
+      "subcategories": [
+        { "name": "bowling", "id": 1016 },
+        { "subcategories": [{ "name": "bicycles & accessories", "id": 1191 }], "name": "cycling", "id": 458 },
+        { "name": "golf", "id": 261 },
+        { "name": "gymnastics", "id": 519 },
+        { "subcategories": [{ "name": "tennis", "id": 1376 }], "name": "racquet sports", "id": 262 },
+        { "name": "running & walking", "id": 541 },
+        { "name": "skate sports", "id": 1126 },
+        { "name": "track & field", "id": 518 }
+      ],
+      "name": "individual sports",
+      "id": 1000
+    },
+    { "name": "live sporting events", "id": 1273 },
+    { "subcategories": [{ "name": "drag & street racing", "id": 1206 }], "name": "motor sports", "id": 180 },
+    {
+      "subcategories": [
+        { "name": "bicycles & accessories", "id": 1191 },
+        { "name": "sports memorabilia", "id": 1083 }
+      ],
+      "name": "sporting goods",
+      "id": 263
+    },
+    { "name": "sports coaching & training", "id": 1082 },
+    { "name": "sports news", "id": 1077 },
+    {
+      "subcategories": [
+        { "name": "american football", "id": 258 },
+        { "name": "baseball", "id": 259 },
+        { "name": "basketball", "id": 264 },
+        { "name": "cheerleading", "id": 534 },
+        { "name": "cricket", "id": 296 },
+        { "name": "handball", "id": 1017 },
+        { "name": "hockey", "id": 260 },
+        { "name": "rugby", "id": 517 },
+        { "name": "soccer", "id": 294 },
+        { "name": "volleyball", "id": 699 }
+      ],
+      "name": "team sports",
+      "id": 1001
+    },
+    { "name": "water sports", "id": 118 },
+    {
+      "subcategories": [
+        { "name": "ice skating", "id": 1149 },
+        { "name": "skiing & snowboarding", "id": 1148 }
+      ],
+      "name": "winter sports",
+      "id": 265
+    },
+    { "subcategories": [{ "name": "olympics", "id": 513 }], "name": "world sports competitions", "id": 1198 }
+  ],
+  "travel": [
+    {
+      "subcategories": [
+        { "name": "airport parking & transportation", "id": 1245 },
+        {
+          "subcategories": [{ "name": "personal aircraft", "id": 1147 }],
+          "name": "recreational aviation",
+          "id": 999
+        }
+      ],
+      "name": "air travel",
+      "id": 203
+    },
+    { "name": "bus & rail", "id": 708 },
+    { "name": "car rental & taxi services", "id": 205 },
+    { "name": "carpooling & ridesharing", "id": 1339 },
+    { "name": "cruises & charters", "id": 206 },
+    { "name": "hotels & accommodations", "id": 179 },
+    { "name": "luggage & travel accessories", "id": 1003 },
+    {
+      "subcategories": [
+        { "name": "adventure travel", "id": 707 },
+        { "name": "agritourism", "id": 1389 },
+        { "name": "ecotourism", "id": 1005 },
+        { "name": "sightseeing tours", "id": 1390 },
+        { "name": "vineyards & wine tourism", "id": 1391 }
+      ],
+      "name": "specialty travel",
+      "id": 1004
+    },
+    {
+      "subcategories": [
+        { "name": "beaches & islands", "id": 1074 },
+        { "name": "historical sites & buildings", "id": 1006 },
+        { "name": "lakes & rivers", "id": 1120 },
+        { "name": "mountain & ski resorts", "id": 1119 },
+        { "name": "regional parks & gardens", "id": 1007 },
+        { "name": "theme parks", "id": 1008 },
+        { "name": "zoos-aquariums-preserves", "id": 1009 }
+      ],
+      "name": "tourist destinations",
+      "id": 208
+    },
+    {
+      "subcategories": [
+        { "name": "tourist boards & visitor centers", "id": 1392 },
+        { "name": "vacation offers", "id": 1019 }
+      ],
+      "name": "travel agencies & services",
+      "id": 1010
+    },
+    { "name": "travel guides & travelogues", "id": 1011 }
+  ]
+}
