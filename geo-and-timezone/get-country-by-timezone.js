@@ -2,6 +2,8 @@ const countries = require("../data/countries.json");
 const countryCodes = Object.keys(countries);
 
 module.exports = function getCountryByTimezone(timezone) {
+  if (!timezone) return {};
+
   let countryCode = countryCodes.find((cc) => {
     const [aContinent, aProvince, aCity] = timezone.toLowerCase().replaceAll("-", " ").split("/");
     const { continent, name, provinces } = countries[cc];
@@ -30,5 +32,7 @@ module.exports = function getCountryByTimezone(timezone) {
     });
   }
 
-  return countryCode;
+  if (!countryCode) return {};
+
+  return { code: countryCode, name: countries[countryCode].name, city: aCity || aProvince };
 };
