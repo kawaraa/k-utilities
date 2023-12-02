@@ -99,24 +99,6 @@ class Request {
       xhr.send(data ? JSON.stringify(data) : null);
     });
   }
-  convertToURLEncoded(obj) {
-    const query = [];
-    for (let key in obj) {
-      query.push(`${key}=${obj[key]}`);
-    }
-    return `?${query.join("&")}`;
-  }
-
-  parseUREncoded(url) {
-    if (url.length < 3) return "";
-    let obj = {};
-    let query = url.replace("?", "").split("&");
-    for (let i = 0; i < query.length; i++) {
-      let pair = query[i].split("=");
-      obj[pair[0]] = pair[1];
-    }
-    return obj;
-  }
   async downloadFile(url, onData, onEnd) {
     const reader = await fetch(url)
       .then((response) => response.body.getReader())
@@ -142,6 +124,37 @@ class Request {
       },
     });
     return stream;
+  }
+  convertToURLEncoded(obj) {
+    const query = [];
+    for (let key in obj) {
+      query.push(`${key}=${obj[key]}`);
+    }
+    return `?${query.join("&")}`;
+  }
+  parseUREncoded(url) {
+    if (url.length < 3) return "";
+    let obj = {};
+    let query = url.replace("?", "").split("&");
+    for (let i = 0; i < query.length; i++) {
+      let pair = query[i].split("=");
+      obj[pair[0]] = pair[1];
+    }
+    return obj;
+  }
+  static toJSON(data) {
+    try {
+      const json = JSON.stringify(data);
+      return json;
+    } catch (e) {}
+    return data;
+  }
+  static parseJSON(data) {
+    try {
+      const json = JSON.parse(data);
+      return json;
+    } catch (e) {}
+    return data;
   }
 }
 

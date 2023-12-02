@@ -26,10 +26,10 @@ class Formatter {
     return obj;
   }
 
-  static stringToArray(string) {
-    string = string.replace(/\s/g, "");
-    if (string.slice(-1) === ",") string = string.slice(0, string.length - 1);
-    return string ? string.split(",") : [];
+  static stringToArray(string = "", separator = ",") {
+    string = string.trim();
+    if (string.slice(-1) === separator) string = string.slice(0, string.length - 1);
+    return string ? string.split(separator) : [];
   }
 
   static stringToBinary(string) {
@@ -49,16 +49,16 @@ class Formatter {
     return string;
   }
 
-  static datFormToObject() {
+  static dataFormToObject() {
     const data = {};
     Array.from(form.keys()).forEach((key) => (data[key] = form[key].value));
     return data;
   }
 
-  static dateToString(date) {
-    const d = new Date(date);
-    return `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()} ${d.getHours()}:${d.getMinutes()}`;
-  }
+  // static dateToString(date) {
+  //   const d = new Date(date);
+  //   return `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()} ${d.getHours()}:${d.getMinutes()}`;
+  // }
 
   static dateToText(date) {
     const dateFormat = { month: "long", day: "numeric", hour: "numeric", minute: "numeric" };
