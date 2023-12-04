@@ -33,5 +33,5 @@ module.exports = function getCountryByTimezone(timezone) {
 
   if (!countryCode) return {};
 
-  return { code: countryCode, name: countries[countryCode].name, city: aCity || aProvince };
+  return { country: countryCode, name: countries[countryCode].name, city: aCity || aProvince };
 };
