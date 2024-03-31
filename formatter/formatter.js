@@ -48,7 +48,7 @@ class Formatter {
     let binary = "",
       length = string.length;
     for (let i = 0; i < length; i += 1) {
-      binary += string.charCodeAt(i).toString(2) + (length - 1 === i ? "" : " ");
+      binary += string.codePointAt(i).toString(2) + (length === i + 1 ? "" : " ");
     }
     return binary;
   }
@@ -57,7 +57,9 @@ class Formatter {
     const binArray = binary.split(" ");
     let string = "",
       length = binArray.length;
-    for (let i = 0; i < length; i += 1) string += String.fromCharCode(Number.parseInt(binArray[i], 2));
+    for (let i = 0; i < length; i += 1) {
+      string += String.fromCodePoint(Number.parseInt(binArray[i], 2));
+    }
     return string;
   }
 
