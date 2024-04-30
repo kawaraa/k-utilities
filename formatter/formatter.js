@@ -2,7 +2,8 @@
 
 class Formatter {
   static newId() {
-    return (Math.random() + Date.now() + Math.random() + "").replace(".", "");
+    return crypto.randomUUID();
+    // return (Math.random() + Date.now() + Math.random() + "").replace(".", "");
   }
   static getRandomHexColor() {
     return `#${Math.floor(Math.random() * 0xffffff)
