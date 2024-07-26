@@ -7,7 +7,7 @@ class Logger {
   }
   #getTime() {
     const d = new Date();
-    return !this.withTime ? "" : `${d.toJSON().substring(0, 10)}-${d.toLocaleTimeString()}`;
+    return !this.withTime ? "" : `${d.toJSON().substring(0, 10)} ${d.toLocaleTimeString()}`;
   }
   info() {
     console.log(`[###]-[${this.name}]${this.#getTime()} `, ...arguments);
