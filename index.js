@@ -1,5 +1,4 @@
 const Crypto = require("./crypto/crypto");
-const Hashing = require("./crypto/hashing");
 // const Request = require("./request/request");
 // const Socket = require("./web-socket/websocket");
 const CustomError = require("./custom-error/custom-error");
@@ -13,7 +12,6 @@ const categories = require("./data/categories.json");
 
 module.exports = {
   Crypto,
-  Hashing,
   CustomError,
   Validator,
   Formatter,
