@@ -5,7 +5,7 @@ export class RequestRateLimiter {
     this.MAX_REQUESTS = maxRequestPerWindow; // or 60 which mean a request per second
   }
 
-  limitRate(request, response, next) {
+  limitRate = (request, response, next) => {
     const clientIp = request.ip || request.connection.remoteAddress; // Get client's IP address
     const newRequestData = { count: 1, timestamp: Date.now() };
     const requestData = this.requests.get(clientIp);
@@ -25,7 +25,7 @@ export class RequestRateLimiter {
     }
 
     next(); // Continue to the next middleware or route handler
-  }
+  };
 }
 
 // This function return the INET Address which the private IP address of the device on the local network.
