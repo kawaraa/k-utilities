@@ -1,7 +1,8 @@
-const countries = require("../data/countries.json");
-const countryCodes = Object.keys(countries);
+// geo-and-timezone utility that helps detect the country though the timezone
+import getJsonData from "./get-json-data.js";
+const countryCodes = Object.keys(getJsonData("countries"));
 
-module.exports = function getCountryByTimezone(timezone) {
+export default function getCountryByTimezone(timezone) {
   if (!timezone) return {};
   const [aContinent, aProvince, aCity] = timezone.toLowerCase().replaceAll("-", " ").split("/");
 
@@ -34,4 +35,4 @@ module.exports = function getCountryByTimezone(timezone) {
   if (!countryCode) return {};
 
   return { country: countryCode, name: countries[countryCode].name, city: aCity || aProvince };
-};
+}

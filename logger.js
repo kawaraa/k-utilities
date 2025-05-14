@@ -1,6 +1,4 @@
-"use strict";
-
-class Logger {
+export default class Logger {
   constructor(name = "", includeTimestamp) {
     this.name = name;
     this.withTime = includeTimestamp;
@@ -20,5 +18,3 @@ class Logger {
     console.error(`[XXX]-[${this.name}]${this.#getTime()} `, ...arguments);
   }
 }
-
-module.exports = Logger;

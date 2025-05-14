@@ -5,7 +5,7 @@
 // postalCode, ZIP code: ( should be between 4 and 10 numbers and letters )
 // line1, street + apartment, suite, unit, or building: ( should be max 150 length )
 
-class Validator {
+export default class Validator {
   static isString(str, minLength, maxLength) {
     if (!str || typeof str !== "string") return false;
     if (minLength && minLength > str.length) false;
@@ -85,5 +85,3 @@ class Validator {
     return inValidKeys;
   }
 }
-
-module.exports = Validator;

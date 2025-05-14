@@ -1,6 +1,4 @@
-"use strict";
-
-class CustomError extends Error {
+export default class CustomError extends Error {
   constructor(message, name = "General") {
     super(message ? message + " (!)" : "Something went wrong, Please try again (!)");
     Object.setPrototypeOf(this, Error.prototype); // fixes the bug in inheriting class from the WebSocket in safari

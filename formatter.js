@@ -1,6 +1,4 @@
-"use strict";
-
-class Formatter {
+export default class Formatter {
   static newId() {
     return crypto.randomUUID();
     // return (Math.random() + Date.now() + Math.random() + "").replace(".", "");
@@ -116,4 +114,3 @@ class Formatter {
     return theDate;
   }
 }
-module.exports = Formatter;
