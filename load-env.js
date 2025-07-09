@@ -1,4 +1,4 @@
-import fs from "fs";
+import { readFileSync } from "fs";
 import path from "path";
 
 // Synchronously loads environment variables from a .env file into process.env
@@ -7,7 +7,7 @@ function loadEnvSync(filePath = ".env") {
     // Resolve the full path
     const fullPath = path.resolve(process.cwd(), filePath);
     // Read the file content synchronously and Parse each line by handling both Unix and Windows line endings
-    const lines = fs.readFileSync(fullPath, "utf-8").split(/\r?\n/);
+    const lines = readFileSync(fullPath, "utf-8").split(/\r?\n/);
 
     for (let line of lines) {
       line = line.trim();
