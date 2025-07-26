@@ -41,4 +41,4 @@ export class RequestRateLimiter {
   };
 }
 
-export const limitRequestRate = (a, b) => new RequestRateLimiter(1, 100).limitRate;
+export const limitRequestRate = (a, b) => new RequestRateLimiter(a, b).limitRate;
