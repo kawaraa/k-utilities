@@ -1,4 +1,4 @@
-import { readFileSync } from "fs";
+import { readFileSync } from "node:fs";
 import path from "path";
 
 // Synchronously loads environment variables from a .env file into process.env

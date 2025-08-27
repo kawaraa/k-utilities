@@ -1,7 +1,9 @@
+import os from "node:os";
+
 // This function return the INET Address which the private IP address of the device on the local network.
 // This function tested on MacOS only.
 export function getPrivateIpAddress() {
-  const nets = require("os").networkInterfaces();
+  const nets = os.networkInterfaces();
   const results = {};
 
   for (const name of Object.keys(nets)) {
