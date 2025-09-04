@@ -190,3 +190,14 @@ export class Socket extends WebSocket {
     return data;
   }
 }
+
+export async function request() {
+  return fetch(...arguments).then(async (res) => {
+    let data = await res.text();
+    try {
+      data = JSON.parse(data);
+    } catch (err) {}
+    if (!res.ok) throw data;
+    return data;
+  });
+}
