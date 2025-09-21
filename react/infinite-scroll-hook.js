@@ -5,14 +5,19 @@ export default function useInfiniteScroll({ onLoadContent, setLoading, ready }) 
   const itemsRef = useRef([]);
   const doneRef = useRef(false);
 
-  const onRemoveItem = (index) => {
-    itemsRef.current.splice(index, 1);
+  const updateData = (data) => {
+    itemsRef.current = data;
   };
 
-  const fetchContent = async (prams) => {
+  const removeItem = (items) => {
+    if (!Array.isArray(items)) itemsRef.current.splice(items, 1);
+    else itemsRef.current = itemsRef.current.map((item) => !items.includes(item.id));
+  };
+
+  const fetchContent = async (params) => {
     setLoading(true);
-    const data = await onLoadContent(prams);
-    if (prams) itemsRef.current = data || [];
+    const data = await onLoadContent(params);
+    if (params) itemsRef.current = data || [];
     else if (data && data[0]) itemsRef.current = itemsRef.current.concat(data);
     else doneRef.current = true;
     setLoading(false);
@@ -33,7 +38,7 @@ export default function useInfiniteScroll({ onLoadContent, setLoading, ready }) 
     return () => window.removeEventListener("scroll", handleScrollEvent);
   }, []);
 
-  return { data: itemsRef.current, removeItem: onRemoveItem, refresh: fetchContent };
+  return { data: itemsRef.current, updateData, removeItem, refresh: fetchContent };
 }
 
 /* *** Usage ***
