@@ -13,11 +13,11 @@ export function clientIpParser(req, res, next) {
     // x-forwarded-for can contain multiple IPs (client, proxy1, proxy2, ...), the first IP (original client)
     let ip = req.headers[header]?.split(",")[0]?.trim();
     if (!ip) continue;
-    req.ip = ip;
-    return next ? next() : req.ip;
+    req.clientIP = ip;
+    return next ? next() : req.clientIP;
   }
-  req.ip = req.ip || req.connection.remoteAddress; // Fallback to connection remote address
-  return next ? next() : req.ip;
+  req.clientIP = req.ip || req.connection.remoteAddress; // Fallback to connection remote address
+  return next ? next() : req.clientIP;
 }
 
 // ===== Parse cookies =====
@@ -41,7 +41,7 @@ export class RequestRateLimiter {
   }
 
   limitRate = (request, response, next) => {
-    const clientIp = request.ip || clientIpParser(request); // Get client's IP address
+    const clientIp = request.clientIP || request.ip || request.connection.remoteAddress; // Get client's IP address
     const newRequestData = { count: 1, timestamp: Date.now() };
     const requestData = this.requests.get(clientIp);
 
