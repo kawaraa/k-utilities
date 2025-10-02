@@ -1,42 +1,44 @@
 "use client";
-import { usePathname } from "next/navigation";
-import Link from "next/link";
-import { useEffect, useState } from "react";
+import SvgIcon from "./svg-icon";
+const itemCls = "text-sm md:text-base";
 
-export default function Breadcrumb({ items = [], separator = "/", cls = "" }) {
-  // item: { content: "Home", cls: "", path: null, handler: null };
-  const path = usePathname();
-  const [newItems, setNewItems] = useState(items);
+// item: { name: "Home", path: "/" };
+export default function Breadcrumb({ items = [], current, separator, cls = "" }) {
+  const isCurrent = (item) => current && [item.name, item.path, item].includes(current);
 
-  useEffect(() => {
-    setNewItems(
-      path
-        .split("/")
-        .filter((r) => r)
-        .map((r) => ({ content: r }))
-    );
-  }, [path]);
-
-  const lastItem = newItems.length - 1;
   return (
-    <ol
-      className={`flex items-center bg-l-bg dark:bg-d-bg py-2 px-4 sm:px-6 lg:px-8 border-b-[0.5px] border-l-c ${cls}`}>
-      {newItems.map((item, i) => (
-        <li className={`text-l-c dark:text-d-c ${item.cls || ""}`} key={i}>
+    <ol className={`h-5 md:h-7 flex items-center px-2 md:px-4 opacity-60 ${cls}`}>
+      <li className="h-full aspect-square ">{separator || <SvgIcon name="house" />}</li>
+      {items.map((item, i) => (
+        <li className="flex items-center h-full" key={i}>
+          <span className="aspect-square h-full p-1 opacity-50">
+            <SvgIcon name="forwardSlash" />
+          </span>
+
           {item.path ? (
-            <Link passHref legacyBehavior href={item.path}>
-              <a>{item.content}</a>
-            </Link>
+            <a
+              href={item.path}
+              alt={item.name}
+              className={`${itemCls} ${isCurrent(item) && "font-semibold"}`}
+            >
+              {item.name || item}
+            </a>
           ) : (
-            <span
-              className={`${i === lastItem && "text-l-tc dark:text-d-tc font-medium"}`}
-              onClick={item.handler}>
-              {item.content}
-            </span>
+            <span className={`${itemCls}  ${isCurrent(item) && "font-semibold"}`}>{item.name || item}</span>
           )}
-          {i !== lastItem && <span className="mx-1">{separator}</span>}
         </li>
       ))}
     </ol>
   );
 }
+
+/**
+<Breadcrumb
+  current="path-1"
+  items={[
+    { path: "path-1", name: "Path 1" },
+    { path: "path-2", name: "Path-2" },
+    { path: "path-3", name: "Path-2" },
+  ]}
+/>
+*/
