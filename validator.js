@@ -24,8 +24,9 @@ export default class Validator {
     return value && value.length <= 15 && value.length > 10 && isPhoneNumber;
   }
   static isEmail(value) {
-    const isEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w[a-zA-Z]{1,5})+$/.test(value);
-    return value && isEmail;
+    const isEmail = /^[^\s@]+@[^\s@]+(\.[a-zA-Z]{1,5})+$/.test(value);
+    // without TLD length validation --> /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)
+    return !!value && isEmail;
   }
   static isStrongPsw(value) {
     const pswValidator = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/;

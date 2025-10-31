@@ -20,12 +20,18 @@ export function getBrowser() {
   return "Unknown Browser";
 }
 
+export function getBrowserLanguage(fallback) {
+  if (Array.isArray(navigator.languages) && navigator.languages[0]) {
+    return navigator.languages.map((lang) => lang.split("-")[0]).join(",");
+  }
+  return (navigator.language || navigator.userLanguage || "").split("-")[0] || fallback || "";
+}
+
 export function getDeviceInfo() {
   const info = {
     // Browser info
     userAgent: navigator.userAgent,
-    language: navigator.language,
-    languages: navigator.languages ? navigator.languages.join(",") : "",
+    language: getBrowserLanguage(),
     timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
     cookiesEnabled: navigator.cookieEnabled,
     doNotTrack: navigator.doNotTrack || "unknown",
