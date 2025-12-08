@@ -123,8 +123,8 @@ export default class Normalizer {
 
   static textSearchMatching(text1, text2) {
     if (!(text1?.length > 0 && text2?.length > 0)) return 0;
-    const text1Words = normalizeCharacters(removeDiacritics(text1)).split(" ");
-    const text2Words = normalizeCharacters(removeDiacritics(text2)).split(" ");
+    const text1Words = Normalizer.normalizeCharacters(Normalizer.removeDiacritics(text1)).split(" ");
+    const text2Words = Normalizer.normalizeCharacters(Normalizer.removeDiacritics(text2)).split(" ");
     const words = Math.min(text1Words.length, text2Words.length);
     let match = 0;
     // normalizedText.includes(normalizedTerm),
