@@ -28,6 +28,13 @@ export default class Validator {
     // without TLD length validation --> /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)
     return !!value && isEmail;
   }
+  static isValidUsername(value) {
+    if (value?.length < 3 || value?.length > 20) return false; // Length: 3-20 characters
+    if (!/^[a-zA-Z0-9_]+$/.test(value)) return false; // Allowed characters: letters, numbers, underscore
+    if (!/^[a-zA-Z]/.test(value)) return false; // Should start with a letter
+    return true;
+    // Error message template: `BAD_REQUEST-Invalid username must start with a letter, must be 3-20 characters long, should start with letter, and can only contain letters (a-z, A-Z), numbers (0-9), and underscore (_)`;
+  }
   static isStrongPsw(value) {
     const pswValidator = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/;
     return value && pswValidator.test(value);
