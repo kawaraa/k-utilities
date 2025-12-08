@@ -1,4 +1,19 @@
 export default class Formatter {
+  static toJSON(data) {
+    try {
+      const json = JSON.stringify(data);
+      return json;
+    } catch (e) {}
+    return data;
+  }
+  static parseJSON(data) {
+    try {
+      const json = JSON.parse(data);
+      return json;
+    } catch (e) {}
+    return data;
+  }
+
   static newId(num) {
     if (!num) return crypto.randomUUID();
     return +(Math.random() + Date.now() + Math.random() + "").replace(".", "");

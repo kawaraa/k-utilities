@@ -112,4 +112,36 @@ export default class Normalizer {
     }
     return theDate;
   }
+
+  // Normalize Arabic
+  static removeDiacritics(text) {
+    return text.normalize("NFKD").replace(/[\u064B-\u065F]/g, "");
+  }
+  static normalizeCharacters(text) {
+    return text.replace(/[أإآ]/g, "ا").replace(/[ة]/g, "ه").replace(/[ى]/g, "ي");
+  }
+
+  static textSearchMatching(text1, text2) {
+    if (!(text1?.length > 0 && text2?.length > 0)) return 0;
+    const text1Words = normalizeCharacters(removeDiacritics(text1)).split(" ");
+    const text2Words = normalizeCharacters(removeDiacritics(text2)).split(" ");
+    const words = Math.min(text1Words.length, text2Words.length);
+    let match = 0;
+    // normalizedText.includes(normalizedTerm),
+    if (text1Words.length >= text2Words.length)
+      match = text2Words.filter((w) => text1Words.includes(w)).length;
+    else match = text1Words.filter((w) => text2Words.includes(w)).length;
+    return (match / words) * 100;
+  }
+
+  // console.log(textSearchMatching("اللُّغَةُ العَرَبِيَّةُ", "العربية")); // text With Tashkeel
+  // console.log(textSearchMatching("أنا أحب اللغة العربية", "انا")); // text With similar characters
+  // console.log(
+  //   removeDiacritics(
+  //     normalizeCharacters(`ﺧﺮﻳﺞ ﻫﻨﺪﺳﺔ ﻣﻴﻜﺎﻧﻴﻜﻴﺔ ﻣﻦ ﺟﺎﻣﻌﺔ ﺣﻠﺐ، ﻳﺘﻤﺘﻊ ﺑﺨﱪة ٥ ﺳﻨﻮات ﰲ
+  //     ﺻﻴﺎﻧﺔ اﳌﻌﺪات اﻟﺜﻘﻴﻠﺔ، ﻣﻊ ﻣﻬﺎرات ﻣﺘﻮﺳﻄﺔ ﰲ اﻹﻧﺠﻠﲒﻳﺔ )اﳌﺴﺘﻮى ٤(
+  //     وإﺗﻘﺎن ﺑﺮاﻣﺞ اﻟﺼﻴﺎﻧﺔ اﻟﺮﻗﻤﻴﺔ. ﻧﺘﺎﺋﺞ اﺧﺘﺒﺎر MIT ﺗُﻈﻬﺮ ﻗﺪرﺗﻪ ﻋﻠﻰ اﻟﻌﻤﻞ
+  //     ﺗﺤﺖ اﻟﻀﻐﻂ، ﺑﻴﻨﻤﺎ اﺧﺘﺒﺎر اﻟﺬﻛﺎء )IQ( ﻳﻀﻌﻪ ﰲ اﻟﻔﺌﺔ ﻓﻮق اﳌﺘﻮﺳﻄﺔ."`)
+  //   )
+  // );
 }
