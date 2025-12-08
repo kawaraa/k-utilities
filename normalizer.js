@@ -118,7 +118,7 @@ export default class Normalizer {
     return text.normalize("NFKD").replace(/[\u064B-\u065F]/g, "");
   }
   static normalizeCharacters(text) {
-    return text.replace(/[أإآ]/g, "ا").replace(/[ة]/g, "ه").replace(/[ى]/g, "ي");
+    return text.replace(/[أإآ]/g, "ا").replace(/[ة]/g, "ه").replace(/[ى]/g, "ي").toLowerCase();
   }
 
   static textSearchMatching(text1, text2) {
