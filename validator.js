@@ -7,7 +7,7 @@
 
 export default class Validator {
   static isString(str, minLength, maxLength) {
-    if (!str || typeof str !== "string") return false;
+    if (typeof str !== "string") return false;
     if (minLength && minLength > str.length) false;
     if (maxLength && maxLength < str.length) false;
     return true;
